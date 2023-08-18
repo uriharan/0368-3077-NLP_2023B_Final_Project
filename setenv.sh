@@ -1,5 +1,6 @@
-set TORCH_HOME="${pwd}/code/results/cache/torch"
+set TORCH_HOME="${pwd}/.cache/torch"
 
-set XDG_CACHE_HOME="${pwd}/code/results/cache/xdg"
+set XDG_CACHE_HOME="${pwd}/.cache/xdg"
 
-echo $TORCH_HOME $XDG_CACHE_HOME
+echo $TORCH_HOME
+echo $XDG_CACHE_HOME
