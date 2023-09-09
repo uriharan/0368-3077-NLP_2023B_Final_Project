@@ -55,7 +55,7 @@ def Load_MathQA(set_num,do_load):
     return math_qa_vec
 
 if __name__ == "main":
-    print("entered dataset_loaders as main")
+    os.system("echo entered dataset_loaders as main")
     dataset = Load_MathQA(4,True)
     for row in dataset[0:min(len(dataset),10)]:
         print(row)
