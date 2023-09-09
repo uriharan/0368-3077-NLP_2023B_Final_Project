@@ -13,8 +13,9 @@ MATH_QA_LOCAL = "/mathqa"
 # Load a dataset to a specified folder, and unzip it.
 def Load_Dataset(dataset_path, local_path, dataset_name, do_unzip):
     os.system("kaggle datasets download " + dataset_path + " -p " + local_path)
+    assert os.path.isfile(local_path + "/" + dataset_name), "Load_Dataset failed to load"
     if do_unzip:
-        with zipfile.ZipFile(local_path + dataset_name, 'r') as zip_ref:
+        with zipfile.ZipFile(local_path + "/" + dataset_name, 'r') as zip_ref:
             zip_ref.extractall(local_path)
 
 # Load MathQA - received number between 1 and 7 (applies %8 on input - and asserts the result is non-zero integer)
