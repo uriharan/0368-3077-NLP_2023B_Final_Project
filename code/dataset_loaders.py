@@ -10,6 +10,10 @@ MATH_QA_DATASET_PATH = "thedevastator/dataset-for-solving-math-word-problems"
 MATH_QA_DATASET_NAME = "dataset-for-solving-math-word-problems.zip"
 MATH_QA_LOCAL = "/mathqa"
 
+SENTIMENTS_AND_EMOTIONS_DATASET_PATH = "ankitkumar2635/sentiment-and-emotions-of-tweets"
+SENTIMENTS_AND_EMOTIONS_DATASET_NAME = "sentiment-and-emotions-of-tweets.zip"
+SENTIMENTS_AND_EMOTIONS_LOCAL = "sentiment_emotions/"
+
 # Load a dataset to a specified folder, and unzip it.
 def Load_Dataset(dataset_path, local_path, dataset_name, do_unzip):
     os.system("kaggle datasets download " + dataset_path + " -p " + local_path)
@@ -37,23 +41,52 @@ def Load_MathQA(set_num,do_load):
     # Train set
     if (set_num%2 == 1):
         train_qa = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/train.csv", usecols=usecols)
-        for i in range(len(train_qa['Problem'])):
-            math_qa_vec.append((train_qa['Problem'][i],train_qa['options'][i],train_qa['correct'][i]))
+        for i in range(len(train_qa[usecols[0]])):
+            math_qa_vec.append((train_qa[usecols[0]][i],train_qa[usecols[1]][i],train_qa[usecols[2]][i]))
 
     # Validation set
     if ((set_num/2)%2 == 1):
         validation_qa = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/validation.csv", usecols=usecols)
-        for i in range(len(validation_qa['Problem'])):
-            math_qa_vec.append((validation_qa['Problem'][i],validation_qa['options'][i],validation_qa['correct'][i]))
+        for i in range(len(validation_qa[usecols[0]])):
+            math_qa_vec.append((validation_qa[usecols[0]][i],validation_qa[usecols[1]][i],validation_qa[usecols[2]][i]))
 
     # Test set
     if ((set_num/4)%2 == 1):
         test_qa = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/test.csv", usecols=usecols)
-        for i in range(len(test_qa['Problem'])):
-            math_qa_vec.append((test_qa['Problem'][i],test_qa['options'][i],test_qa['correct'][i]))
+        for i in range(len(test_qa[usecols[0]])):
+            math_qa_vec.append((test_qa[usecols[0]][i],test_qa[usecols[1]][i],test_qa[usecols[2]][i]))
 
     print("MathQA lines fetched: {}".format(len(math_qa_vec)))
     return math_qa_vec
+
+# Load Sentiment & Emotions Labelled Tweets - text to sentiment or to emotion
+# variant_score - 0 for base classification, else for asking score given classification
+def Load_SentimentsAndEmotions(to_emotion,do_load,variant_score):
+    print("Sentiment & Emotions Labelled Tweets")
+    
+    if do_load:
+        print("Loading MathQA to local")
+        Load_Dataset(SENTIMENTS_AND_EMOTIONS_DATASET_PATH, LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL, SENTIMENTS_AND_EMOTIONS_DATASET_NAME, True)
+    
+    # sentiments set
+    usecols = ["Text","sentiment","sentiment_score"]
+    if (to_emotion):
+        # emotions set
+        usecols = ["Text","emotion","emotion_score"]
+        
+    dataset = pandas.read_csv(LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL+"/sentiment-emotion-labelled_Dell_tweets.csv", usecols=usecols)
+
+    dataset_vec = []
+
+    if (variant_score == 0): # classification given text
+        for i in range(len(dataset[usecols[0]])):
+            dataset_vec.append((dataset[usecols[0]][i],"",dataset[usecols[1]][i]))
+    else: # score given text and classification
+        for i in range(len(dataset[usecols[0]])):
+            dataset_vec.append((dataset[usecols[0]][i],dataset[usecols[1]][i],dataset[usecols[2]][i]))
+
+    print("Sentiment & Emotions Labelled Tweets lines fetched: {}".format(len(dataset_vec)))
+    return dataset_vec
 
 if __name__ == "main":
     os.system("echo entered dataset_loaders as main")
