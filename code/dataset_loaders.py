@@ -38,23 +38,24 @@ def Load_MathQA(set_num,do_load):
     usecols = ["Problem","options","correct"]
     math_qa_vec = []
 
+    dataset = []
+
     # Train set
     if (set_num%2 == 1):
-        train_qa = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/train.csv", usecols=usecols)
-        for i in range(len(train_qa[usecols[0]])):
-            math_qa_vec.append((train_qa[usecols[0]][i],train_qa[usecols[1]][i],train_qa[usecols[2]][i]))
+        dataset = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/train.csv", usecols=usecols)
 
     # Validation set
     if ((set_num/2)%2 == 1):
-        validation_qa = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/validation.csv", usecols=usecols)
-        for i in range(len(validation_qa[usecols[0]])):
-            math_qa_vec.append((validation_qa[usecols[0]][i],validation_qa[usecols[1]][i],validation_qa[usecols[2]][i]))
+        dataset = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/validation.csv", usecols=usecols)
 
     # Test set
     if ((set_num/4)%2 == 1):
-        test_qa = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/test.csv", usecols=usecols)
-        for i in range(len(test_qa[usecols[0]])):
-            math_qa_vec.append((test_qa[usecols[0]][i],test_qa[usecols[1]][i],test_qa[usecols[2]][i]))
+        dataset = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/test.csv", usecols=usecols)
+
+
+    for i in range(len(dataset[usecols[0]])):
+        item = {"query":dataset[usecols[0]][i],"context":dataset[usecols[1]][i],"answer":dataset[usecols[2]][i]}
+        math_qa_vec.append(item)
 
     print("MathQA lines fetched: {}".format(len(math_qa_vec)))
     return math_qa_vec
@@ -84,6 +85,12 @@ def Load_SentimentsAndEmotions(to_emotion,do_load,variant_score):
     else: # score given text and classification
         for i in range(len(dataset[usecols[0]])):
             dataset_vec.append((dataset[usecols[0]][i],dataset[usecols[1]][i],dataset[usecols[2]][i]))
+
+    for i in range(len(dataset[usecols[0]])):
+        if (variant_score == 0):
+            item = {"query":dataset[usecols[0]][i],"context":"","answer":dataset[usecols[1]][i]}
+        else:
+            item = {"query":dataset[usecols[0]][i],"context":dataset[usecols[1]][i],"answer":dataset[usecols[2]][i]}
 
     print("Sentiment & Emotions Labelled Tweets lines fetched: {}".format(len(dataset_vec)))
     return dataset_vec
