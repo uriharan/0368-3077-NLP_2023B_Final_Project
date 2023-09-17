@@ -14,6 +14,14 @@ SENTIMENTS_AND_EMOTIONS_DATASET_PATH = "ankitkumar2635/sentiment-and-emotions-of
 SENTIMENTS_AND_EMOTIONS_DATASET_NAME = "sentiment-and-emotions-of-tweets.zip"
 SENTIMENTS_AND_EMOTIONS_LOCAL = "sentiment_emotions/"
 
+CHATGPT_REVIEWS_DATASET_PATH = "saloni1712/chatgpt-app-reviews"
+CHATGPT_REVIEWS_DATASET_NAME = "chatgpt-app-reviews.zip"
+CHATGPT_REVIEWS_LOCAL = "chatgpt_reviews/"
+
+# Cleab generated folder
+def clear_All_Datasets():
+    os.system("rm -rf " + LOCAL_FOLDER )
+
 # Load a dataset to a specified folder, and unzip it.
 def Load_Dataset(dataset_path, local_path, dataset_name, do_unzip):
     os.system("kaggle datasets download " + dataset_path + " -p " + local_path)
@@ -66,7 +74,7 @@ def Load_SentimentsAndEmotions(to_emotion,do_load,variant_score):
     print("Sentiment & Emotions Labelled Tweets")
     
     if do_load:
-        print("Loading MathQA to local")
+        print("Loading Sentiment & Emotions Labelled Tweets to local")
         Load_Dataset(SENTIMENTS_AND_EMOTIONS_DATASET_PATH, LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL, SENTIMENTS_AND_EMOTIONS_DATASET_NAME, True)
     
     # sentiments set
@@ -95,8 +103,41 @@ def Load_SentimentsAndEmotions(to_emotion,do_load,variant_score):
     print("Sentiment & Emotions Labelled Tweets lines fetched: {}".format(len(dataset_vec)))
     return dataset_vec
 
+# Load ChatGPT App Reviews - title and text to rating
+def Load_ChatGPT_Reviews(do_load):
+    print("ChatGPT App Reviews")
+    
+    if do_load:
+        print("Loading ChatGPT App Reviews to local")
+        Load_Dataset(CHATGPT_REVIEWS_DATASET_PATH, LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL, CHATGPT_REVIEWS_DATASET_NAME, True)
+    
+    # sentiments set
+    usecols = ["title","review","rating"]
+        
+    dataset = pandas.read_csv(LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL+"/chatgpt_reviews.csv", usecols=usecols)
+
+    dataset_vec = []
+
+    for i in range(len(dataset[usecols[0]])):
+        dataset_vec.append((dataset[usecols[0]][i],"",dataset[usecols[1]][i]))
+
+    for i in range(len(dataset[usecols[0]])):
+        item = {"query":dataset[usecols[0]][i],"context":dataset[usecols[1]][i],"answer":dataset[usecols[2]][i]}
+
+    print("ChatGPT App Reviews lines fetched: {}".format(len(dataset_vec)))
+    return dataset_vec
+
 if __name__ == "main":
     os.system("echo entered dataset_loaders as main")
-    dataset = Load_MathQA(4,True)
-    for row in dataset[0:min(len(dataset),10)]:
+    print("MathQA examples:")
+    datasetQA = Load_MathQA(4,True)
+    for row in datasetQA[0:min(len(datasetQA),5)]:
+        print(row)
+    print("S&E examples:")
+    datasetSE = Load_SentimentsAndEmotions(False,True,True)
+    for row in datasetSE[0:min(len(datasetSE),5)]:
+        print(row)
+    print("GPT Reviews examples:")
+    datasetGPT = Load_ChatGPT_Reviews()
+    for row in datasetGPT[0:min(len(datasetGPT),5)]:
         print(row)
