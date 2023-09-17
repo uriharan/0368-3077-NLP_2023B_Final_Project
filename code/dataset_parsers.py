@@ -2,7 +2,7 @@
 
 def parse_MathQA(in_vec):
     for item in in_vec:
-        item["question"] = "pick the best answer to the math question from the five possible answers provided, from a to e"
+        item["question"] = "given the five possible answers provided, from a to e, pick the one which answers the math question correctly"
     return in_vec
     
 def parse_SentimentsAndEmotions(in_vec,to_emotion,variant_score):
