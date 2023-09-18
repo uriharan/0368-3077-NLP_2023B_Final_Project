@@ -21,3 +21,13 @@ def parse_ChatGPT_Reviews(in_vec):
     for item in in_vec:
         item["question"] = "given the following review, seperated into title and content, what is the review's given score, as an integer from 1 to 5"
     return in_vec
+
+def parse_McDonald_Reviews(in_vec):
+    for item in in_vec:
+        item["question"] = "given the following review, what is the review's given score, as an integer from 1 to 5"
+    return in_vec
+
+def parse_Fake_and_Real_News(in_vec):
+    for item in in_vec:
+        item["question"] = "given the following news article, seperated into title and text, determine if the article is real or fake"
+    return in_vec
