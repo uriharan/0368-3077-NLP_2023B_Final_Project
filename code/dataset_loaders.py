@@ -140,7 +140,7 @@ def Load_McDonald_Reviews(do_load):
     
     usecols = ["review","rating"]
         
-    dataset = pandas.read_csv(LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols)
+    dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols)
 
     dataset_vec = []
 
