@@ -193,7 +193,7 @@ def Load_Boolean_String(min_string,max_string,probability_true,num_of_strings):
     print("Boolean strings generated: {}".format(len(dataset_vec)))
     return dataset_vec
 
-if __name__ == "main":
+if __name__ == "__main__":
     os.system("echo entered dataset_loaders as main")
 
     print("MathQA examples:")
