@@ -215,12 +215,12 @@ if __name__ == "__main__":
    
     print("McDonald's Store Reviews examples:")
     datasetMCD = Load_McDonald_Reviews(True)
-    for row in datasetGPT[0:min(len(datasetMCD),5)]:
+    for row in datasetMCD[0:min(len(datasetMCD),5)]:
         print(row)
    
     print("Fake and Real News examples:")
     datasetFVR = Load_Fake_and_Real_News(True)
-    for row in datasetGPT[0:min(len(datasetGPT),5)]:
+    for row in datasetFVR[0:min(len(datasetGPT),5)]:
         print(row)
     
     print("Boolean strings examples:")
