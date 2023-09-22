@@ -31,3 +31,8 @@ def parse_Fake_and_Real_News(in_vec):
     for item in in_vec:
         item["question"] = "given the following news article, seperated into title and text, determine if the article is real or fake"
     return in_vec
+
+def parse_Boolean_String(in_vec):
+    for item in in_vec:
+        item["question"] = "given the following boolean expression, evaulate whether its truth value is TRUE or FALSE"
+    return in_vec

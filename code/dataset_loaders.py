@@ -3,6 +3,9 @@
 import os
 import zipfile
 import pandas
+import random
+
+import random_boolean_string
 
 LOCAL_FOLDER = "./generated/datasets"
 
@@ -174,6 +177,21 @@ def Load_Fake_and_Real_News(do_load):
     print("Fake and Real News fetched: {}".format(len(dataset_vec)))
     return dataset_vec
 
+# Use the random string generation code to create a dataset and use it
+def Load_Boolean_String(min_string,max_string,probability_true,num_of_strings):
+    print("Generating random boolean strings")
+    
+    dataset_vec = []
+
+    for i in range(num_of_strings):
+        complexity = random.randint(min_string,max_string)
+        boolean_string, boolean_result = random_boolean_string.get_random_boolean_with_probability(complexity,probability_true)
+        answer_string = "TRUE" if boolean_result else "FALSE"
+        item = {"query":boolean_string,"context":"","answer":answer_string}
+        dataset_vec.append(item)
+
+    print("Boolean strings generated: {}".format(len(dataset_vec)))
+    return dataset_vec
 
 if __name__ == "main":
     os.system("echo entered dataset_loaders as main")
@@ -201,6 +219,11 @@ if __name__ == "main":
     print("Fake and Real News examples:")
     datasetFVR = Load_Fake_and_Real_News(True)
     for row in datasetGPT[0:min(len(datasetGPT),5)]:
+        print(row)
+    
+    print("Boolean strings examples:")
+    datasetBOOL = Load_Boolean_String(7,15,0.5,5)
+    for row in datasetBOOL:
         print(row)
     
     os.system("echo clearing loaded datasets")

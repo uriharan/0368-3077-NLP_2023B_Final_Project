@@ -28,13 +28,13 @@ def get_random_boolean_with_probability(string_complexity, probability_true):
         return "TRUE" if boolean_result else "FALSE", boolean_result
 
     if string_complexity == 2: # recursion ends - not truth value
-        return "NOT (FALSE)" if boolean_result else "NOT (TRUE)", boolean_result
+        return "NOT (FALSE)" if boolean_result else "NOT ( TRUE )", boolean_result
     
     gate_randomized = math.ceil(numpy.random.randint(0,7)/2)  # NOT, OR, AND, XOR (NOR has half the weight)
 
     if gate_randomized == 0: # NOT
         substring, _ = get_random_boolean_with_probability(string_complexity-1, not boolean_result)
-        return "NOT ("+ substring + ")", boolean_result
+        return "NOT ( "+ substring + " )", boolean_result
     
     input_values = (1 if (0.5 > numpy.random.random()) else 0), (1 if (0.5 > numpy.random.random()) else 0) # Assign random variables to both gate inputs
     
@@ -55,7 +55,7 @@ def get_random_boolean_with_probability(string_complexity, probability_true):
         else: # randomly choose between XNOR or XAND with equal probability
             gate_string = "XNOR" if (0.5 > numpy.random.random()) else "XAND"
 
-    boolean_string = "(" + substring_A + ") " + gate_string + " (" + substring_B + ")"
+    boolean_string = "( " + substring_A + " ) " + gate_string + " ( " + substring_B + " )"
 
     return boolean_string, boolean_result
 
