@@ -15,19 +15,19 @@ MATH_QA_LOCAL = "/mathqa"
 
 SENTIMENTS_AND_EMOTIONS_DATASET_PATH = "ankitkumar2635/sentiment-and-emotions-of-tweets"
 SENTIMENTS_AND_EMOTIONS_DATASET_ZIP = "sentiment-and-emotions-of-tweets.zip"
-SENTIMENTS_AND_EMOTIONS_LOCAL = "sentiment_emotions/"
+SENTIMENTS_AND_EMOTIONS_LOCAL = "/sentiment_emotions"
 
 CHATGPT_REVIEWS_DATASET_PATH = "saloni1712/chatgpt-app-reviews"
 CHATGPT_REVIEWS_DATASET_ZIP = "chatgpt-app-reviews.zip"
-CHATGPT_REVIEWS_LOCAL = "chatgpt_reviews/"
+CHATGPT_REVIEWS_LOCAL = "/chatgpt_reviews"
 
 MCDONALD_REVIEWS_DATASET_PATH = "nelgiriyewithana/mcdonalds-store-reviews"
 MCDONALD_REVIEWS_DATASET_ZIP = "mcdonalds-store-reviews.zip"
-MCDONALD_REVIEWS_LOCAL = "mcdonald_reviews/"
+MCDONALD_REVIEWS_LOCAL = "/mcdonald_reviews"
 
 FAKE_V_REAL_NEWS_DATASET_PATH = "clmentbisaillon/fake-and-real-news-dataset"
 FAKE_V_REAL_NEWS_DATASET_ZIP = "fake-and-real-news-dataset.zip"
-FAKE_V_REAL_NEWS_LOCAL = "fake_v_real_news/"
+FAKE_V_REAL_NEWS_LOCAL = "/fake_v_real_news"
 
 # Cleab generated folder
 def clear_All_Datasets():
