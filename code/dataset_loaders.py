@@ -142,7 +142,7 @@ def Load_McDonald_Reviews(do_load):
         
     print(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv")
 
-    dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols)
+    dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols, encoding='latin-1')
 
     dataset_vec = []
 
