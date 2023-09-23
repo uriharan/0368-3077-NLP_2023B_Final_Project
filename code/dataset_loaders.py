@@ -160,7 +160,7 @@ def Load_Fake_and_Real_News(do_load):
     print("Getting Fake and Real News")
 
     if do_load:
-        print("Loading McDonald's Store Reviews to local")
+        print("Loading Fake and Real News to local")
         Load_Dataset(FAKE_V_REAL_NEWS_DATASET_PATH, LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL, FAKE_V_REAL_NEWS_DATASET_ZIP, True)
     
     usecols = ["title","text"]
@@ -207,7 +207,7 @@ def Load_Hindi_English_Translation(do_load,to_english):
     
     usecols = ["hindi","english"]
 
-    dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/hindi_english_parallel.csv", usecols=usecols)
+    dataset = pandas.read_csv(LOCAL_FOLDER + HINDI_ENGLISH_TRANSLATION_LOCAL+"/hindi_english_parallel.csv", usecols=usecols)
 
     dataset_vec = []
 
