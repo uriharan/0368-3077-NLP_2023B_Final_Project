@@ -29,6 +29,10 @@ FAKE_V_REAL_NEWS_DATASET_PATH = "clmentbisaillon/fake-and-real-news-dataset"
 FAKE_V_REAL_NEWS_DATASET_ZIP = "fake-and-real-news-dataset.zip"
 FAKE_V_REAL_NEWS_LOCAL = "/fake_v_real_news"
 
+HINDI_ENGLISH_TRANSLATION_DATASET_PATH = "vaibhavkumar11/hindi-english-parallel-corpus"
+HINDI_ENGLISH_TRANSLATION_DATASET_ZIP = "hindi-english-parallel-corpus.zip"
+HINDI_ENGLISH_TRANSLATION_LOCAL = "/hindi_english_translation"
+
 # Cleab generated folder
 def clear_All_Datasets():
     print("Removing all downloaded datasets")
@@ -139,8 +143,6 @@ def Load_McDonald_Reviews(do_load):
         Load_Dataset(MCDONALD_REVIEWS_DATASET_PATH, LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL, MCDONALD_REVIEWS_DATASET_ZIP, True)
     
     usecols = ["review","rating"]
-        
-    print(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv")
 
     dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols, encoding='latin-1')
 
@@ -195,6 +197,30 @@ def Load_Boolean_String(min_string,max_string,probability_true,num_of_strings):
     print("Boolean strings generated: {}".format(len(dataset_vec)))
     return dataset_vec
 
+# Hindi - English Translation dataset from IIT Bombay
+def Load_Hindi_English_Translation(do_load,to_english):
+    print("Getting Hindi - English Translation")
+    
+    if do_load:
+        print("Loading Hindi - English Translation to local")
+        Load_Dataset(HINDI_ENGLISH_TRANSLATION_DATASET_PATH, LOCAL_FOLDER + HINDI_ENGLISH_TRANSLATION_LOCAL, HINDI_ENGLISH_TRANSLATION_DATASET_ZIP, True)
+    
+    usecols = ["hindi","english"]
+
+    dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/hindi_english_parallel.csv", usecols=usecols)
+
+    dataset_vec = []
+
+    for i in range(len(dataset[usecols[0]])):
+        if to_english:
+            item = {"query":dataset[usecols[0]][i],"context":"","answer":dataset[usecols[1]][i]}
+        else:
+            item = {"query":dataset[usecols[1]][i],"context":"","answer":dataset[usecols[0]][i]}
+        dataset_vec.append(item)
+
+    print("Hindi - English Translation fetched: {}".format(len(dataset_vec)))
+    return dataset_vec
+
 if __name__ == "__main__":
     os.system("echo entered dataset_loaders as main")
 
@@ -220,12 +246,17 @@ if __name__ == "__main__":
    
     print("Fake and Real News examples:")
     datasetFVR = Load_Fake_and_Real_News(True)
-    for row in datasetFVR[0:min(len(datasetGPT),5)]:
+    for row in datasetFVR[0:min(len(datasetFVR),5)]:
         print(row)
     
     print("Boolean strings examples:")
     datasetBOOL = Load_Boolean_String(7,15,0.5,5)
     for row in datasetBOOL:
+        print(row)
+    
+    print("Hindi - English Translation examples:")
+    datasetHIN_ENG = Load_Hindi_English_Translation(True,False)
+    for row in datasetHIN_ENG[0:min(len(datasetHIN_ENG),5)]:
         print(row)
     
     os.system("echo clearing loaded datasets")
