@@ -8,6 +8,7 @@ import dataset_parsers
 import politeness_prefix
 
 def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,word_variant):
+    # Get vector
     results_init = dataset_loaders.Load_MathQA(set_num,do_load)
     results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_MathQA(results_truncated)
@@ -15,6 +16,7 @@ def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,w
     
     data_arranged = ()
 
+    # Concatenate prefix-question-query-context
     for i in range(len(results_with_prefix['query'])):
         item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": " + results_with_prefix['query'] + " " + results_with_prefix['context'] + "."
         data_arranged["text"].append(item)
@@ -23,6 +25,7 @@ def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,w
     return data_arranged
 
 def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_score,politeness,constant_variant,word_variant):
+    # Get vector
     results_init = dataset_loaders.Load_SentimentsAndEmotions(to_emotion,do_load,variant_score)
     results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_SentimentsAndEmotions(results_truncated,to_emotion,variant_score)
@@ -30,6 +33,7 @@ def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_sco
     
     data_arranged = ()
 
+    # Concatenate prefix-question-query-context
     for i in range(len(results_with_prefix['query'])):
         if not variant_score:
             item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? \"" + results_with_prefix['query'] + "\""
@@ -40,4 +44,32 @@ def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_sco
     
     return data_arranged
 
-    
+def assemble_ChatGPT_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant):
+    results_init = dataset_loaders.Load_ChatGPT_Reviews(do_load)
+    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_parsed = dataset_parsers.parse_ChatGPT_Reviews(results_truncated)
+    results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
+
+    data_arranged = ()
+
+    # Concatenate prefix-question-query-context
+    for i in range(len(results_with_prefix['query'])):
+        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? Title: \"" + results_with_prefix['query'] + "\", Content: \"" + results_with_prefix['context'] + "\""
+        data_arranged["text"].append(item)
+        data_arranged["answer"].append(results_with_prefix['answer'][i])
+    return data_arranged
+
+def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant):
+    results_init = dataset_loaders.Load_McDonald_Reviews(do_load)
+    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_parsed = dataset_parsers.parse_McDonald_Reviews(results_truncated)
+    results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
+
+    data_arranged = ()
+
+    # Concatenate prefix-question-query
+    for i in range(len(results_with_prefix['query'])):
+        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? \"" + results_with_prefix['query'] + "\""
+        data_arranged["text"].append(item)
+        data_arranged["answer"].append(results_with_prefix['answer'][i])
+    return data_arranged
