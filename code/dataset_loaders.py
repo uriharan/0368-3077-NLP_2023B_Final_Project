@@ -289,8 +289,8 @@ if __name__ == "__main__":
         print(row)
     
     print("English - French Translation examples:")
-    datasetHIN_ENG = Load_Hindi_English_Translation(True,False)
-    for row in datasetHIN_ENG[0:min(len(datasetHIN_ENG),5)]:
+    datasetENG_FRE = Load_English_French_Translation(True,False)
+    for row in datasetENG_FRE[0:min(len(datasetENG_FRE),5)]:
         print(row)
 
     os.system("echo clearing loaded datasets")
