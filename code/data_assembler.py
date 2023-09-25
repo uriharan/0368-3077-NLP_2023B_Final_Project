@@ -3,6 +3,8 @@
 # Second - add the prefix and dataset-based question to get a prefix-question-query-context-answer vector tuple.
 # Third - combine the first several vectors, get text-answer
 
+import os
+
 import dataset_loaders
 import dataset_parsers
 import politeness_prefix
@@ -122,3 +124,50 @@ def assemble_English_Translation(num_of_results,do_load,to_english,other_lang,po
         data_arranged["text"].append(item)
         data_arranged["answer"].append(results_with_prefix['answer'][i])
     return data_arranged
+
+if __name__ == "__main__":
+    os.system("echo entered data_assembler as main")
+
+    print("MathQA examples:")
+    datasetQA = assemble_MathQA(5,4,True,-3,False,0)
+    for row in datasetQA:
+        print(row)
+
+    print("S&E examples:")
+    datasetSE = assemble_SentimentsAndEmotions(5,False,True,True,-2,False,0)
+    for row in datasetSE:
+        print(row)
+    
+    print("GPT Reviews examples:")
+    datasetGPT = assemble_ChatGPT_Reviews(5,True,-1,False,0)
+    for row in datasetGPT:
+        print(row)
+   
+    print("McDonald's Store Reviews examples:")
+    datasetMCD = assemble_McDonald_Reviews(5,True,1,False,0)
+    for row in datasetMCD:
+        print(row)
+   
+    print("Fake and Real News examples:")
+    datasetFVR = assemble_Fake_and_Real_News(5,True,2,False,0)
+    for row in datasetFVR:
+        print(row)
+    
+    print("Boolean strings examples:")
+    datasetBOOL = assemble_Boolean_String(5,7,15,0.5,3,False,0)
+    for row in datasetBOOL:
+        print(row)
+    
+    print("Hindi - English Translation examples:")
+    datasetHIN_ENG = assemble_English_Translation(5,True,False,"hindi",3,True,2)
+    for row in datasetHIN_ENG:
+        print(row)
+    
+    print("English - French Translation examples:")
+    datasetENG_FRE = assemble_English_Translation(5,True,True,"french",-3,True,2)
+    for row in datasetENG_FRE:
+        print(row)
+
+    os.system("echo clearing loaded datasets")
+    dataset_loaders.clear_All_Datasets()
+    os.system("echo done clearing loaded datasets")
