@@ -18,7 +18,7 @@ def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,w
 
     # Concatenate prefix-question-query-context
     for i in range(len(results_with_prefix['query'])):
-        item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": " + results_with_prefix['query'] + " " + results_with_prefix['context'] + "."
+        item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ". Question: \"" + results_with_prefix['query'] + "\", Options: \"" + results_with_prefix['context'] + "\"."
         data_arranged["text"].append(item)
         data_arranged["answer"].append(results_with_prefix['answer'][i])
     
@@ -70,6 +70,36 @@ def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant
     # Concatenate prefix-question-query
     for i in range(len(results_with_prefix['query'])):
         item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? \"" + results_with_prefix['query'] + "\""
+        data_arranged["text"].append(item)
+        data_arranged["answer"].append(results_with_prefix['answer'][i])
+    return data_arranged
+
+def assemble_Fake_and_Real_News(num_of_results,do_load,politeness,constant_variant,word_variant):
+    results_init = dataset_loaders.Load_Fake_and_Real_News(do_load)
+    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_parsed = dataset_parsers.parse_Fake_and_Real_News(results_truncated)
+    results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
+
+    data_arranged = ()
+
+    # Concatenate prefix-question-query-context
+    for i in range(len(results_with_prefix['query'])):
+        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": Title: \"" + results_with_prefix['query'] + "\", Text: \"" + results_with_prefix['context'] + "\""
+        data_arranged["text"].append(item)
+        data_arranged["answer"].append(results_with_prefix['answer'][i])
+    return data_arranged
+
+def assemble_Boolean_String(num_of_results,min_string,max_string,probability_true,politeness,constant_variant,word_variant):
+    results_init = dataset_loaders.Load_Boolean_String(min_string,max_string,probability_true,num_of_results)
+    # Already set to correct length - no truncation
+    results_parsed = dataset_parsers.parse_Boolean_String(results_init)
+    results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
+
+    data_arranged = ()
+
+    # Concatenate prefix-question-query
+    for i in range(len(results_with_prefix['query'])):
+        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": \"" + results_with_prefix['query'] + "\""
         data_arranged["text"].append(item)
         data_arranged["answer"].append(results_with_prefix['answer'][i])
     return data_arranged
