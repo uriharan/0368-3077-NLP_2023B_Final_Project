@@ -1,4 +1,4 @@
-# This file contains commands which load datasets from kaggle to a local folder, and return it as a vector of tuples of (query, context, answer).
+# This file contains commands which load datasets from kaggle to a local folder, and return it as a vector of dictionaries of (query, context, answer).
 
 import os
 import zipfile

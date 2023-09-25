@@ -1,5 +1,5 @@
 # This file includes code designed to combine the dataset_loaders.py, dataset_parsers.py, and politeness_prefix.py into huggingface-compatible examples and answers.
-# First - load the query-context-answer tuple of vectors, and truncate it to the wanted length.
+# First - load the query-context-answer vectors of dictionaries, and truncate it to the wanted length.
 # Second - add the prefix and dataset-based question to get a prefix-question-query-context-answer vector tuple.
 # Third - combine the first several vectors, get text-answer
 
@@ -16,13 +16,13 @@ def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,w
     results_parsed = dataset_parsers.parse_MathQA(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
     
-    data_arranged = ()
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query-context
-    for i in range(len(results_with_prefix['query'])):
-        item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ". Question: \"" + results_with_prefix['query'] + "\", Options: \"" + results_with_prefix['context'] + "\"."
+    for i in range(len(results_with_prefix)):
+        item = results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + ". Question: \"" + results_with_prefix[i]['query'] + "\", Options: \"" + results_with_prefix[i]['context'] + "\"."
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     
     return data_arranged
 
@@ -32,17 +32,17 @@ def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_sco
     results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_SentimentsAndEmotions(results_truncated,to_emotion,variant_score)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
-    
-    data_arranged = ()
+
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query-context
-    for i in range(len(results_with_prefix['query'])):
+    for i in range(len(results_with_prefix)):
         if not variant_score:
-            item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? \"" + results_with_prefix['query'] + "\""
+            item = results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + "? \"" + results_with_prefix[i]['query'] + "\""
         else:
-            item = results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? Review: \"" + results_with_prefix['query'] + "\", Estimation: \"" + results_with_prefix['context'] + "\""
+            item = results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + "? Review: \"" + results_with_prefix[i]['query'] + "\", Estimation: \"" + results_with_prefix[i]['context'] + "\""
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     
     return data_arranged
 
@@ -52,13 +52,13 @@ def assemble_ChatGPT_Reviews(num_of_results,do_load,politeness,constant_variant,
     results_parsed = dataset_parsers.parse_ChatGPT_Reviews(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
-    data_arranged = ()
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query-context
-    for i in range(len(results_with_prefix['query'])):
-        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? Title: \"" + results_with_prefix['query'] + "\", Content: \"" + results_with_prefix['context'] + "\""
+    for i in range(len(results_with_prefix)):
+        item  =  results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + "? Title: \"" + results_with_prefix[i]['query'] + "\", Content: \"" + results_with_prefix[i]['context'] + "\""
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
 def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant):
@@ -66,14 +66,14 @@ def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant
     results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_McDonald_Reviews(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
-
-    data_arranged = ()
+    
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query
-    for i in range(len(results_with_prefix['query'])):
-        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + "? \"" + results_with_prefix['query'] + "\""
+    for i in range(len(results_with_prefix)):
+        item  =  results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + "? \"" + results_with_prefix[i]['query'] + "\""
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
 def assemble_Fake_and_Real_News(num_of_results,do_load,politeness,constant_variant,word_variant):
@@ -82,13 +82,13 @@ def assemble_Fake_and_Real_News(num_of_results,do_load,politeness,constant_varia
     results_parsed = dataset_parsers.parse_Fake_and_Real_News(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
-    data_arranged = ()
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query-context
-    for i in range(len(results_with_prefix['query'])):
-        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": Title: \"" + results_with_prefix['query'] + "\", Text: \"" + results_with_prefix['context'] + "\""
+    for i in range(len(results_with_prefix)):
+        item  =  results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + ": Title: \"" + results_with_prefix[i]['query'] + "\", Text: \"" + results_with_prefix[i]['context'] + "\""
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
 def assemble_Boolean_String(num_of_results,min_string,max_string,probability_true,politeness,constant_variant,word_variant):
@@ -97,13 +97,13 @@ def assemble_Boolean_String(num_of_results,min_string,max_string,probability_tru
     results_parsed = dataset_parsers.parse_Boolean_String(results_init)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
-    data_arranged = ()
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query
-    for i in range(len(results_with_prefix['query'])):
-        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": \"" + results_with_prefix['query'] + "\""
+    for i in range(len(results_with_prefix)):
+        item  =  results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + ": \"" + results_with_prefix[i]['query'] + "\""
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
 def assemble_English_Translation(num_of_results,do_load,to_english,other_lang,politeness,constant_variant,word_variant):
@@ -116,13 +116,13 @@ def assemble_English_Translation(num_of_results,do_load,to_english,other_lang,po
     results_parsed = dataset_parsers.parse_English_Translation(results_truncated,to_english,other_lang)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
-    data_arranged = ()
+    data_arranged = {"text":[],"answer":[]}
 
     # Concatenate prefix-question-query
-    for i in range(len(results_with_prefix['query'])):
-        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": \"" + results_with_prefix['query'] + "\""
+    for i in range(len(results_with_prefix)):
+        item  =  results_with_prefix[i]['prefix'] + " " + results_with_prefix[i]['question'] + ": \"" + results_with_prefix[i]['query'] + "\""
         data_arranged["text"].append(item)
-        data_arranged["answer"].append(results_with_prefix['answer'][i])
+        data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
 if __name__ == "__main__":

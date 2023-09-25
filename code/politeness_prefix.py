@@ -1,4 +1,4 @@
-# add a "prefix" to vectors of (question,query,context,answer) tuples of varying politeness levels.
+# add a "prefix" to vectors of (question,query,context,answer) dictionaries of varying politeness levels.
 
 import random
 
