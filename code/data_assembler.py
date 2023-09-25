@@ -136,7 +136,7 @@ if __name__ == "__main__":
     print("S&E examples:")
     datasetSE = assemble_SentimentsAndEmotions(5,False,True,True,-2,False,0)
     for row in range(len(datasetSE["text"])):
-        print(datasetSE["text"][row] + " ||| " + datasetSE["answer"][row])
+        print(datasetSE["text"][row] + " ||| " + str(datasetSE["answer"][row]))
     
     print("GPT Reviews examples:")
     datasetGPT = assemble_ChatGPT_Reviews(5,True,-1,False,0)
