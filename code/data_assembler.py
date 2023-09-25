@@ -130,8 +130,8 @@ if __name__ == "__main__":
 
     print("MathQA examples:")
     datasetQA = assemble_MathQA(5,4,True,-3,False,0)
-    for row in datasetQA:
-        print(row)
+    for row in range(len(datasetQA["text"])):
+        print(datasetQA["text"][row] + " ||| " + datasetQA["answer"][row])
 
     print("S&E examples:")
     datasetSE = assemble_SentimentsAndEmotions(5,False,True,True,-2,False,0)
@@ -141,7 +141,7 @@ if __name__ == "__main__":
     print("GPT Reviews examples:")
     datasetGPT = assemble_ChatGPT_Reviews(5,True,-1,False,0)
     for row in range(len(datasetGPT["text"])):
-        print(datasetGPT["text"][row] + " ||| " + datasetGPT["answer"][row])
+        print(datasetGPT["text"][row] + " ||| " + str(datasetGPT["answer"][row]))
    
     print("McDonald's Store Reviews examples:")
     datasetMCD = assemble_McDonald_Reviews(5,True,1,False,0)
