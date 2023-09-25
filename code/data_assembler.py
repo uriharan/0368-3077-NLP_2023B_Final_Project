@@ -135,38 +135,38 @@ if __name__ == "__main__":
 
     print("S&E examples:")
     datasetSE = assemble_SentimentsAndEmotions(5,False,True,True,-2,False,0)
-    for row in datasetSE:
-        print(row)
+    for row in range(len(datasetSE["text"])):
+        print(datasetSE["text"][row] + " ||| " + datasetSE["answer"][row])
     
     print("GPT Reviews examples:")
     datasetGPT = assemble_ChatGPT_Reviews(5,True,-1,False,0)
-    for row in datasetGPT:
-        print(row)
+    for row in range(len(datasetGPT["text"])):
+        print(datasetGPT["text"][row] + " ||| " + datasetGPT["answer"][row])
    
     print("McDonald's Store Reviews examples:")
     datasetMCD = assemble_McDonald_Reviews(5,True,1,False,0)
-    for row in datasetMCD:
-        print(row)
+    for row in range(len(datasetMCD["text"])):
+        print(datasetMCD["text"][row] + " ||| " + datasetMCD["answer"][row])
    
     print("Fake and Real News examples:")
     datasetFVR = assemble_Fake_and_Real_News(5,True,2,False,0)
-    for row in datasetFVR:
-        print(row)
-    
+    for row in range(len(datasetFVR["text"])):
+        print(datasetFVR["text"][row] + " ||| " + datasetFVR["answer"][row])
+
     print("Boolean strings examples:")
     datasetBOOL = assemble_Boolean_String(5,7,15,0.5,3,False,0)
-    for row in datasetBOOL:
-        print(row)
+    for row in range(len(datasetBOOL["text"])):
+        print(datasetBOOL["text"][row] + " ||| " + datasetBOOL["answer"][row])
     
     print("Hindi - English Translation examples:")
     datasetHIN_ENG = assemble_English_Translation(5,True,False,"hindi",3,True,2)
-    for row in datasetHIN_ENG:
-        print(row)
+    for row in range(len(datasetHIN_ENG["text"])):
+        print(datasetHIN_ENG["text"][row] + " ||| " + datasetHIN_ENG["answer"][row])
     
     print("English - French Translation examples:")
     datasetENG_FRE = assemble_English_Translation(5,True,True,"french",-3,True,2)
-    for row in datasetENG_FRE:
-        print(row)
+    for row in range(len(datasetENG_FRE["text"])):
+        print(datasetENG_FRE["text"][row] + " ||| " + datasetENG_FRE["answer"][row])
 
     os.system("echo clearing loaded datasets")
     dataset_loaders.clear_All_Datasets()
