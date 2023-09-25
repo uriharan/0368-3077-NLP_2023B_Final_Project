@@ -235,7 +235,7 @@ def Load_English_French_Translation(do_load,to_english):
     
     usecols = ["en","fr"]
 
-    dataset = pandas.read_csv(LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL+"/en-fr.csv", usecols=usecols)
+    dataset = pandas.read_csv(LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL+"/en-fr.csv", usecols=usecols, nrows=1000000)
 
     dataset_vec = []
 
