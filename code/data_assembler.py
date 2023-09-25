@@ -103,3 +103,22 @@ def assemble_Boolean_String(num_of_results,min_string,max_string,probability_tru
         data_arranged["text"].append(item)
         data_arranged["answer"].append(results_with_prefix['answer'][i])
     return data_arranged
+
+def assemble_English_Translation(num_of_results,do_load,to_english,other_lang,politeness,constant_variant,word_variant):
+    assert other_lang == "hindi" or other_lang == "french", "Unsupported language {other_lang}"
+    if other_lang == "hindi":
+        results_init = dataset_loaders.Load_Hindi_English_Translation(do_load,to_english)
+    else:
+        results_init = dataset_loaders.Load_English_French_Translation(do_load,to_english)
+    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_parsed = dataset_parsers.parse_English_Translation(results_truncated,to_english,other_lang)
+    results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
+
+    data_arranged = ()
+
+    # Concatenate prefix-question-query
+    for i in range(len(results_with_prefix['query'])):
+        item  =  results_with_prefix['prefix'][i] + " " + results_with_prefix['question'][i] + ": \"" + results_with_prefix['query'] + "\""
+        data_arranged["text"].append(item)
+        data_arranged["answer"].append(results_with_prefix['answer'][i])
+    return data_arranged
