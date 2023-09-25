@@ -29,22 +29,22 @@ def add_prefix(in_vec,politeness,constant_variant,word_variant):
     
     for item in in_vec:
         if(politeness == 1): # using "please"
-            item["prefix"] = "Please answer the following:"
+            item["prefix"] = "Please answer the following by reasoning step-by-step:"
         if(politeness == 2): # using "please" and requesting
-            item["prefix"] = "Could you please answer the following:"
+            item["prefix"] = "Could you please answer the following by reasoning step-by-step:"
         if(politeness == 3): # using "please", "hello", and requesting
             if not constant_variant:
                 word_variant = random.randint(0,len(HELLO_VARIANT)-1)
-            item["prefix"] = HELLO_VARIANT(word_variant) + ", Could you please answer the following:"
+            item["prefix"] = HELLO_VARIANT(word_variant) + ", Could you please answer the following by reasoning step-by-step:"
         if(politeness == -1): # using bare command
-            item["prefix"] = "Answer the following:"
+            item["prefix"] = "Answer the following by reasoning step-by-step:"
         if(politeness == -2): # using bare command, being curt
-            item["prefix"] = "Answer:"
+            item["prefix"] = "Answer. Reason step-by-step:"
         if(politeness == -3): # using bare command, using swear words
             if not constant_variant:
                 word_variant = random.randint(0,len(SWEAR_VARIANT_1)+len(SWEAR_VARIANT_2)-1)
             if(word_variant < len(SWEAR_VARIANT_1)):
-                item["prefix"] = "Answer the " + SWEAR_VARIANT_1(word_variant) + " following:"
+                item["prefix"] = "Answer the " + SWEAR_VARIANT_1(word_variant) + " following. Reason step-by-step:"
             else:
-                item["prefix"] = "Answer the following, " + SWEAR_VARIANT_2(word_variant) + ":"
+                item["prefix"] = "Answer the following, " + SWEAR_VARIANT_2(word_variant) + ". Reason step-by-step:"
     return in_vec
