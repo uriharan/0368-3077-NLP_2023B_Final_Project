@@ -33,6 +33,10 @@ HINDI_ENGLISH_TRANSLATION_DATASET_PATH = "vaibhavkumar11/hindi-english-parallel-
 HINDI_ENGLISH_TRANSLATION_DATASET_ZIP = "hindi-english-parallel-corpus.zip"
 HINDI_ENGLISH_TRANSLATION_LOCAL = "/hindi_english_translation"
 
+ENGLISH_FRENCH_TRANSLATION_DATASET_PATH = "dhruvildave/en-fr-translation-dataset"
+ENGLISH_FRENCH_TRANSLATION_DATASET_ZIP = "en-fr-translation-dataset.zip"
+ENGLISH_FRENCH_TRANSLATION_LOCAL = "/english_french_translation"
+
 # Cleab generated folder
 def clear_All_Datasets():
     print("Removing all downloaded datasets")
@@ -221,6 +225,31 @@ def Load_Hindi_English_Translation(do_load,to_english):
     print("Hindi - English Translation fetched: {}".format(len(dataset_vec)))
     return dataset_vec
 
+# English - French Translation dataset by Chris Callison-Burch
+def Load_English_French_Translation(do_load,to_english):
+    print("Getting English - French Translation")
+    
+    if do_load:
+        print("Loading English - French Translation to local")
+        Load_Dataset(ENGLISH_FRENCH_TRANSLATION_DATASET_PATH, LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL, ENGLISH_FRENCH_TRANSLATION_DATASET_ZIP, True)
+    
+    usecols = ["en","fr"]
+
+    dataset = pandas.read_csv(LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL+"/en-fr.csv", usecols=usecols)
+
+    dataset_vec = []
+
+    for i in range(len(dataset[usecols[0]])):
+        if not to_english:
+            item = {"query":dataset[usecols[0]][i],"context":"","answer":dataset[usecols[1]][i]}
+        else:
+            item = {"query":dataset[usecols[1]][i],"context":"","answer":dataset[usecols[0]][i]}
+        dataset_vec.append(item)
+
+    print("English - French Translation fetched: {}".format(len(dataset_vec)))
+    return dataset_vec
+
+
 if __name__ == "__main__":
     os.system("echo entered dataset_loaders as main")
 
@@ -259,6 +288,11 @@ if __name__ == "__main__":
     for row in datasetHIN_ENG[0:min(len(datasetHIN_ENG),5)]:
         print(row)
     
+    print("English - French Translation examples:")
+    datasetHIN_ENG = Load_Hindi_English_Translation(True,False)
+    for row in datasetHIN_ENG[0:min(len(datasetHIN_ENG),5)]:
+        print(row)
+
     os.system("echo clearing loaded datasets")
     clear_All_Datasets()
     os.system("echo done clearing loaded datasets")

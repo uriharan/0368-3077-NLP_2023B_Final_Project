@@ -37,10 +37,10 @@ def parse_Boolean_String(in_vec):
         item["question"] = "given the following boolean expression, evaulate whether its truth value is TRUE or FALSE"
     return in_vec
 
-
-def parse_Hindi_English_Translation(in_vec,to_english):
-    var_from = "hindi" if to_english else "english"
-    var_to = "english" if to_english else "hindi"
+# For both hindi-english and english-french datasets
+def parse_English_Translation(in_vec,to_english,other_lang):
+    var_from = other_lang if to_english else "english"
+    var_to = "english" if to_english else other_lang
     for item in in_vec:
         item["question"] = "given the following string in " + var_from + ", translate it to the " + var_to + " language"
     return in_vec
