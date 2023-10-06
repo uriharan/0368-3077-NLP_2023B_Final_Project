@@ -2,7 +2,7 @@ This is my (Uri Haran) git repository for the NLP course in TAU, 2023.
 The repository will be used to store code for:
     Downloading NLP models,
     Downloading Datasets,
-    Processing Datasets for use in the models,
-    Editing Datasets for testing variations on models,
-    Running the original and the altered data on the models,
+    Preprocessing Datasets for generality,
+    Editing queries for different politeness levels,
+    Processing queries through models for evaluation,
     Performing the previous actions through SLURM.

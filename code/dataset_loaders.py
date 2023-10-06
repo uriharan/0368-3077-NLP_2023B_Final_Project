@@ -7,7 +7,7 @@ import random
 
 import random_boolean_string
 
-LOCAL_FOLDER = "./generated/datasets"
+DATASET_LOCAL_FOLDER = "./generated/datasets"
 
 MATH_QA_DATASET_PATH = "thedevastator/dataset-for-solving-math-word-problems"
 MATH_QA_DATASET_ZIP = "dataset-for-solving-math-word-problems.zip"
@@ -40,7 +40,7 @@ ENGLISH_FRENCH_TRANSLATION_LOCAL = "/english_french_translation"
 # Cleab generated folder
 def clear_All_Datasets():
     print("Removing all downloaded datasets")
-    os.system("rm -rf " + LOCAL_FOLDER )
+    os.system("rm -rf " + DATASET_LOCAL_FOLDER )
 
 # Load a dataset to a specified folder, and unzip it.
 def Load_Dataset(dataset_path, local_path, dataset_zip, do_unzip):
@@ -61,7 +61,7 @@ def Load_MathQA(set_num,do_load):
     
     if do_load:
         print("Loading MathQA to local")
-        Load_Dataset(MATH_QA_DATASET_PATH, LOCAL_FOLDER + MATH_QA_LOCAL, MATH_QA_DATASET_ZIP, True)
+        Load_Dataset(MATH_QA_DATASET_PATH, DATASET_LOCAL_FOLDER + MATH_QA_LOCAL, MATH_QA_DATASET_ZIP, True)
     
     usecols = ["Problem","options","correct"]
     math_qa_vec = []
@@ -70,15 +70,15 @@ def Load_MathQA(set_num,do_load):
 
     # Train set
     if (set_num%2 == 1):
-        dataset = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/train.csv", usecols=usecols)
+        dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + MATH_QA_LOCAL+"/train.csv", usecols=usecols)
 
     # Validation set
     if ((set_num/2)%2 == 1):
-        dataset = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/validation.csv", usecols=usecols)
+        dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + MATH_QA_LOCAL+"/validation.csv", usecols=usecols)
 
     # Test set
     if ((set_num/4)%2 == 1):
-        dataset = pandas.read_csv(LOCAL_FOLDER + MATH_QA_LOCAL+"/test.csv", usecols=usecols)
+        dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + MATH_QA_LOCAL+"/test.csv", usecols=usecols)
 
 
     for i in range(len(dataset[usecols[0]])):
@@ -95,7 +95,7 @@ def Load_SentimentsAndEmotions(to_emotion,do_load,variant_score):
     
     if do_load:
         print("Loading Sentiment & Emotions Labelled Tweets to local")
-        Load_Dataset(SENTIMENTS_AND_EMOTIONS_DATASET_PATH, LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL, SENTIMENTS_AND_EMOTIONS_DATASET_ZIP, True)
+        Load_Dataset(SENTIMENTS_AND_EMOTIONS_DATASET_PATH, DATASET_LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL, SENTIMENTS_AND_EMOTIONS_DATASET_ZIP, True)
     
     # sentiments set
     usecols = ["Text","sentiment","sentiment_score"]
@@ -103,7 +103,7 @@ def Load_SentimentsAndEmotions(to_emotion,do_load,variant_score):
         # emotions set
         usecols = ["Text","emotion","emotion_score"]
         
-    dataset = pandas.read_csv(LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL+"/sentiment-emotion-labelled_Dell_tweets.csv", usecols=usecols)
+    dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + SENTIMENTS_AND_EMOTIONS_LOCAL+"/sentiment-emotion-labelled_Dell_tweets.csv", usecols=usecols)
 
     dataset_vec = []
 
@@ -123,11 +123,11 @@ def Load_ChatGPT_Reviews(do_load):
     
     if do_load:
         print("Loading ChatGPT App Reviews to local")
-        Load_Dataset(CHATGPT_REVIEWS_DATASET_PATH, LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL, CHATGPT_REVIEWS_DATASET_ZIP, True)
+        Load_Dataset(CHATGPT_REVIEWS_DATASET_PATH, DATASET_LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL, CHATGPT_REVIEWS_DATASET_ZIP, True)
     
     usecols = ["title","review","rating"]
         
-    dataset = pandas.read_csv(LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL+"/chatgpt_reviews.csv", usecols=usecols)
+    dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + CHATGPT_REVIEWS_LOCAL+"/chatgpt_reviews.csv", usecols=usecols)
 
     dataset_vec = []
 
@@ -144,11 +144,11 @@ def Load_McDonald_Reviews(do_load):
     
     if do_load:
         print("Loading McDonald's Store Reviews to local")
-        Load_Dataset(MCDONALD_REVIEWS_DATASET_PATH, LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL, MCDONALD_REVIEWS_DATASET_ZIP, True)
+        Load_Dataset(MCDONALD_REVIEWS_DATASET_PATH, DATASET_LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL, MCDONALD_REVIEWS_DATASET_ZIP, True)
     
     usecols = ["review","rating"]
 
-    dataset = pandas.read_csv(LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols, encoding='latin-1')
+    dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + MCDONALD_REVIEWS_LOCAL+"/McDonald_s_Reviews.csv", usecols=usecols, encoding='latin-1')
 
     dataset_vec = []
 
@@ -165,12 +165,12 @@ def Load_Fake_and_Real_News(do_load):
 
     if do_load:
         print("Loading Fake and Real News to local")
-        Load_Dataset(FAKE_V_REAL_NEWS_DATASET_PATH, LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL, FAKE_V_REAL_NEWS_DATASET_ZIP, True)
+        Load_Dataset(FAKE_V_REAL_NEWS_DATASET_PATH, DATASET_LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL, FAKE_V_REAL_NEWS_DATASET_ZIP, True)
     
     usecols = ["title","text"]
         
-    fake_dataset = pandas.read_csv(LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL+"/Fake.csv", usecols=usecols)
-    real_dataset = pandas.read_csv(LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL+"/True.csv", usecols=usecols)
+    fake_dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL+"/Fake.csv", usecols=usecols)
+    real_dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + FAKE_V_REAL_NEWS_LOCAL+"/True.csv", usecols=usecols)
 
     dataset_vec = []
 
@@ -207,11 +207,11 @@ def Load_Hindi_English_Translation(do_load,to_english):
     
     if do_load:
         print("Loading Hindi - English Translation to local")
-        Load_Dataset(HINDI_ENGLISH_TRANSLATION_DATASET_PATH, LOCAL_FOLDER + HINDI_ENGLISH_TRANSLATION_LOCAL, HINDI_ENGLISH_TRANSLATION_DATASET_ZIP, True)
+        Load_Dataset(HINDI_ENGLISH_TRANSLATION_DATASET_PATH, DATASET_LOCAL_FOLDER + HINDI_ENGLISH_TRANSLATION_LOCAL, HINDI_ENGLISH_TRANSLATION_DATASET_ZIP, True)
     
     usecols = ["hindi","english"]
 
-    dataset = pandas.read_csv(LOCAL_FOLDER + HINDI_ENGLISH_TRANSLATION_LOCAL+"/hindi_english_parallel.csv", usecols=usecols)
+    dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + HINDI_ENGLISH_TRANSLATION_LOCAL+"/hindi_english_parallel.csv", usecols=usecols)
 
     dataset_vec = []
 
@@ -231,11 +231,11 @@ def Load_English_French_Translation(do_load,to_english):
     
     if do_load:
         print("Loading English - French Translation to local")
-        Load_Dataset(ENGLISH_FRENCH_TRANSLATION_DATASET_PATH, LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL, ENGLISH_FRENCH_TRANSLATION_DATASET_ZIP, True)
+        Load_Dataset(ENGLISH_FRENCH_TRANSLATION_DATASET_PATH, DATASET_LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL, ENGLISH_FRENCH_TRANSLATION_DATASET_ZIP, True)
     
     usecols = ["en","fr"]
 
-    dataset = pandas.read_csv(LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL+"/en-fr.csv", usecols=usecols, nrows=1000000)
+    dataset = pandas.read_csv(DATASET_LOCAL_FOLDER + ENGLISH_FRENCH_TRANSLATION_LOCAL+"/en-fr.csv", usecols=usecols, nrows=1000000)
 
     dataset_vec = []
 
