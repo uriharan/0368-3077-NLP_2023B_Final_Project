@@ -15,6 +15,7 @@ OUTPUT_FOLDER = "./generated/outputs"
 # Models supported
 MODEL_NAMES = ["flan-t5-base", "flan-t5-small", "falcon-7b-instruct", "falcon-40b-instruct"]
 MODEL_LOADERS = [model_users.Load_FlanT5base, model_users.Load_FlanT5small, model_users.Load_Falcon7BInstruct, model_users.Load_Falcon40BInstruct]
+MODEL_MAXLENGTH = [512,512,1024,1024]
 # Datasets supported
 DATASET_NAMES = ["mathqa", "sentiments-type", "emotions-type", "chatgpt-review", "mcdonald-review","fake-v-real_news","hi-en","en-hi","en-fr","fr-en","boolean-string"]
 
@@ -63,6 +64,7 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
     print("Called run_eval! running on model " + model_name + ", dataset " + dataset_name + ", politeness " + str(politeness))
 
     model, tokenizer = MODEL_LOADERS[MODEL_NAMES.index(model_name)]()
+    max_length = MODEL_MAXLENGTH[MODEL_NAMES.index(model_name)]
 
     if dataset_name == "mathqa":
         dataset = data_assembler.assemble_MathQA(num_of_results=num_results_max,set_num=7,do_load=True,politeness=politeness,constant_variant=False,word_variant=0)
@@ -87,9 +89,17 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
     if dataset_name == "boolean-string":
         dataset = data_assembler.assemble_Boolean_String(num_of_results=num_results_max,min_string=4,max_string=10,probability_true=0.5,politeness=politeness,constant_variant=False,word_variant=0)
 
+    dataset_truncated = {"text":[], "answer":[]} # Dataset of only short-enough strings
+    for index in range(len(dataset["text"])):
+        if len(dataset["text"][index]) <= max_length:
+            dataset_truncated["text"].append(dataset["text"][index])
+            dataset_truncated["answer"].append(dataset["answer"][index])
+
+    print("Dataset truncated to max model length: remaining %d lines out of %d",len(dataset_truncated["text"]),len(dataset["text"]))
+
     identifier = "table_" + model_name + "_running_" + dataset_name + "_politeness_" + str(politeness)
 
-    eval_dataset_on_model(dataset=dataset,model=model,tokenizer=tokenizer,save_results=save_results,identifier=identifier)
+    eval_dataset_on_model(dataset=dataset_truncated,model=model,tokenizer=tokenizer,save_results=save_results,identifier=identifier)
 
 
 if __name__ == "__main__":
