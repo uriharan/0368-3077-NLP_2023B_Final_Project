@@ -58,13 +58,7 @@ def Run_Model(model, tokenizer, input):
     tokenizer
 
     # Tokenize the input strings
-    input_ids = []
-    attention_mask = []
-    
     encoding = tokenizer(input, padding=True, max_length=max_length, truncation=True, return_tensors="pt")
-
-    input_ids = torch.cat(input_ids, dim=0)
-    attention_mask = torch.cat(attention_mask, dim=0)
 
     print("Preprocessing data done! Now running model")
     
