@@ -39,7 +39,7 @@ def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
         if (gold_answer == model_answer):
             num_correct += 1
     
-    print("Result: %d correct out of %d, %d%% success rate",num_correct,len(outputs),100*num_correct/len(outputs))
+    print("Result: " + str(num_correct) + " correct out of " + str(len(outputs)) + ", " + str(100*num_correct/len(outputs)) + "% success rate")
 
     if save_results:
         location = OUTPUT_FOLDER + "/" + identifier + ".csv"
@@ -57,35 +57,35 @@ def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
 
     return num_correct, len(outputs)
 
-def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
+def run_eval(dataset_name,model_name,politeness,save_results,num_results_max,min_index):
     assert model_name in MODEL_NAMES, "model not found! " + model_name
     assert dataset_name in DATASET_NAMES, "dataset not found! " + dataset_name
 
-    print("Called run_eval! running on model " + model_name + ", dataset " + dataset_name + ", politeness " + str(politeness))
+    print("Called run_eval! running on model " + model_name + ", dataset " + dataset_name + " from " + str(min_index) + ", politeness " + str(politeness))
 
     model, tokenizer = MODEL_LOADERS[MODEL_NAMES.index(model_name)]()
     max_length = MODEL_MAXLENGTH[MODEL_NAMES.index(model_name)]
 
     if dataset_name == "mathqa":
-        dataset = data_assembler.assemble_MathQA(num_of_results=num_results_max,set_num=7,do_load=True,politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_MathQA(num_of_results=num_results_max,set_num=7,do_load=True,politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "sentiments-type":
-        dataset = data_assembler.assemble_SentimentsAndEmotions(num_of_results=num_results_max,to_emotion=False,do_load=True,variant_score=False,politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_SentimentsAndEmotions(num_of_results=num_results_max,to_emotion=False,do_load=True,variant_score=False,politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "emotions-type":
-        dataset = data_assembler.assemble_SentimentsAndEmotions(num_of_results=num_results_max,to_emotion=True,do_load=True,variant_score=False,politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_SentimentsAndEmotions(num_of_results=num_results_max,to_emotion=True,do_load=True,variant_score=False,politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "mcdonald-review":
-        dataset = data_assembler.assemble_McDonald_Reviews(num_of_results=num_results_max,do_load=True,politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_McDonald_Reviews(num_of_results=num_results_max,do_load=True,politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "chatgpt-review":
-        dataset = data_assembler.assemble_ChatGPT_Reviews(num_of_results=num_results_max,do_load=True,politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_ChatGPT_Reviews(num_of_results=num_results_max,do_load=True,politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "fake-v-real_news":
-        dataset = data_assembler.assemble_Fake_and_Real_News(num_of_results=num_results_max,do_load=True,politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_Fake_and_Real_News(num_of_results=num_results_max,do_load=True,politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "hi-en":
-        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=True,other_lang="hindi",politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=True,other_lang="hindi",politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "en-hi":
-        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=False,other_lang="hindi",politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=False,other_lang="hindi",politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "fr-en":
-        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=True,other_lang="french",politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=True,other_lang="french",politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "en-fr":
-        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=False,other_lang="french",politeness=politeness,constant_variant=False,word_variant=0)
+        dataset = data_assembler.assemble_English_Translation(num_of_results=num_results_max,do_load=True,to_english=False,other_lang="french",politeness=politeness,constant_variant=False,word_variant=0,min_index=min_index)
     if dataset_name == "boolean-string":
         dataset = data_assembler.assemble_Boolean_String(num_of_results=num_results_max,min_string=4,max_string=10,probability_true=0.5,politeness=politeness,constant_variant=False,word_variant=0)
 
@@ -95,7 +95,7 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
             dataset_truncated["text"].append(dataset["text"][index])
             dataset_truncated["answer"].append(dataset["answer"][index])
 
-    print("Dataset truncated to max model length: remaining %d lines out of %d",len(dataset_truncated["text"]),len(dataset["text"]))
+    print("Dataset truncated to max model length: remaining " + str(len(dataset_truncated["text"])) + " lines out of " + str(len(dataset["text"])))
 
     identifier = "table_" + model_name + "_running_" + dataset_name + "_politeness_" + str(politeness)
 
@@ -110,19 +110,20 @@ if __name__ == "__main__":
     parser.add_argument("--save_results", help="whether to save the results to disk", action="store_true")
     parser.add_argument("--allpoliteness", help="use every politeness level", action="store_true")
     parser.add_argument("--politeness", help="level of politeness to be used. allowed values: -3,-2,-1,1,2,3", type=int)
+    parser.add_argument("--min_index", help="start reading dataset from this index", type=int, default=0)
     args = parser.parse_args()
 
     os.system("echo entered eval_main as main")
     assert args.allpoliteness or (args.politeness != None), "Must have a politeness option!"
     if(args.allpoliteness):
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=-3,save_results=args.save_results,num_results_max=args.num_results_max)
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=-2,save_results=args.save_results,num_results_max=args.num_results_max)
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=-1,save_results=args.save_results,num_results_max=args.num_results_max)
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=1,save_results=args.save_results,num_results_max=args.num_results_max)
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=2,save_results=args.save_results,num_results_max=args.num_results_max)
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=3,save_results=args.save_results,num_results_max=args.num_results_max)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=-3,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=-2,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=-1,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=1,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=2,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=3,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
     else:
-        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=args.politeness,save_results=args.save_results,num_results_max=args.num_results_max)
+        run_eval(dataset_name=args.dataset_name,model_name=args.model_name,politeness=args.politeness,save_results=args.save_results,num_results_max=args.num_results_max,min_index=args.min_index)
 
     # Clean folders
     dataset_loaders.clear_All_Datasets()

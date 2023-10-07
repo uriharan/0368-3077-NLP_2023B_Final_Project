@@ -9,10 +9,10 @@ import dataset_loaders
 import dataset_parsers
 import politeness_prefix
 
-def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,word_variant):
+def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,word_variant,min_index):
     # Get vector
     results_init = dataset_loaders.Load_MathQA(set_num,do_load)
-    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_truncated = results_init[min_index:min(num_of_results+min_index,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_MathQA(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
     
@@ -26,10 +26,10 @@ def assemble_MathQA(num_of_results,set_num,do_load,politeness,constant_variant,w
     
     return data_arranged
 
-def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_score,politeness,constant_variant,word_variant):
+def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_score,politeness,constant_variant,word_variant,min_index):
     # Get vector
     results_init = dataset_loaders.Load_SentimentsAndEmotions(to_emotion,do_load,variant_score)
-    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_truncated = results_init[min_index:min(num_of_results+min_index,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_SentimentsAndEmotions(results_truncated,to_emotion,variant_score)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
@@ -46,9 +46,9 @@ def assemble_SentimentsAndEmotions(num_of_results,to_emotion,do_load,variant_sco
     
     return data_arranged
 
-def assemble_ChatGPT_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant):
+def assemble_ChatGPT_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant,min_index):
     results_init = dataset_loaders.Load_ChatGPT_Reviews(do_load)
-    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_truncated = results_init[min_index:min(num_of_results+min_index,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_ChatGPT_Reviews(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
@@ -61,9 +61,9 @@ def assemble_ChatGPT_Reviews(num_of_results,do_load,politeness,constant_variant,
         data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
-def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant):
+def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant,word_variant,min_index):
     results_init = dataset_loaders.Load_McDonald_Reviews(do_load)
-    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_truncated = results_init[min_index:min(num_of_results+min_index,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_McDonald_Reviews(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
     
@@ -76,9 +76,9 @@ def assemble_McDonald_Reviews(num_of_results,do_load,politeness,constant_variant
         data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
-def assemble_Fake_and_Real_News(num_of_results,do_load,politeness,constant_variant,word_variant):
+def assemble_Fake_and_Real_News(num_of_results,do_load,politeness,constant_variant,word_variant,min_index):
     results_init = dataset_loaders.Load_Fake_and_Real_News(do_load)
-    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_truncated = results_init[min_index:min(num_of_results+min_index,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_Fake_and_Real_News(results_truncated)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 
@@ -106,13 +106,13 @@ def assemble_Boolean_String(num_of_results,min_string,max_string,probability_tru
         data_arranged["answer"].append(results_with_prefix[i]['answer'])
     return data_arranged
 
-def assemble_English_Translation(num_of_results,do_load,to_english,other_lang,politeness,constant_variant,word_variant):
+def assemble_English_Translation(num_of_results,do_load,to_english,other_lang,politeness,constant_variant,word_variant,min_index):
     assert other_lang == "hindi" or other_lang == "french", "Unsupported language {other_lang}"
     if other_lang == "hindi":
         results_init = dataset_loaders.Load_Hindi_English_Translation(do_load,to_english)
     else:
         results_init = dataset_loaders.Load_English_French_Translation(do_load,to_english)
-    results_truncated = results_init[0:min(num_of_results,len(results_init)-1)]
+    results_truncated = results_init[min_index:min(num_of_results+min_index,len(results_init)-1)]
     results_parsed = dataset_parsers.parse_English_Translation(results_truncated,to_english,other_lang)
     results_with_prefix = politeness_prefix.add_prefix(results_parsed,politeness,constant_variant,word_variant)
 

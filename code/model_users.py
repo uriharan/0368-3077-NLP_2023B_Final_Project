@@ -60,19 +60,16 @@ def Run_Model(model, tokenizer, input):
     # Tokenize the input strings
     input_ids = []
     attention_mask = []
-    for text in input:
-        encoding = tokenizer(text, padding='max_length', max_length=max_length, truncation=True, return_tensors="pt")
-        input_ids.append(encoding["input_ids"].to(device))
-        attention_mask.append(encoding["attention_mask"].to(device))
+    
+    encoding = tokenizer(input, padding=True, max_length=max_length, truncation=True, return_tensors="pt")
 
     input_ids = torch.cat(input_ids, dim=0)
     attention_mask = torch.cat(attention_mask, dim=0)
 
     print("Preprocessing data done! Now running model")
-
-    outputs = []
+    
     # Run the model on the tokenized inputs
     with torch.no_grad():
-        outputs.append(model(input_ids, attention_mask=attention_mask))
+        outputs = model.generate(input_ids=encoding["input_ids"], attention_mask=encoding["attention_mask"])
 
     return outputs
