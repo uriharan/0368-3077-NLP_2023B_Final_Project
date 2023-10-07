@@ -55,7 +55,6 @@ def Run_Model(model, tokenizer, input):
     # For using GPU
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
-    tokenizer
 
     # Tokenize the input strings
     encoding = tokenizer(input, padding=True, max_length=max_length, truncation=True, return_tensors="pt")
@@ -65,5 +64,6 @@ def Run_Model(model, tokenizer, input):
     # Run the model on the tokenized inputs
     with torch.no_grad():
         outputs = model.generate(input_ids=encoding["input_ids"], attention_mask=encoding["attention_mask"])
+        outputs = tokenizer.decode(outputs, skip_special_tokens=True)
 
     return outputs
