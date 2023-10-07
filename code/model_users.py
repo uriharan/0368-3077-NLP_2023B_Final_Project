@@ -70,8 +70,10 @@ def Run_Model(model, tokenizer, input):
 
     print("Preprocessing data done! Now running model")
 
+    outputs = []
     # Run the model on the tokenized inputs
     with torch.no_grad():
-        outputs = model(input_ids, attention_mask=attention_mask)
+        for index in range(len(input_ids)):
+            outputs.append(model(input_ids[index], attention_mask=attention_mask[index]))
 
     return outputs
