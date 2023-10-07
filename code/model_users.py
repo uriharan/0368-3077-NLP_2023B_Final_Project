@@ -49,7 +49,20 @@ def Load_Falcon40BInstruct():
 
 # Run a downloaded model and trainer on an array of input texts
 def Run_Model(model, tokenizer, input):
-    batch = tokenizer(input)
-    tensor_batch = torch.tensor(batch)
-    outputs = model(**tensor_batch)
+
+    # Tokenize the input strings
+    input_ids = []
+    attention_mask = []
+    for text in input:
+        encoding = tokenizer(text, padding=True, truncation=True, return_tensors="pt")
+        input_ids.append(encoding["input_ids"])
+        attention_mask.append(encoding["attention_mask"])
+
+    input_ids = torch.cat(input_ids, dim=0)
+    attention_mask = torch.cat(attention_mask, dim=0)
+
+    # Run the model on the tokenized inputs
+    with torch.no_grad():
+        outputs = model(input_ids, attention_mask=attention_mask)
+
     return outputs
