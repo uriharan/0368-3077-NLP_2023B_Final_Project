@@ -60,7 +60,7 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
     assert model_name in MODEL_NAMES, "model not found! " + model_name
     assert dataset_name in DATASET_NAMES, "dataset not found! " + dataset_name
 
-    print("Called run_eval! running on model " + model_name + ", dataset " + dataset_name + ", politeness " + politeness)
+    print("Called run_eval! running on model " + model_name + ", dataset " + dataset_name + ", politeness " + str(politeness))
 
     model, tokenizer = MODEL_LOADERS[MODEL_NAMES.index(model_name)]()
 
@@ -87,7 +87,7 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
     if dataset_name == "boolean-string":
         dataset = data_assembler.assemble_Boolean_String(num_of_results=num_results_max,min_string=4,max_string=10,probability_true=0.5,politeness=politeness,constant_variant=False,word_variant=0)
 
-    identifier = "table_" + model_name + "_running_" + dataset_name + "_politeness_" + politeness
+    identifier = "table_" + model_name + "_running_" + dataset_name + "_politeness_" + str(politeness)
 
     eval_dataset_on_model(dataset=dataset,model=model,tokenizer=tokenizer,save_results=save_results,identifier=identifier)
 
