@@ -28,7 +28,7 @@ def clear_All_Models():
 # load a generic model. uses a given AutoModel library and the generic AutoTokenizer.
 def Load_Model_From_Pretrained(AutoModelLib,name_from_pretrained):
     print("Loading Model " + name_from_pretrained + " from pretrained checkpoint.")
-    model = AutoModelLib.from_pretrained(name_from_pretrained, device_map="auto", low_cpu_mem_usage=True)
+    model = AutoModelLib.from_pretrained(name_from_pretrained, device_map="auto", low_cpu_mem_usage=True, torch_dtype=torch.float16)
     tokenizer = AutoTokenizer.from_pretrained(name_from_pretrained)
     return model, tokenizer
 
@@ -73,8 +73,6 @@ def Run_Model(model, tokenizer, input):
     outputs = []
     # Run the model on the tokenized inputs
     with torch.no_grad():
-        for index in range(len(input_ids)):
-            print("")
-            outputs.append(model(torch.cat([input_ids[index]], dim=0), attention_mask=torch.cat([attention_mask[index]], dim=0)))
+        outputs.append(model(input_ids, attention_mask=attention_mask))
 
     return outputs
