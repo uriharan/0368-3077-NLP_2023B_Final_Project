@@ -26,7 +26,7 @@ DATASET_NAMES = ["mathqa", "sentiments-type", "emotions-type", "chatgpt-review",
 # Evaluation is string equality between the golden answers and the model answers.
 # To ensure no Uppercase/Lowercase conflicts, all answers are transformed to lowercase.
 # Can be improved - does not support partial answers, chain-of-though, or non-string results, like closeness to a number.
-def eval_dataset_on_model(dataset,model,tokenizer,save_results,idnentifier):
+def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
     print("Starting Run! Running %d examples.",len(dataset["text"]))
     outputs = model_users.Run_Model(model,tokenizer,dataset["text"])
     print("Run Complete!")
@@ -41,7 +41,7 @@ def eval_dataset_on_model(dataset,model,tokenizer,save_results,idnentifier):
     print("Result: %d correct out of %d, %d%% success rate",num_correct,len(outputs),100*num_correct/len(outputs))
 
     if save_results:
-        location = OUTPUT_FOLDER + "/" + idnentifier + ".csv"
+        location = OUTPUT_FOLDER + "/" + identifier + ".csv"
         print("Saving results to Disk! location " + location)
         # Organize data into one struct
         data = {
