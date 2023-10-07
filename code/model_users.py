@@ -64,6 +64,6 @@ def Run_Model(model, tokenizer, input):
     # Run the model on the tokenized inputs
     with torch.no_grad():
         outputs = model.generate(input_ids=encoding["input_ids"], attention_mask=encoding["attention_mask"])
-        outputs = tokenizer.decode(outputs, skip_special_tokens=True)
+        outputs = tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
     return outputs
