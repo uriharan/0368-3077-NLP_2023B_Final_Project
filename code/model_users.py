@@ -1,6 +1,7 @@
 # This file contains commands which load models and tokenizers from huggingface.
 
 import os
+import torch
 
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM
 
@@ -49,5 +50,6 @@ def Load_Falcon40BInstruct():
 # Run a downloaded model and trainer on an array of input texts
 def Run_Model(model, tokenizer, input):
     batch = tokenizer(input)
-    outputs = model(**batch)
+    tensor_batch = torch.tensor(batch)
+    outputs = model(**tensor_batch)
     return outputs
