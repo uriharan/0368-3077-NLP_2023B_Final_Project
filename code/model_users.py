@@ -68,6 +68,8 @@ def Run_Model(model, tokenizer, input):
     input_ids = torch.cat(input_ids, dim=0)
     attention_mask = torch.cat(attention_mask, dim=0)
 
+    print("Preprocessing data done! Now running model")
+
     # Run the model on the tokenized inputs
     with torch.no_grad():
         outputs = model(input_ids, attention_mask=attention_mask)
