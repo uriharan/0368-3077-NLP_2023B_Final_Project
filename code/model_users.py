@@ -28,7 +28,7 @@ def clear_All_Models():
 # load a generic model. uses a given AutoModel library and the generic AutoTokenizer.
 def Load_Model_From_Pretrained(AutoModelLib,name_from_pretrained):
     print("Loading Model " + name_from_pretrained + " from pretrained checkpoint.")
-    model = AutoModelLib.from_pretrained(name_from_pretrained)
+    model = AutoModelLib.from_pretrained(name_from_pretrained, device_map="auto", low_cpu_mem_usage=True)
     tokenizer = AutoTokenizer.from_pretrained(name_from_pretrained)
     return model, tokenizer
 
