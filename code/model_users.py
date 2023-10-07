@@ -49,12 +49,14 @@ def Load_Falcon40BInstruct():
 
 # Run a downloaded model and trainer on an array of input texts
 def Run_Model(model, tokenizer, input):
+    # Find the maximum sequence length in the input texts
+    max_length = max(len(tokenizer.encode(text)) for text in input)
 
     # Tokenize the input strings
     input_ids = []
     attention_mask = []
     for text in input:
-        encoding = tokenizer(text, padding=True, truncation=True, return_tensors="pt")
+        encoding = tokenizer(text, padding='max_length', max_length=max_length, truncation=True, return_tensors="pt")
         input_ids.append(encoding["input_ids"])
         attention_mask.append(encoding["attention_mask"])
 
