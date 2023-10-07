@@ -30,7 +30,7 @@ DATASET_NAMES = ["mathqa", "sentiments-type", "emotions-type", "chatgpt-review",
 def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
     print("Starting Run! Number of examples: " + str(len(dataset["text"])))
     outputs = model_users.Run_Model(model,tokenizer,dataset["text"])
-    print("Run Complete!")
+    print("Run Complete! First result example: " + str(outputs[0]))
 
     num_correct = 0
     for index in range(len(outputs)):
