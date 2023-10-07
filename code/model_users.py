@@ -28,7 +28,7 @@ def clear_All_Models():
 # load a generic model. uses a given AutoModel library and the generic AutoTokenizer.
 def Load_Model_From_Pretrained(AutoModelLib,name_from_pretrained):
     print("Loading Model " + name_from_pretrained + " from pretrained checkpoint.")
-    model = AutoModelLib.from_pretrained(name_from_pretrained, device_map="auto")
+    model = AutoModelLib.from_pretrained(name_from_pretrained)
     tokenizer = AutoTokenizer.from_pretrained(name_from_pretrained)
     return model, tokenizer
 
@@ -51,14 +51,19 @@ def Load_Falcon40BInstruct():
 def Run_Model(model, tokenizer, input):
     # Find the maximum sequence length in the input texts
     max_length = max(len(tokenizer.encode(text)) for text in input)
+    
+    # For using GPU
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    tokenizer.to(device)
 
     # Tokenize the input strings
     input_ids = []
     attention_mask = []
     for text in input:
         encoding = tokenizer(text, padding='max_length', max_length=max_length, truncation=True, return_tensors="pt")
-        input_ids.append(encoding["input_ids"])
-        attention_mask.append(encoding["attention_mask"])
+        input_ids.append(encoding["input_ids"].to(device))
+        attention_mask.append(encoding["attention_mask"].to(device))
 
     input_ids = torch.cat(input_ids, dim=0)
     attention_mask = torch.cat(attention_mask, dim=0)
