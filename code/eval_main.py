@@ -28,7 +28,7 @@ DATASET_NAMES = ["mathqa", "sentiments-type", "emotions-type", "chatgpt-review",
 # To ensure no Uppercase/Lowercase conflicts, all answers are transformed to lowercase.
 # Can be improved - does not support partial answers, chain-of-though, or non-string results, like closeness to a number.
 def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
-    print("Starting Run! Running %d examples.",len(dataset["text"]))
+    print("Starting Run! Number of examples: " + str(len(dataset["text"])))
     outputs = model_users.Run_Model(model,tokenizer,dataset["text"])
     print("Run Complete!")
 
