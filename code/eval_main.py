@@ -8,15 +8,6 @@ import model_users # Get models
 import pandas as pd # Save data
 import argparse # Parse argument
 
-parser = argparse.ArgumentParser()
-parser.parse_args()
-parser.add_argument("dataset_name", help="name of the dataset evaluated on", type=str)
-parser.add_argument("model_name", help="name of the model being evaluated", type=str)
-parser.add_argument("num_results_max", help="uses rows up to here only from the dataset, if the dataset is smaller use all rows", type=int)
-parser.add_argument("--save_results", help="whether to save the results to disk", type=bool, action="store_true")
-parser.add_argument("--allpoliteness", help="use every politeness level", type=bool, action="store_true")
-parser.add_argument("--politeness", help="level of politeness to be used. allowed values: -3,-2,-1,1,2,3", type=int)
-args = parser.parse_args()
 
 
 OUTPUT_FOLDER = "./generated/outputs"
@@ -102,6 +93,16 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.parse_args()
+    parser.add_argument("dataset_name", help="name of the dataset evaluated on", type=str)
+    parser.add_argument("model_name", help="name of the model being evaluated", type=str)
+    parser.add_argument("num_results_max", help="uses rows up to here only from the dataset, if the dataset is smaller use all rows", type=int)
+    parser.add_argument("--save_results", help="whether to save the results to disk", type=bool, action="store_true")
+    parser.add_argument("--allpoliteness", help="use every politeness level", type=bool, action="store_true")
+    parser.add_argument("--politeness", help="level of politeness to be used. allowed values: -3,-2,-1,1,2,3", type=int)
+    args = parser.parse_args()
+
     os.system("echo entered eval_main as main")
     assert args.allpoliteness or (args.politeness != None), "Must have a politeness option!"
     if(args.allpoliteness):
