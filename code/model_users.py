@@ -55,7 +55,7 @@ def Run_Model(model, tokenizer, input):
     # For using GPU
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
-    tokenizer.to(device)
+    tokenizer
 
     # Tokenize the input strings
     input_ids = []
