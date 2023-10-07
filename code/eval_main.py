@@ -94,7 +94,6 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.parse_args()
     parser.add_argument("dataset_name", help="name of the dataset evaluated on", type=str)
     parser.add_argument("model_name", help="name of the model being evaluated", type=str)
     parser.add_argument("num_results_max", help="uses rows up to here only from the dataset, if the dataset is smaller use all rows", type=int)
