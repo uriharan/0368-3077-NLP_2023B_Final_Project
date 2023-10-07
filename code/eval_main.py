@@ -52,6 +52,9 @@ def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
         }
         # Load data into a DataFrame object:
         df = pd.DataFrame(data)
+        # Ensure directory exists
+        if not os.path.exists(OUTPUT_FOLDER):
+            os.makedirs(OUTPUT_FOLDER) 
         # Store on disk
         df.to_csv(location)
 
