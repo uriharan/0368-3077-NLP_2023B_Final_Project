@@ -57,7 +57,7 @@ def Run_Model(model, tokenizer, input):
     model.to(device)
 
     # Tokenize the input strings
-    encoding = tokenizer(input, padding=True, max_length=max_length, truncation=True, return_tensors="pt")
+    encoding = tokenizer(input, padding=True, max_length=max_length, truncation=True, return_tensors="pt").to(device)
 
     print("Preprocessing data done! Now running model")
     
