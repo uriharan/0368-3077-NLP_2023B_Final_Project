@@ -13,9 +13,9 @@ import argparse # Parse argument
 OUTPUT_FOLDER = "./generated/outputs"
 
 # Models supported
-MODEL_NAMES = ["flan-t5-base", "flan-t5-small", "falcon-7b-instruct", "falcon-40b-instruct"]
-MODEL_LOADERS = [model_users.Load_FlanT5base, model_users.Load_FlanT5small, model_users.Load_Falcon7BInstruct, model_users.Load_Falcon40BInstruct]
-MODEL_MAXLENGTH = [512,512,1024,1024]
+MODEL_NAMES = ["flan-t5-base", "flan-t5-small", "falcon-7b-instruct", "falcon-40b-instruct","fastchat-t5"]
+MODEL_LOADERS = [model_users.Load_FlanT5base, model_users.Load_FlanT5small, model_users.Load_Falcon7BInstruct, model_users.Load_Falcon40BInstruct,model_users.Load_FastchatT5]
+MODEL_MAXLENGTH = [512,512,1024,1024,512]
 # Datasets supported
 DATASET_NAMES = ["mathqa", "sentiments-type", "emotions-type", "chatgpt-review", "mcdonald-review","fake-v-real_news","hi-en","en-hi","en-fr","fr-en","boolean-string"]
 

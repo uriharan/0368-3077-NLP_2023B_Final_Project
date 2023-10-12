@@ -7,6 +7,9 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausa
 
 MODEL_LOCAL_FOLDER = "./generated/models"
 
+FASTCHAT_T5_REFERENCE= "lmsys/fastchat-t5-3b-v1.0"
+FASTCHAT_T5_AUTOMODEL = AutoModelForSeq2SeqLM
+
 FLAN_T5_BASE_REFERENCE = "google/flan-t5-base"
 FLAN_T5_BASE_AUTOMODEL = AutoModelForSeq2SeqLM
 
@@ -31,6 +34,10 @@ def Load_Model_From_Pretrained(AutoModelLib,name_from_pretrained):
     model = AutoModelLib.from_pretrained(name_from_pretrained, device_map="auto", offload_folder="offload", offload_state_dict = True, low_cpu_mem_usage=True, torch_dtype=torch.bfloat16)
     tokenizer = AutoTokenizer.from_pretrained(name_from_pretrained)
     return model, tokenizer
+
+
+def Load_FastchatT5():
+    return Load_Model_From_Pretrained(FASTCHAT_T5_AUTOMODEL,FASTCHAT_T5_REFERENCE)
 
 def Load_FlanT5base():
     return Load_Model_From_Pretrained(FLAN_T5_BASE_AUTOMODEL,FLAN_T5_BASE_REFERENCE)
