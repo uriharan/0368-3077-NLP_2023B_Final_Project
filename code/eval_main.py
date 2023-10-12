@@ -19,6 +19,17 @@ MODEL_MAXLENGTH = [512,512,1024,1024]
 # Datasets supported
 DATASET_NAMES = ["mathqa", "sentiments-type", "emotions-type", "chatgpt-review", "mcdonald-review","fake-v-real_news","hi-en","en-hi","en-fr","fr-en","boolean-string"]
 
+# Evaluation function - currently string equality.
+# Returns number between 0 and the input length, corresponding to the returned score.
+def calc_correctness(gold_answers,model_answers):
+    correct = 0
+    for index in range(len(gold_answers)):
+        gold_answer = gold_answers[index]
+        model_answer = model_answers[index]
+        if (gold_answer == model_answer):
+            correct += 1
+    return correct
+
 # Recieves a dataset, model, and tokenizer. Evaluates the model performance on the dataset.
 # Dataset format: Dictionary with keys:
 #   "text": Vector of questions.
@@ -32,14 +43,9 @@ def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
     outputs = model_users.Run_Model(model,tokenizer,dataset["text"])
     print("Run Complete! First result example: " + str(outputs[0]))
 
-    num_correct = 0
-    for index in range(len(outputs)):
-        gold_answer = dataset["answer"][index]
-        model_answer = outputs[index]
-        if (gold_answer == model_answer):
-            num_correct += 1
+    correct = calc_correctness(dataset["answer"],outputs)
     
-    print("Result: " + str(num_correct) + " correct out of " + str(len(outputs)) + ", " + str(100*num_correct/len(outputs)) + "% success rate")
+    print("Result: " + str(correct) + " correct out of " + str(len(outputs)) + ", " + str(100*correct/len(outputs)) + "% success rate")
 
     if save_results:
         location = OUTPUT_FOLDER + "/" + identifier + ".csv"
@@ -58,7 +64,7 @@ def eval_dataset_on_model(dataset,model,tokenizer,save_results,identifier):
         # Store on disk
         df.to_csv(location)
 
-    return num_correct, len(outputs)
+    return correct, len(outputs)
 
 def run_eval(dataset_name,model_name,politeness,save_results,num_results_max,min_index):
     assert model_name in MODEL_NAMES, "model not found! " + model_name
