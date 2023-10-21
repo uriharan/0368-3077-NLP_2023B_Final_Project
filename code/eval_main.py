@@ -106,7 +106,7 @@ def run_eval(dataset_name,model_name,politeness,save_results,num_results_max,min
 
     print("Dataset truncated to max model length: remaining " + str(len(dataset_truncated["text"])) + " lines out of " + str(len(dataset["text"])))
 
-    identifier = "table_" + model_name + "_running_" + dataset_name + "_politeness_" + str(politeness)
+    identifier = "table_" + model_name + "_running_" + dataset_name + "_politeness_" + str(politeness) +"_from_" + str(min_index) + "_to_" + str(min_index+num_results_max-1)
 
     eval_dataset_on_model(dataset=dataset_truncated,model=model,tokenizer=tokenizer,save_results=save_results,identifier=identifier)
 
