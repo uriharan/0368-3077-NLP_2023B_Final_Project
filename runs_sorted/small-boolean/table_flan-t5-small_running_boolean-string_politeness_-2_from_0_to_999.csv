@@ -1,0 +1,1001 @@
+,query,gold_answer,model_answer
+0,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( NOT (FALSE) ) ) OR ( NOT (FALSE) )""",TRUE,FALSE
+1,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) AND ( FALSE )""",FALSE,(FALSE )
+2,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( ( NOT (FALSE) ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+3,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+4,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( FALSE )""",FALSE,FALSE
+5,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+6,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NAND ( NOT ( NOT ( ( TRUE ) XNOR ( NOT (FALSE) ) ) ) ) )""",FALSE,FALSE
+7,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( FALSE ) XAND ( FALSE ) )""",FALSE,FALSE
+8,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( FALSE ) OR ( FALSE ) )""",FALSE,FALSE
+9,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( TRUE ) XAND ( FALSE ) )""",FALSE,FALSE
+10,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XOR ( FALSE ) )""",FALSE,True
+11,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+12,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( NOT ( TRUE ) )""",TRUE,True
+13,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT ( TRUE ) ) XOR ( TRUE ) ) XAND ( FALSE ) ) NOR ( TRUE )""",FALSE,FALSE
+14,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( ( ( NOT (FALSE) ) OR ( TRUE ) ) NOR ( FALSE ) ) )""",TRUE,FALSE
+15,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( ( ( ( FALSE ) AND ( TRUE ) ) NOR ( TRUE ) ) AND ( TRUE ) )""",FALSE,FALSE
+16,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( TRUE ) XOR ( TRUE ) )""",FALSE,FALSE
+17,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( FALSE )""",FALSE,FALSE
+18,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( NOT ( TRUE ) )""",TRUE,True
+19,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( NOT ( NOT ( ( NOT ( TRUE ) ) OR ( NOT ( TRUE ) ) ) ) )""",FALSE,FALSE
+20,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( ( TRUE ) NOR ( NOT (FALSE) ) ) )""",FALSE,FALSE
+21,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) AND ( ( NOT (FALSE) ) XNOR ( TRUE ) )""",FALSE,(FALSE)
+22,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NOR ( FALSE ) )""",FALSE,True
+23,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) OR ( ( NOT ( TRUE ) ) NOR ( TRUE ) ) ) XOR ( TRUE ) ) NAND ( FALSE )""",TRUE,(FALSE )
+24,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NOR ( TRUE ) ) OR ( NOT ( TRUE ) ) ) XAND ( FALSE )""",TRUE,(FALSE )
+25,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( TRUE ) XOR ( TRUE ) )""",TRUE,FALSE
+26,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( NOT ( TRUE ) )""",TRUE,FALSE
+27,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) AND ( FALSE ) ) AND ( NOT ( TRUE ) ) ) XOR ( TRUE )""",TRUE,FALSE
+28,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( TRUE ) ) XNOR ( NOT ( ( FALSE ) NOR ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+29,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( ( FALSE ) OR ( FALSE ) ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+30,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) OR ( ( FALSE ) OR ( TRUE ) ) ) ) NOR ( ( FALSE ) XAND ( TRUE ) )""",TRUE,FALSE
+31,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( NOT ( TRUE ) ) NAND ( FALSE ) )""",FALSE,FALSE
+32,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) OR ( NOT ( NOT ( ( NOT (FALSE) ) AND ( TRUE ) ) ) )""",TRUE,(FALSE )
+33,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) NAND ( FALSE )""",TRUE,FALSE
+34,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XNOR ( FALSE ) ) NAND ( NOT ( TRUE ) ) ) OR ( NOT (FALSE) )""",TRUE,FALSE
+35,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( NOT (FALSE) ) ) AND ( ( FALSE ) XAND ( FALSE ) )""",FALSE,FALSE
+36,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( NOT ( TRUE ) )""",FALSE,True
+37,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( FALSE ) ) XOR ( ( TRUE ) XNOR ( FALSE ) )""",FALSE,FALSE
+38,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( ( NOT ( TRUE ) ) AND ( NOT (FALSE) ) ) )""",FALSE,FALSE
+39,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( NOT (FALSE) ) AND ( TRUE ) )""",TRUE,True
+40,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( TRUE ) NOR ( NOT (FALSE) ) )""",FALSE,FALSE
+41,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( NOT ( TRUE ) ) ) AND ( NOT ( ( FALSE ) XOR ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+42,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( NOT (FALSE) )""",TRUE,FALSE
+43,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NAND ( ( TRUE ) NOR ( FALSE ) ) ) OR ( NOT ( TRUE ) )""",TRUE,FALSE
+44,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) XOR ( ( FALSE ) NOR ( FALSE ) )""",TRUE,(FALSE )
+45,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) AND ( TRUE ) ) XAND ( ( NOT (FALSE) ) NOR ( NOT (FALSE) ) ) )""",FALSE,FALSE
+46,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( NOT ( TRUE ) )""",TRUE,True
+47,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) AND ( TRUE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+48,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( TRUE ) ) NAND ( TRUE )""",FALSE,FALSE
+49,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) NAND ( ( FALSE ) OR ( FALSE ) )""",TRUE,(FALSE )
+50,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( TRUE ) XAND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+51,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( ( TRUE ) XOR ( ( TRUE ) XOR ( ( FALSE ) AND ( TRUE ) ) ) ) )""",FALSE,FALSE
+52,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT (FALSE) )""",TRUE,True
+53,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( FALSE ) OR ( FALSE ) )""",FALSE,True
+54,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) AND ( ( TRUE ) OR ( ( FALSE ) NOR ( FALSE ) ) )""",TRUE,(FALSE )
+55,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) XAND ( ( TRUE ) NOR ( FALSE ) )""",FALSE,FALSE
+56,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( TRUE ) XOR ( TRUE ) )""",TRUE,FALSE
+57,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( NOT ( TRUE ) )""",FALSE,True
+58,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( NOT ( NOT ( ( FALSE ) AND ( ( FALSE ) XOR ( FALSE ) ) ) ) )""",FALSE,FALSE
+59,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( ( FALSE ) NAND ( FALSE ) ) NAND ( TRUE ) )""",TRUE,True
+60,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) NOR ( ( ( FALSE ) NAND ( FALSE ) ) AND ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+61,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( FALSE ) OR ( FALSE ) )""",FALSE,True
+62,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( FALSE ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+63,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( NOT ( TRUE ) ) ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+64,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( NOT ( TRUE ) ) OR ( TRUE ) )""",FALSE,FALSE
+65,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( FALSE ) ) XOR ( ( NOT ( TRUE ) ) XNOR ( NOT ( NOT (FALSE) ) ) )""",FALSE,FALSE
+66,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( NOT (FALSE) )""",FALSE,FALSE
+67,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT (FALSE) )""",TRUE,True
+68,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( ( FALSE ) AND ( FALSE ) ) ) NOR ( NOT ( TRUE ) )""",TRUE,( NOT ( TRUE ) )
+69,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( FALSE ) ) OR ( TRUE )""",TRUE,FALSE
+70,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( NOT (FALSE) ) ) AND ( ( TRUE ) AND ( ( TRUE ) OR ( TRUE ) ) )""",TRUE,FALSE
+71,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) XOR ( FALSE )""",FALSE,FALSE
+72,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( NOT (FALSE) )""",TRUE,True
+73,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) NOR ( NOT (FALSE) )""",FALSE,(FALSE)
+74,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NAND ( NOT (FALSE) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+75,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+76,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NOR ( NOT ( TRUE ) ) ) OR ( NOT ( NOT (FALSE) ) )""",FALSE,( NOT (FALSE) )
+77,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT ( TRUE ) ) AND ( NOT ( TRUE ) ) ) ) XOR ( TRUE )""",FALSE,FALSE
+78,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NAND ( FALSE ) ) OR ( ( NOT ( TRUE ) ) XNOR ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+79,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+80,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+81,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) OR ( NOT (FALSE) ) ) NOR ( ( FALSE ) OR ( FALSE ) )""",FALSE,(FALSE )
+82,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) NAND ( ( NOT ( TRUE ) ) XOR ( FALSE ) )""",TRUE,FALSE
+83,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) XNOR ( ( NOT ( TRUE ) ) XOR ( TRUE ) )""",TRUE,FALSE
+84,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) XOR ( NOT ( ( ( FALSE ) NOR ( TRUE ) ) OR ( TRUE ) ) )""",FALSE,FALSE
+85,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( NOT (FALSE) )""",TRUE,True
+86,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( ( TRUE ) AND ( TRUE ) ) ) NOR ( ( TRUE ) NOR ( TRUE ) )""",FALSE,FALSE
+87,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( TRUE ) ) AND ( TRUE )""",FALSE,FALSE
+88,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( ( TRUE ) NAND ( TRUE ) ) ) XAND ( ( NOT (FALSE) ) NAND ( FALSE ) )""",FALSE,FALSE
+89,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) XNOR ( ( TRUE ) NAND ( FALSE ) )""",TRUE,(FALSE )
+90,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT (FALSE) )""",TRUE,True
+91,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) NOR ( NOT ( TRUE ) ) ) NAND ( FALSE ) ) XNOR ( NOT ( TRUE ) )""",FALSE,FALSE
+92,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( FALSE ) AND ( ( TRUE ) NOR ( TRUE ) ) )""",TRUE,FALSE
+93,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XAND ( FALSE ) ) XOR ( ( NOT ( TRUE ) ) AND ( FALSE ) ) ) OR ( TRUE )""",TRUE,FALSE
+94,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XNOR ( FALSE ) ) XAND ( FALSE )""",FALSE,FALSE
+95,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( ( NOT (FALSE) ) AND ( ( TRUE ) OR ( TRUE ) ) )""",TRUE,FALSE
+96,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT (FALSE) ) NAND ( TRUE ) ) ) AND ( FALSE )""",FALSE,FALSE
+97,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( ( TRUE ) AND ( TRUE ) ) XNOR ( FALSE ) ) ) XAND ( FALSE )""",FALSE,FALSE
+98,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( FALSE )""",FALSE,FALSE
+99,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+100,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( NOT ( ( NOT (FALSE) ) XOR ( FALSE ) ) ) XNOR ( FALSE ) )""",TRUE,FALSE
+101,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+102,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( FALSE ) ) XOR ( ( FALSE ) XOR ( FALSE ) )""",FALSE,FALSE
+103,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( NOT ( ( NOT (FALSE) ) AND ( NOT (FALSE) ) ) )""",TRUE,FALSE
+104,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XAND ( TRUE ) )""",FALSE,True
+105,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( ( TRUE ) NAND ( ( FALSE ) NAND ( TRUE ) ) ) ) XAND ( TRUE )""",FALSE,FALSE
+106,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XNOR ( TRUE ) )""",TRUE,True
+107,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( TRUE ) NAND ( NOT (FALSE) ) )""",FALSE,FALSE
+108,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XOR ( TRUE ) )""",FALSE,True
+109,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( NOT ( TRUE ) )""",FALSE,FALSE
+110,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NOR ( TRUE ) ) NOR ( NOT ( TRUE ) ) )""",FALSE,True
+111,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NAND ( NOT (FALSE) ) ) XAND ( ( NOT (FALSE) ) XAND ( TRUE ) )""",TRUE,FALSE
+112,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XNOR ( ( ( TRUE ) OR ( TRUE ) ) NOR ( NOT (FALSE) ) ) )""",FALSE,FALSE
+113,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( ( TRUE ) XNOR ( NOT ( ( TRUE ) XOR ( NOT ( TRUE ) ) ) ) )""",FALSE,FALSE
+114,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) AND ( NOT (FALSE) ) ) XAND ( NOT (FALSE) ) )""",FALSE,FALSE
+115,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( FALSE )""",TRUE,FALSE
+116,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( NOT ( ( NOT ( TRUE ) ) XNOR ( NOT (FALSE) ) ) )""",TRUE,FALSE
+117,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT ( TRUE ) ) XOR ( ( NOT (FALSE) ) XNOR ( FALSE ) ) ) ) NAND ( FALSE )""",TRUE,FALSE
+118,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( NOT ( ( TRUE ) NOR ( TRUE ) ) )""",FALSE,FALSE
+119,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( NOT ( TRUE ) ) ) XOR ( NOT ( ( NOT ( TRUE ) ) XAND ( TRUE ) ) )""",FALSE,FALSE
+120,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) OR ( ( TRUE ) AND ( ( NOT ( TRUE ) ) XOR ( NOT (FALSE) ) ) ) )""",FALSE,True
+121,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XOR ( NOT (FALSE) ) )""",FALSE,True
+122,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( ( FALSE ) OR ( NOT ( ( NOT (FALSE) ) NOR ( NOT (FALSE) ) ) ) )""",TRUE,FALSE
+123,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( FALSE ) XOR ( TRUE ) )""",TRUE,True
+124,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( TRUE )""",FALSE,FALSE
+125,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( FALSE ) AND ( FALSE ) )""",TRUE,FALSE
+126,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) AND ( TRUE ) ) XOR ( FALSE )""",FALSE,FALSE
+127,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NAND ( NOT (FALSE) ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+128,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( ( ( NOT ( TRUE ) ) XOR ( NOT ( TRUE ) ) ) NAND ( FALSE ) )""",TRUE,FALSE
+129,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( ( NOT (FALSE) ) OR ( TRUE ) ) ) NAND ( FALSE ) )""",FALSE,True
+130,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( NOT ( ( TRUE ) NOR ( TRUE ) ) ) ) NAND ( FALSE ) )""",FALSE,FALSE
+131,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( FALSE ) ) NOR ( TRUE ) ) OR ( ( FALSE ) NOR ( NOT ( TRUE ) ) )""",TRUE,(FALSE )
+132,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XNOR ( ( FALSE ) XOR ( FALSE ) ) ) XOR ( ( FALSE ) NAND ( FALSE ) )""",FALSE,FALSE
+133,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( NOT (FALSE) ) ) XOR ( ( TRUE ) OR ( TRUE ) )""",FALSE,FALSE
+134,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( ( ( TRUE ) NOR ( TRUE ) ) XOR ( TRUE ) )""",TRUE,FALSE
+135,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) AND ( NOT ( TRUE ) ) )""",TRUE,True
+136,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+137,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT (FALSE) )""",TRUE,True
+138,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+139,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XOR ( TRUE ) )""",TRUE,True
+140,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) OR ( FALSE ) ) AND ( ( FALSE ) AND ( TRUE ) ) )""",TRUE,True
+141,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( TRUE )""",FALSE,FALSE
+142,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( TRUE )""",FALSE,FALSE
+143,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( NOT (FALSE) ) NAND ( TRUE ) )""",TRUE,True
+144,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XOR ( TRUE ) ) NOR ( FALSE ) ) NOR ( ( TRUE ) AND ( NOT (FALSE) ) )""",FALSE,FALSE
+145,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) OR ( ( FALSE ) NOR ( ( TRUE ) XNOR ( NOT (FALSE) ) ) ) )""",TRUE,True
+146,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NAND ( NOT ( TRUE ) ) ) NAND ( FALSE ) ) AND ( NOT (FALSE) )""",TRUE,FALSE
+147,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( NOT ( TRUE ) ) ) XOR ( ( TRUE ) XAND ( FALSE ) ) ) OR ( NOT (FALSE) )""",TRUE,FALSE
+148,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( FALSE ) ) NOR ( FALSE )""",TRUE,(FALSE )
+149,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) NOR ( ( FALSE ) NAND ( TRUE ) )""",FALSE,(FALSE )
+150,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XNOR ( ( TRUE ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+151,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( ( TRUE ) XNOR ( TRUE ) ) ) OR ( ( TRUE ) NAND ( TRUE ) )""",TRUE,FALSE
+152,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( ( NOT (FALSE) ) NOR ( FALSE ) ) XAND ( FALSE ) )""",FALSE,FALSE
+153,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( TRUE ) NAND ( ( NOT (FALSE) ) XAND ( TRUE ) ) )""",FALSE,FALSE
+154,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+155,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+156,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+157,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) NOR ( ( FALSE ) XNOR ( TRUE ) )""",TRUE,(FALSE )
+158,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( ( NOT ( TRUE ) ) NAND ( FALSE ) ) NOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+159,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NAND ( FALSE ) ) NOR ( FALSE ) )""",TRUE,True
+160,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NOR ( FALSE ) ) NOR ( ( FALSE ) AND ( NOT (FALSE) ) ) )""",TRUE,True
+161,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NOR ( NOT ( TRUE ) ) ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+162,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( FALSE ) ) AND ( ( FALSE ) XNOR ( ( NOT (FALSE) ) OR ( FALSE ) ) )""",FALSE,FALSE
+163,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+164,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+165,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( ( NOT ( ( TRUE ) NOR ( FALSE ) ) ) NAND ( TRUE ) )""",FALSE,FALSE
+166,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+167,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( TRUE ) ) XOR ( TRUE )""",FALSE,FALSE
+168,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( NOT (FALSE) ) ) XNOR ( ( FALSE ) OR ( TRUE ) )""",TRUE,FALSE
+169,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( NOT (FALSE) ) )""",TRUE,FALSE
+170,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) XAND ( FALSE ) ) NOR ( FALSE ) ) OR ( FALSE )""",TRUE,(FALSE)
+171,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( ( TRUE ) XAND ( TRUE ) ) ) OR ( NOT (FALSE) ) )""",FALSE,FALSE
+172,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( FALSE ) ) NOR ( FALSE )""",FALSE,FALSE
+173,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( TRUE ) ) OR ( NOT (FALSE) )""",TRUE,True
+174,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( FALSE ) ) XOR ( NOT (FALSE) )""",TRUE,FALSE
+175,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( NOT (FALSE) )""",TRUE,True
+176,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( TRUE ) XNOR ( TRUE ) )""",FALSE,True
+177,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( NOT (FALSE) ) ) NOR ( NOT ( ( TRUE ) XNOR ( TRUE ) ) )""",FALSE,FALSE
+178,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT (FALSE) ) ) XOR ( TRUE )""",TRUE,FALSE
+179,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) OR ( ( TRUE ) AND ( TRUE ) ) ) NOR ( NOT (FALSE) ) )""",TRUE,True
+180,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( TRUE ) XOR ( FALSE ) )""",TRUE,FALSE
+181,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) NAND ( ( ( FALSE ) NAND ( TRUE ) ) OR ( TRUE ) ) )""",TRUE,True
+182,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NOR ( FALSE ) ) OR ( FALSE ) ) NOR ( TRUE )""",FALSE,(FALSE )
+183,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( FALSE )""",TRUE,FALSE
+184,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) AND ( FALSE )""",FALSE,FALSE
+185,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+186,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NAND ( NOT ( TRUE ) ) ) OR ( NOT ( TRUE ) ) )""",FALSE,True
+187,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) AND ( FALSE ) ) NAND ( FALSE ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+188,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( NOT (FALSE) ) NOR ( TRUE ) )""",TRUE,True
+189,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+190,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( ( ( TRUE ) OR ( FALSE ) ) OR ( FALSE ) )""",FALSE,FALSE
+191,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) NOR ( ( TRUE ) XOR ( TRUE ) )""",TRUE,(FALSE )
+192,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( NOT ( ( FALSE ) AND ( TRUE ) ) ) ) NOR ( NOT ( TRUE ) )""",FALSE,( NOT ( TRUE ) )
+193,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( NOT ( ( ( TRUE ) NOR ( TRUE ) ) XNOR ( TRUE ) ) ) )""",FALSE,FALSE
+194,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( NOT (FALSE) ) ) XNOR ( ( NOT (FALSE) ) OR ( FALSE ) )""",FALSE,FALSE
+195,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( FALSE ) ) NOR ( ( FALSE ) XOR ( FALSE ) )""",TRUE,(FALSE )
+196,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( ( TRUE ) XOR ( FALSE ) ) )""",TRUE,FALSE
+197,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( FALSE ) AND ( NOT ( ( TRUE ) XNOR ( TRUE ) ) ) )""",FALSE,FALSE
+198,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( TRUE ) ) NAND ( FALSE ) ) NAND ( FALSE )""",TRUE,FALSE
+199,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XNOR ( NOT ( NOT ( ( FALSE ) XOR ( FALSE ) ) ) ) ) OR ( TRUE ) )""",FALSE,True
+200,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NAND ( ( TRUE ) XNOR ( FALSE ) ) ) NAND ( FALSE )""",TRUE,FALSE
+201,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( TRUE )""",FALSE,FALSE
+202,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( FALSE ) OR ( FALSE ) )""",FALSE,FALSE
+203,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) AND ( NOT (FALSE) )""",TRUE,(FALSE)
+204,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( NOT ( ( ( TRUE ) NOR ( TRUE ) ) AND ( TRUE ) ) )""",TRUE,FALSE
+205,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( ( TRUE ) NOR ( FALSE ) ) ) OR ( ( NOT ( TRUE ) ) XOR ( TRUE ) )""",TRUE,FALSE
+206,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) NAND ( ( ( TRUE ) OR ( TRUE ) ) XAND ( TRUE ) )""",TRUE,FALSE
+207,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( NOT ( TRUE ) ) OR ( TRUE ) )""",FALSE,(FALSE )
+208,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( NOT (FALSE) ) ) NOR ( FALSE )""",FALSE,(FALSE)
+209,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XOR ( FALSE ) ) XOR ( NOT (FALSE) ) ) XAND ( FALSE )""",TRUE,FALSE
+210,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XNOR ( TRUE ) ) NAND ( NOT ( TRUE ) ) ) OR ( TRUE )""",TRUE,FALSE
+211,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( ( TRUE ) XOR ( FALSE ) ) OR ( ( TRUE ) XAND ( TRUE ) ) )""",FALSE,FALSE
+212,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) XOR ( NOT ( TRUE ) )""",FALSE,FALSE
+213,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( TRUE ) NOR ( ( FALSE ) OR ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+214,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) NOR ( NOT (FALSE) ) )""",TRUE,True
+215,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) XOR ( ( FALSE ) NOR ( TRUE ) ) ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+216,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) XOR ( TRUE ) )""",TRUE,True
+217,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( NOT ( TRUE ) )""",TRUE,FALSE
+218,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( ( NOT ( TRUE ) ) XOR ( NOT (FALSE) ) ) XNOR ( NOT (FALSE) ) )""",TRUE,FALSE
+219,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( ( TRUE ) OR ( NOT (FALSE) ) )""",FALSE,FALSE
+220,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) XOR ( ( TRUE ) NOR ( TRUE ) ) )""",TRUE,FALSE
+221,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) XOR ( TRUE )""",TRUE,FALSE
+222,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( TRUE )""",FALSE,True
+223,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( NOT (FALSE) ) XOR ( ( FALSE ) AND ( NOT ( NOT (FALSE) ) ) ) )""",TRUE,FALSE
+224,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( FALSE )""",FALSE,FALSE
+225,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( NOT ( TRUE ) ) XAND ( NOT (FALSE) ) ) )""",FALSE,FALSE
+226,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+227,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) XNOR ( NOT (FALSE) )""",FALSE,FALSE
+228,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( ( TRUE ) XOR ( FALSE ) ) NOR ( NOT (FALSE) ) )""",FALSE,FALSE
+229,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( ( FALSE ) XNOR ( FALSE ) ) ) NOR ( ( TRUE ) AND ( NOT ( TRUE ) ) )""",FALSE,(FALSE )
+230,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( NOT (FALSE) ) ) NOR ( ( NOT ( TRUE ) ) NOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+231,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NOR ( FALSE ) )""",FALSE,True
+232,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( NOT (FALSE) )""",TRUE,FALSE
+233,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( TRUE )""",FALSE,FALSE
+234,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( TRUE ) OR ( NOT (FALSE) ) )""",TRUE,True
+235,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( ( NOT ( TRUE ) ) OR ( FALSE ) ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+236,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+237,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( FALSE )""",TRUE,FALSE
+238,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+239,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NOR ( TRUE ) ) NOR ( TRUE )""",FALSE,FALSE
+240,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( NOT (FALSE) ) )""",FALSE,True
+241,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( ( TRUE ) XOR ( FALSE ) ) ) XNOR ( ( FALSE ) XOR ( TRUE ) )""",FALSE,FALSE
+242,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( ( FALSE ) OR ( TRUE ) ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+243,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NAND ( TRUE ) ) NOR ( FALSE ) ) AND ( FALSE )""",FALSE,FALSE
+244,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( NOT ( TRUE ) ) NOR ( NOT ( TRUE ) ) ) )""",TRUE,True
+245,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NOR ( FALSE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+246,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) XNOR ( TRUE ) ) AND ( ( FALSE ) XOR ( FALSE ) ) )""",TRUE,FALSE
+247,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( NOT (FALSE) ) ) AND ( FALSE )""",FALSE,(FALSE)
+248,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XAND ( ( FALSE ) AND ( FALSE ) ) ) XNOR ( FALSE ) ) AND ( FALSE )""",FALSE,FALSE
+249,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( TRUE ) ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+250,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( FALSE ) NAND ( NOT ( TRUE ) ) ) )""",TRUE,True
+251,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( FALSE ) ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+252,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( ( FALSE ) XOR ( TRUE ) ) ) XNOR ( ( TRUE ) XOR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+253,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( FALSE )""",FALSE,FALSE
+254,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( TRUE )""",TRUE,True
+255,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XOR ( TRUE ) ) AND ( FALSE ) ) NOR ( ( FALSE ) NOR ( FALSE ) )""",FALSE,(FALSE )
+256,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT (FALSE) )""",TRUE,True
+257,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( TRUE )""",FALSE,FALSE
+258,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XOR ( NOT ( TRUE ) ) )""",FALSE,True
+259,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XAND ( TRUE ) ) NOR ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+260,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( NOT (FALSE) )""",FALSE,FALSE
+261,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( ( NOT ( TRUE ) ) XNOR ( ( TRUE ) OR ( TRUE ) ) )""",FALSE,FALSE
+262,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( FALSE ) AND ( FALSE ) )""",TRUE,FALSE
+263,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( TRUE ) XAND ( ( TRUE ) NAND ( NOT (FALSE) ) ) )""",TRUE,FALSE
+264,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( FALSE ) ) OR ( NOT (FALSE) )""",TRUE,True
+265,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+266,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) XOR ( NOT (FALSE) )""",TRUE,FALSE
+267,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( NOT ( NOT ( TRUE ) ) ) ) XOR ( FALSE ) ) NAND ( ( FALSE ) XOR ( TRUE ) )""",TRUE,FALSE
+268,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+269,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( FALSE )""",FALSE,FALSE
+270,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( NOT ( TRUE ) ) OR ( TRUE ) )""",FALSE,FALSE
+271,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( NOT ( TRUE ) ) ) AND ( ( NOT (FALSE) ) OR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+272,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( TRUE ) NOR ( NOT (FALSE) ) )""",FALSE,FALSE
+273,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( TRUE ) NAND ( NOT ( TRUE ) ) )""",TRUE,True
+274,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( NOT ( ( NOT ( TRUE ) ) OR ( FALSE ) ) )""",TRUE,FALSE
+275,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( NOT (FALSE) ) )""",TRUE,True
+276,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( TRUE ) XOR ( NOT (FALSE) ) )""",FALSE,FALSE
+277,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NOR ( NOT ( TRUE ) ) ) OR ( NOT ( TRUE ) ) ) OR ( FALSE )""",FALSE,(False )
+278,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+279,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( ( FALSE ) NOR ( FALSE ) ) ) NAND ( ( TRUE ) XOR ( TRUE ) )""",TRUE,FALSE
+280,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( NOT ( NOT ( ( FALSE ) XNOR ( FALSE ) ) ) )""",TRUE,FALSE
+281,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( ( TRUE ) OR ( ( TRUE ) XAND ( ( TRUE ) XAND ( TRUE ) ) ) ) )""",FALSE,FALSE
+282,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( FALSE )""",TRUE,FALSE
+283,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NOR ( TRUE ) )""",TRUE,True
+284,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( TRUE )""",FALSE,FALSE
+285,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT (FALSE) ) XAND ( ( FALSE ) AND ( FALSE ) ) ) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+286,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( TRUE ) NAND ( NOT ( NOT ( TRUE ) ) ) )""",TRUE,True
+287,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+288,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT (FALSE) )""",TRUE,True
+289,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( FALSE )""",TRUE,FALSE
+290,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( FALSE )""",TRUE,True
+291,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( FALSE )""",FALSE,FALSE
+292,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( ( NOT (FALSE) ) XOR ( TRUE ) ) NAND ( FALSE ) )""",FALSE,FALSE
+293,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) NAND ( ( NOT ( TRUE ) ) XOR ( TRUE ) )""",TRUE,FALSE
+294,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) XOR ( NOT (FALSE) )""",TRUE,FALSE
+295,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( NOT ( ( NOT (FALSE) ) NAND ( FALSE ) ) )""",TRUE,FALSE
+296,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NOR ( TRUE ) )""",TRUE,True
+297,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) NAND ( ( FALSE ) OR ( TRUE ) ) )""",TRUE,True
+298,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+299,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+300,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT (FALSE) ) NOR ( FALSE ) ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+301,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( ( NOT ( TRUE ) ) NOR ( TRUE ) ) ) AND ( TRUE )""",FALSE,FALSE
+302,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( ( FALSE ) NOR ( NOT ( TRUE ) ) ) OR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+303,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( NOT ( TRUE ) ) ) NAND ( FALSE )""",TRUE,FALSE
+304,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) OR ( NOT ( ( TRUE ) XNOR ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+305,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( FALSE ) NAND ( FALSE ) ) XOR ( FALSE ) ) NAND ( ( TRUE ) NOR ( TRUE ) ) )""",FALSE,FALSE
+306,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( ( NOT (FALSE) ) XOR ( FALSE ) ) ) NOR ( TRUE )""",FALSE,(FALSE)
+307,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) XAND ( NOT (FALSE) ) ) XOR ( FALSE ) )""",FALSE,FALSE
+308,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) NAND ( ( FALSE ) NOR ( NOT (FALSE) ) )""",TRUE,(FALSE)
+309,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( TRUE ) ) XNOR ( NOT (FALSE) )""",FALSE,FALSE
+310,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( TRUE ) NAND ( TRUE ) )""",TRUE,FALSE
+311,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NOR ( ( FALSE ) XOR ( TRUE ) ) ) AND ( FALSE )""",FALSE,FALSE
+312,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( NOT ( TRUE ) ) ) ) NAND ( ( TRUE ) OR ( FALSE ) )""",TRUE,FALSE
+313,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( ( ( TRUE ) NAND ( TRUE ) ) AND ( FALSE ) ) XOR ( TRUE ) )""",FALSE,FALSE
+314,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( TRUE ) XOR ( TRUE ) )""",FALSE,FALSE
+315,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( ( FALSE ) NOR ( FALSE ) ) ) OR ( ( FALSE ) XOR ( FALSE ) )""",FALSE,(FALSE )
+316,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( TRUE )""",FALSE,True
+317,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( NOT ( TRUE ) ) ) AND ( NOT (FALSE) )""",FALSE,FALSE
+318,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+319,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XOR ( FALSE ) ) NOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+320,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) XAND ( ( NOT ( TRUE ) ) XOR ( TRUE ) )""",FALSE,FALSE
+321,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NOR ( TRUE ) ) XOR ( NOT ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+322,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( NOT ( NOT (FALSE) ) ) ) XAND ( NOT ( ( FALSE ) XAND ( FALSE ) ) ) )""",TRUE,True
+323,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( NOT ( TRUE ) ) XAND ( FALSE ) )""",FALSE,FALSE
+324,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( ( TRUE ) NOR ( FALSE ) )""",FALSE,FALSE
+325,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( NOT ( TRUE ) )""",TRUE,FALSE
+326,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( ( NOT ( ( NOT ( TRUE ) ) AND ( NOT ( TRUE ) ) ) ) OR ( TRUE ) )""",TRUE,FALSE
+327,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( FALSE )""",TRUE,FALSE
+328,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( ( TRUE ) AND ( NOT (FALSE) ) )""",FALSE,FALSE
+329,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( NOT (FALSE) ) OR ( TRUE ) )""",TRUE,FALSE
+330,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( ( TRUE ) AND ( ( FALSE ) AND ( TRUE ) ) )""",FALSE,FALSE
+331,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( NOT ( TRUE ) ) OR ( NOT (FALSE) ) )""",FALSE,FALSE
+332,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) AND ( ( NOT ( TRUE ) ) OR ( TRUE ) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+333,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( NOT ( TRUE ) ) XAND ( FALSE ) )""",FALSE,FALSE
+334,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( NOT ( TRUE ) ) OR ( ( TRUE ) AND ( FALSE ) ) )""",TRUE,FALSE
+335,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+336,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( NOT ( TRUE ) ) ) AND ( FALSE )""",FALSE,( NOT ( TRUE ) )
+337,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT ( TRUE ) )""",TRUE,True
+338,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( FALSE ) XOR ( TRUE ) ) )""",TRUE,True
+339,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( FALSE )""",TRUE,FALSE
+340,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( ( FALSE ) XNOR ( TRUE ) )""",FALSE,FALSE
+341,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( ( FALSE ) NAND ( ( TRUE ) AND ( TRUE ) ) ) ) XNOR ( FALSE )""",TRUE,FALSE
+342,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) AND ( FALSE ) )""",TRUE,True
+343,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( NOT (FALSE) ) OR ( NOT ( TRUE ) ) ) NOR ( FALSE ) ) XOR ( FALSE ) )""",TRUE,FALSE
+344,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) OR ( ( TRUE ) NOR ( ( TRUE ) XAND ( FALSE ) ) )""",FALSE,(FALSE )
+345,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( FALSE )""",FALSE,True
+346,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XAND ( FALSE ) ) XOR ( ( TRUE ) NOR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+347,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) OR ( ( TRUE ) XNOR ( TRUE ) ) ) ) XNOR ( FALSE )""",TRUE,FALSE
+348,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( TRUE ) ) NOR ( ( TRUE ) OR ( FALSE ) )""",FALSE,(FALSE )
+349,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( TRUE ) NAND ( FALSE ) )""",FALSE,True
+350,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( FALSE ) ) AND ( NOT ( ( FALSE ) AND ( NOT ( NOT (FALSE) ) ) ) )""",FALSE,FALSE
+351,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT ( TRUE ) ) AND ( NOT (FALSE) ) ) NOR ( NOT (FALSE) ) )""",TRUE,FALSE
+352,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+353,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+354,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( ( ( FALSE ) XAND ( TRUE ) ) XNOR ( NOT (FALSE) ) )""",TRUE,FALSE
+355,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( NOT ( TRUE ) ) ) NOR ( ( NOT (FALSE) ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+356,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( NOT ( TRUE ) ) AND ( FALSE ) ) )""",FALSE,True
+357,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( ( FALSE ) NAND ( TRUE ) )""",TRUE,FALSE
+358,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( FALSE ) ) NAND ( ( TRUE ) XOR ( FALSE ) )""",TRUE,(FALSE )
+359,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) AND ( TRUE ) )""",TRUE,True
+360,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( TRUE ) OR ( FALSE ) )""",FALSE,FALSE
+361,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( NOT ( ( NOT (FALSE) ) NOR ( TRUE ) ) )""",FALSE,True
+362,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( NOT ( NOT ( TRUE ) ) )""",TRUE,True
+363,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( NOT ( TRUE ) ) XOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+364,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) XNOR ( NOT (FALSE) ) ) ) NOR ( ( TRUE ) AND ( FALSE ) )""",TRUE,FALSE
+365,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( NOT ( NOT (FALSE) ) ) OR ( NOT (FALSE) ) )""",TRUE,True
+366,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) XOR ( TRUE )""",FALSE,FALSE
+367,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( NOT (FALSE) ) AND ( ( FALSE ) NOR ( NOT (FALSE) ) ) )""",TRUE,FALSE
+368,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( NOT ( TRUE ) ) ) XNOR ( NOT ( ( FALSE ) XAND ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+369,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( NOT ( ( NOT (FALSE) ) AND ( ( TRUE ) NOR ( FALSE ) ) ) )""",FALSE,FALSE
+370,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) NAND ( ( NOT (FALSE) ) OR ( TRUE ) )""",FALSE,(FALSE)
+371,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) NOR ( NOT ( NOT ( NOT (FALSE) ) ) )""",FALSE,FALSE
+372,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( ( NOT ( TRUE ) ) AND ( ( TRUE ) AND ( TRUE ) ) )""",FALSE,FALSE
+373,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( TRUE ) ) XOR ( ( TRUE ) OR ( TRUE ) )""",FALSE,FALSE
+374,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( NOT (FALSE) ) ) NAND ( FALSE ) ) XAND ( ( FALSE ) NAND ( NOT (FALSE) ) )""",TRUE,FALSE
+375,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( ( NOT ( TRUE ) ) OR ( ( FALSE ) OR ( ( FALSE ) NOR ( FALSE ) ) ) )""",FALSE,True
+376,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( NOT (FALSE) )""",FALSE,FALSE
+377,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( TRUE ) XNOR ( FALSE ) )""",TRUE,FALSE
+378,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( NOT ( ( FALSE ) AND ( TRUE ) ) ) NAND ( TRUE ) )""",FALSE,FALSE
+379,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NAND ( FALSE ) ) NOR ( ( NOT ( NOT (FALSE) ) ) NOR ( TRUE ) ) )""",TRUE,True
+380,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NAND ( TRUE ) ) NAND ( NOT ( TRUE ) ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+381,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NAND ( TRUE ) ) AND ( ( FALSE ) XAND ( FALSE ) )""",TRUE,FALSE
+382,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) XOR ( TRUE ) ) OR ( NOT ( TRUE ) ) )""",TRUE,True
+383,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) NOR ( TRUE ) ) ) NAND ( ( NOT (FALSE) ) OR ( TRUE ) )""",FALSE,FALSE
+384,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) AND ( TRUE ) ) AND ( NOT ( TRUE ) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+385,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) AND ( TRUE )""",TRUE,FALSE
+386,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XAND ( FALSE ) ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+387,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( FALSE ) ) OR ( ( NOT ( TRUE ) ) AND ( TRUE ) )""",FALSE,FALSE
+388,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( TRUE )""",FALSE,FALSE
+389,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( ( FALSE ) XNOR ( NOT (FALSE) ) )""",FALSE,True
+390,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( NOT (FALSE) ) ) NOR ( ( NOT ( TRUE ) ) XOR ( TRUE ) )""",FALSE,FALSE
+391,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( TRUE ) OR ( TRUE ) )""",TRUE,True
+392,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+393,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XAND ( NOT ( ( TRUE ) AND ( TRUE ) ) ) )""",FALSE,FALSE
+394,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( TRUE )""",FALSE,FALSE
+395,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( NOT ( TRUE ) ) NOR ( FALSE ) )""",FALSE,FALSE
+396,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( TRUE ) ) AND ( NOT ( ( NOT ( TRUE ) ) AND ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+397,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT (FALSE) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+398,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( NOT ( TRUE ) ) ) NOR ( TRUE )""",FALSE,(False)
+399,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( FALSE ) AND ( TRUE ) )""",TRUE,FALSE
+400,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( ( FALSE ) XOR ( TRUE ) ) XOR ( TRUE ) )""",FALSE,True
+401,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) XAND ( TRUE ) ) NAND ( NOT ( ( FALSE ) OR ( FALSE ) ) ) )""",TRUE,True
+402,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( ( FALSE ) OR ( FALSE ) ) ) OR ( ( TRUE ) NOR ( TRUE ) )""",TRUE,(FALSE )
+403,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( FALSE ) ) NOR ( NOT ( TRUE ) )""",FALSE,( NOT ( TRUE) )
+404,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( FALSE ) AND ( ( TRUE ) OR ( TRUE ) ) )""",TRUE,True
+405,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( ( TRUE ) XAND ( TRUE ) )""",FALSE,FALSE
+406,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NOR ( TRUE ) ) AND ( FALSE ) ) XNOR ( FALSE )""",TRUE,(FALSE )
+407,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( TRUE ) ) NAND ( ( FALSE ) OR ( FALSE ) )""",TRUE,FALSE
+408,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( TRUE )""",FALSE,FALSE
+409,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+410,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( ( FALSE ) XOR ( ( FALSE ) NAND ( TRUE ) ) ) ) OR ( TRUE )""",TRUE,FALSE
+411,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( TRUE ) AND ( ( FALSE ) NOR ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+412,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( NOT (FALSE) ) XOR ( NOT (FALSE) ) ) )""",FALSE,True
+413,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( ( FALSE ) OR ( TRUE ) ) XOR ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+414,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) OR ( NOT (FALSE) ) ) NOR ( ( TRUE ) XOR ( FALSE ) )""",FALSE,(FALSE )
+415,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( ( FALSE ) XAND ( FALSE ) )""",FALSE,True
+416,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( TRUE ) NOR ( ( NOT (FALSE) ) XNOR ( ( TRUE ) NOR ( FALSE ) ) ) )""",TRUE,FALSE
+417,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) XAND ( ( TRUE ) AND ( FALSE ) )""",FALSE,FALSE
+418,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) NOR ( TRUE ) ) ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+419,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( ( TRUE ) NOR ( FALSE ) ) NAND ( TRUE ) )""",FALSE,FALSE
+420,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+421,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( FALSE ) ) NOR ( NOT (FALSE) )""",FALSE,FALSE
+422,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( ( TRUE ) OR ( ( FALSE ) AND ( FALSE ) ) ) XAND ( TRUE ) )""",FALSE,FALSE
+423,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( NOT ( NOT (FALSE) ) )""",TRUE,True
+424,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( FALSE ) ) XOR ( FALSE )""",FALSE,FALSE
+425,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) OR ( TRUE ) )""",FALSE,True
+426,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( TRUE ) ) OR ( TRUE )""",TRUE,True
+427,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) NAND ( ( NOT ( ( TRUE ) OR ( TRUE ) ) ) XAND ( TRUE ) )""",TRUE,FALSE
+428,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( NOT ( NOT ( TRUE ) ) ) )""",FALSE,True
+429,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( ( TRUE ) XNOR ( TRUE ) ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+430,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( NOT (FALSE) ) XOR ( ( FALSE ) AND ( TRUE ) ) )""",FALSE,FALSE
+431,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( FALSE ) NAND ( ( NOT (FALSE) ) NAND ( TRUE ) ) )""",FALSE,FALSE
+432,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XNOR ( FALSE ) ) XAND ( ( FALSE ) NAND ( ( FALSE ) XAND ( TRUE ) ) )""",TRUE,FALSE
+433,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) OR ( FALSE ) ) NAND ( FALSE ) ) AND ( FALSE )""",FALSE,(FALSE )
+434,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( TRUE ) XOR ( TRUE ) )""",TRUE,FALSE
+435,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( NOT ( ( FALSE ) XOR ( TRUE ) ) ) )""",FALSE,FALSE
+436,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( TRUE ) XOR ( FALSE ) )""",TRUE,FALSE
+437,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) AND ( ( TRUE ) AND ( TRUE ) ) ) NOR ( ( FALSE ) NAND ( TRUE ) ) )""",TRUE,FALSE
+438,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( ( FALSE ) AND ( TRUE ) ) XOR ( FALSE ) )""",FALSE,FALSE
+439,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) XOR ( FALSE ) )""",TRUE,FALSE
+440,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( NOT (FALSE) ) ) NAND ( ( ( TRUE ) XNOR ( FALSE ) ) AND ( TRUE ) )""",TRUE,FALSE
+441,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( NOT (FALSE) ) ) NOR ( NOT ( NOT (FALSE) ) )""",FALSE,( NOT ( NOT (FALSE) )
+442,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NOR ( ( FALSE ) XOR ( TRUE ) ) ) AND ( FALSE ) )""",TRUE,FALSE
+443,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) AND ( ( NOT ( TRUE ) ) NAND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+444,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( FALSE ) ) AND ( ( FALSE ) NOR ( TRUE ) ) ) AND ( NOT (FALSE) )""",FALSE,FALSE
+445,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( TRUE ) ) AND ( ( ( NOT ( TRUE ) ) NOR ( FALSE ) ) NAND ( TRUE ) )""",FALSE,(FALSE )
+446,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( NOT (FALSE) ) XAND ( TRUE ) )""",FALSE,FALSE
+447,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( FALSE ) NOR ( NOT ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+448,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XNOR ( ( FALSE ) AND ( NOT (FALSE) ) ) ) NOR ( TRUE )""",FALSE,FALSE
+449,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( FALSE ) ) XOR ( NOT ( NOT ( NOT (FALSE) ) ) )""",TRUE,FALSE
+450,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) AND ( NOT ( NOT ( ( NOT ( NOT (FALSE) ) ) XAND ( FALSE ) ) ) ) )""",FALSE,FALSE
+451,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( FALSE )""",TRUE,FALSE
+452,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( NOT ( ( FALSE ) XOR ( TRUE ) ) ) AND ( NOT (FALSE) ) )""",FALSE,FALSE
+453,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( NOT (FALSE) )""",TRUE,FALSE
+454,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) NAND ( ( TRUE ) NAND ( FALSE ) )""",FALSE,True
+455,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( TRUE ) ) AND ( ( NOT ( TRUE ) ) NAND ( TRUE ) )""",TRUE,FALSE
+456,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XNOR ( ( FALSE ) AND ( TRUE ) )""",TRUE,FALSE
+457,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( ( TRUE ) XOR ( FALSE ) ) OR ( TRUE ) )""",FALSE,FALSE
+458,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+459,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( NOT ( NOT ( ( FALSE ) XOR ( TRUE ) ) ) )""",TRUE,FALSE
+460,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) XOR ( NOT (FALSE) ) ) XAND ( NOT (FALSE) ) )""",TRUE,True
+461,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( NOT ( ( NOT (FALSE) ) NAND ( NOT ( TRUE ) ) ) ) NOR ( FALSE ) )""",TRUE,FALSE
+462,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+463,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+464,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( ( ( TRUE ) OR ( FALSE ) ) NAND ( FALSE ) ) )""",FALSE,FALSE
+465,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) AND ( ( FALSE ) OR ( FALSE ) )""",FALSE,FALSE
+466,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( ( TRUE ) XOR ( FALSE ) ) XAND ( TRUE ) )""",TRUE,FALSE
+467,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) XNOR ( FALSE )""",FALSE,FALSE
+468,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NOR ( FALSE ) ) NOR ( ( TRUE ) XNOR ( TRUE ) )""",FALSE,FALSE
+469,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( ( FALSE ) NOR ( TRUE ) ) ) NAND ( ( TRUE ) OR ( FALSE ) )""",FALSE,(FALSE)
+470,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( ( TRUE ) NAND ( FALSE ) ) ) AND ( ( TRUE ) NOR ( TRUE ) )""",FALSE,FALSE
+471,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( NOT ( TRUE ) ) ) OR ( ( TRUE ) AND ( FALSE ) )""",FALSE,FALSE
+472,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) XOR ( FALSE )""",TRUE,True
+473,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( TRUE )""",TRUE,FALSE
+474,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( ( TRUE ) XNOR ( ( FALSE ) XOR ( TRUE ) ) ) )""",FALSE,FALSE
+475,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( TRUE )""",FALSE,FALSE
+476,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( TRUE ) ) NAND ( FALSE )""",TRUE,FALSE
+477,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( NOT ( TRUE ) ) ) XOR ( FALSE )""",TRUE,FALSE
+478,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( NOT (FALSE) ) ) NOR ( TRUE )""",FALSE,FALSE
+479,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( NOT ( TRUE ) ) ) XAND ( NOT ( TRUE ) )""",FALSE,FALSE
+480,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( TRUE ) OR ( NOT ( ( NOT (FALSE) ) XNOR ( FALSE ) ) ) )""",TRUE,FALSE
+481,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) AND ( FALSE ) ) XNOR ( FALSE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+482,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( NOT ( TRUE ) ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+483,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT (FALSE) ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+484,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( ( ( TRUE ) AND ( FALSE ) ) AND ( FALSE ) ) XNOR ( TRUE ) )""",TRUE,FALSE
+485,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( ( FALSE ) NOR ( TRUE ) ) ) OR ( FALSE )""",FALSE,(FALSE )
+486,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) AND ( TRUE ) ) NAND ( ( TRUE ) XAND ( TRUE ) ) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+487,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+488,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NAND ( FALSE ) ) NOR ( FALSE ) ) NOR ( ( FALSE ) NAND ( FALSE ) )""",FALSE,( (FALSE )
+489,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( FALSE ) XOR ( FALSE ) ) )""",FALSE,True
+490,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( FALSE ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+491,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( NOT (FALSE) ) OR ( NOT (FALSE) ) )""",TRUE,True
+492,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( TRUE ) NOR ( FALSE ) )""",TRUE,(FALSE )
+493,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) XAND ( NOT (FALSE) ) )""",FALSE,True
+494,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( NOT (FALSE) ) ) XAND ( ( FALSE ) AND ( NOT (FALSE) ) )""",FALSE,FALSE
+495,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( NOT ( TRUE ) ) AND ( NOT ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+496,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) AND ( ( ( FALSE ) OR ( TRUE ) ) NAND ( NOT (FALSE) ) )""",FALSE,FALSE
+497,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+498,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( NOT ( NOT ( TRUE ) ) ) AND ( FALSE ) )""",TRUE,FALSE
+499,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( ( FALSE ) XOR ( NOT (FALSE) ) ) ) XNOR ( NOT ( TRUE ) )""",FALSE,FALSE
+500,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) OR ( FALSE ) ) XAND ( FALSE ) ) NAND ( FALSE )""",TRUE,FALSE
+501,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( TRUE ) ) NAND ( ( ( TRUE ) AND ( FALSE ) ) AND ( TRUE ) )""",TRUE,FALSE
+502,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT ( TRUE ) ) AND ( NOT ( ( TRUE ) AND ( TRUE ) ) ) ) NAND ( TRUE ) )""",FALSE,FALSE
+503,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( FALSE )""",TRUE,FALSE
+504,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( TRUE )""",FALSE,FALSE
+505,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+506,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( TRUE ) NOR ( TRUE ) )""",TRUE,True
+507,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( TRUE ) NOR ( NOT ( TRUE ) ) ) )""",FALSE,True
+508,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( TRUE )""",TRUE,True
+509,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( ( TRUE ) XOR ( TRUE ) ) ) ) XOR ( TRUE )""",TRUE,FALSE
+510,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NOR ( NOT (FALSE) ) ) OR ( FALSE ) ) AND ( FALSE )""",FALSE,(FALSE)
+511,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) OR ( FALSE )""",TRUE,(FALSE )
+512,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+513,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( ( NOT ( ( FALSE ) NOR ( ( FALSE ) OR ( TRUE ) ) ) ) XAND ( TRUE ) )""",FALSE,FALSE
+514,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( TRUE ) ) AND ( FALSE )""",FALSE,FALSE
+515,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) NOR ( FALSE )""",FALSE,FALSE
+516,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( TRUE ) )""",FALSE,True
+517,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+518,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( NOT (FALSE) ) ) OR ( FALSE )""",TRUE,FALSE
+519,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( NOT ( TRUE ) ) NAND ( ( TRUE ) NOR ( FALSE ) ) )""",FALSE,FALSE
+520,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) XOR ( ( FALSE ) AND ( NOT (FALSE) ) ) )""",TRUE,FALSE
+521,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( ( TRUE ) OR ( NOT ( TRUE ) ) ) NOR ( FALSE ) )""",FALSE,FALSE
+522,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( TRUE ) ) XAND ( TRUE )""",TRUE,FALSE
+523,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( ( NOT ( TRUE ) ) XNOR ( ( TRUE ) XOR ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+524,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NOR ( TRUE ) ) OR ( NOT ( TRUE ) ) )""",TRUE,True
+525,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( FALSE ) AND ( ( TRUE ) XNOR ( FALSE ) ) )""",TRUE,FALSE
+526,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( FALSE )""",FALSE,True
+527,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( TRUE ) ) OR ( TRUE )""",TRUE,FALSE
+528,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NOR ( FALSE ) )""",FALSE,True
+529,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( NOT ( NOT (FALSE) ) ) ) XNOR ( ( FALSE ) NOR ( FALSE ) )""",TRUE,(FALSE )
+530,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( FALSE ) XAND ( TRUE ) ) XNOR ( TRUE ) ) NAND ( NOT ( NOT (FALSE) ) ) )""",FALSE,FALSE
+531,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( TRUE )""",FALSE,FALSE
+532,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( TRUE ) OR ( FALSE ) )""",TRUE,True
+533,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( TRUE ) XOR ( ( TRUE ) AND ( FALSE ) ) )""",FALSE,FALSE
+534,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( ( TRUE ) NAND ( NOT (FALSE) ) ) NOR ( ( TRUE ) OR ( FALSE ) ) )""",TRUE,True
+535,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( NOT ( NOT (FALSE) ) )""",FALSE,FALSE
+536,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( ( NOT (FALSE) ) NOR ( ( NOT ( TRUE ) ) AND ( TRUE ) ) ) )""",FALSE,FALSE
+537,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XOR ( NOT ( TRUE ) ) ) OR ( TRUE ) )""",FALSE,FALSE
+538,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XNOR ( ( TRUE ) AND ( FALSE ) )""",TRUE,FALSE
+539,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( TRUE ) ) XOR ( ( FALSE ) NAND ( TRUE ) )""",FALSE,FALSE
+540,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( TRUE ) XNOR ( FALSE ) )""",TRUE,FALSE
+541,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) NOR ( TRUE ) )""",TRUE,True
+542,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT ( TRUE ) ) AND ( TRUE ) ) OR ( FALSE ) ) XOR ( ( FALSE ) OR ( TRUE ) )""",TRUE,(FALSE )
+543,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( ( FALSE ) XAND ( FALSE ) ) XOR ( TRUE ) ) XOR ( FALSE ) ) XAND ( NOT ( TRUE ) )""",TRUE,FALSE
+544,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) XAND ( ( NOT (FALSE) ) XNOR ( FALSE ) )""",FALSE,FALSE
+545,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( NOT ( TRUE ) ) XOR ( ( FALSE ) XOR ( FALSE ) ) )""",TRUE,FALSE
+546,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) AND ( ( NOT ( TRUE ) ) XNOR ( FALSE ) ) )""",TRUE,FALSE
+547,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( NOT (FALSE) ) NOR ( TRUE ) )""",TRUE,True
+548,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( TRUE ) ) OR ( ( NOT (FALSE) ) NOR ( NOT (FALSE) ) ) )""",FALSE,True
+549,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) OR ( TRUE ) )""",FALSE,True
+550,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XAND ( TRUE ) ) XAND ( TRUE )""",FALSE,FALSE
+551,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( TRUE ) ) OR ( NOT ( ( FALSE ) AND ( NOT ( NOT ( TRUE ) ) ) ) )""",TRUE,FALSE
+552,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) OR ( TRUE ) ) ) XOR ( ( NOT ( TRUE ) ) NOR ( NOT (FALSE) ) )""",FALSE,FALSE
+553,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( TRUE ) ) XAND ( ( NOT ( TRUE ) ) NAND ( NOT (FALSE) ) )""",TRUE,FALSE
+554,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( TRUE ) ) NAND ( NOT (FALSE) )""",TRUE,FALSE
+555,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( TRUE )""",TRUE,FALSE
+556,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( ( ( NOT (FALSE) ) OR ( TRUE ) ) XOR ( FALSE ) ) )""",FALSE,FALSE
+557,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) AND ( TRUE ) )""",TRUE,True
+558,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( FALSE ) AND ( FALSE ) )""",TRUE,True
+559,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT (FALSE) ) XOR ( FALSE ) ) ) NAND ( ( TRUE ) OR ( TRUE ) )""",TRUE,FALSE
+560,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+561,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( ( NOT (FALSE) ) XOR ( FALSE ) ) NAND ( FALSE ) )""",TRUE,FALSE
+562,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( FALSE ) ) XNOR ( NOT ( ( ( TRUE ) XOR ( FALSE ) ) OR ( FALSE ) ) )""",TRUE,FALSE
+563,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+564,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) AND ( ( TRUE ) AND ( FALSE ) )""",FALSE,(FALSE )
+565,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NAND ( TRUE ) ) NOR ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+566,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( ( TRUE ) AND ( NOT (FALSE) ) ) XAND ( NOT (FALSE) ) )""",TRUE,FALSE
+567,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( NOT (FALSE) ) ) NAND ( FALSE )""",TRUE,FALSE
+568,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( TRUE ) ) OR ( ( NOT (FALSE) ) XOR ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+569,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( NOT ( NOT ( TRUE ) ) )""",FALSE,True
+570,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+571,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( FALSE )""",TRUE,True
+572,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( ( FALSE ) NAND ( NOT (FALSE) ) )""",TRUE,FALSE
+573,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) NAND ( TRUE ) ) NOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+574,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( ( ( FALSE ) AND ( TRUE ) ) XOR ( FALSE ) ) OR ( TRUE ) )""",FALSE,FALSE
+575,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+576,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( NOT ( TRUE ) ) NAND ( ( FALSE ) NOR ( TRUE ) ) )""",TRUE,FALSE
+577,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( FALSE )""",FALSE,FALSE
+578,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) XOR ( FALSE )""",TRUE,(FALSE )
+579,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( NOT (FALSE) )""",FALSE,FALSE
+580,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( ( ( NOT ( TRUE ) ) XOR ( TRUE ) ) NOR ( TRUE ) ) ) OR ( FALSE )""",FALSE,(FALSE )
+581,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) OR ( NOT (FALSE) ) ) ) OR ( TRUE )""",TRUE,True
+582,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( TRUE )""",FALSE,FALSE
+583,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( TRUE )""",FALSE,FALSE
+584,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( FALSE ) ) NOR ( ( NOT (FALSE) ) NOR ( TRUE ) )""",FALSE,(FALSE)
+585,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( NOT ( TRUE ) ) ) XNOR ( ( ( TRUE ) OR ( FALSE ) ) XAND ( FALSE ) )""",TRUE,FALSE
+586,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT ( TRUE ) )""",FALSE,FALSE
+587,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( FALSE ) ) NOR ( NOT ( NOT ( TRUE ) ) )""",FALSE,( NOT ( NOT ( TRUE ) )
+588,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XAND ( ( ( FALSE ) AND ( TRUE ) ) AND ( NOT (FALSE) ) ) )""",FALSE,FALSE
+589,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) OR ( NOT ( NOT (FALSE) ) ) ) XNOR ( TRUE ) ) XAND ( FALSE )""",FALSE,(FALSE)
+590,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( NOT (FALSE) ) NOR ( TRUE ) )""",TRUE,True
+591,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( ( FALSE ) NAND ( FALSE ) ) OR ( TRUE ) )""",FALSE,(FALSE )
+592,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( ( ( FALSE ) OR ( NOT (FALSE) ) ) OR ( TRUE ) )""",FALSE,FALSE
+593,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( FALSE )""",TRUE,FALSE
+594,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( FALSE ) ) NOR ( ( FALSE ) NOR ( TRUE ) ) )""",TRUE,True
+595,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( FALSE ) NAND ( NOT (FALSE) ) )""",FALSE,FALSE
+596,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( NOT ( NOT ( TRUE ) ) )""",TRUE,FALSE
+597,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) NOR ( FALSE )""",FALSE,(FALSE )
+598,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( FALSE )""",FALSE,FALSE
+599,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( ( NOT (FALSE) ) NOR ( ( TRUE ) OR ( TRUE ) ) ) )""",FALSE,FALSE
+600,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( ( ( TRUE ) XOR ( NOT (FALSE) ) ) XNOR ( FALSE ) )""",TRUE,FALSE
+601,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( NOT (FALSE) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+602,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+603,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( FALSE ) ) NAND ( NOT ( ( FALSE ) NOR ( TRUE ) ) )""",TRUE,FALSE
+604,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( TRUE )""",FALSE,FALSE
+605,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( TRUE )""",TRUE,True
+606,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( TRUE ) ) AND ( FALSE )""",FALSE,FALSE
+607,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( ( FALSE ) XOR ( ( FALSE ) OR ( FALSE ) ) ) XAND ( FALSE ) )""",TRUE,FALSE
+608,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NAND ( ( FALSE ) AND ( NOT (FALSE) ) ) )""",FALSE,FALSE
+609,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( ( TRUE ) XAND ( NOT (FALSE) ) )""",FALSE,FALSE
+610,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( TRUE )""",TRUE,True
+611,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( TRUE ) ) XAND ( NOT (FALSE) )""",FALSE,FALSE
+612,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT (FALSE) )""",TRUE,True
+613,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( TRUE ) OR ( NOT ( TRUE ) ) ) XNOR ( FALSE ) ) OR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+614,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( TRUE ) ) NAND ( FALSE ) )""",FALSE,True
+615,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT ( TRUE ) ) OR ( ( TRUE ) OR ( FALSE ) ) ) XOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+616,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( ( NOT ( TRUE ) ) XNOR ( NOT (FALSE) ) ) AND ( TRUE ) )""",FALSE,FALSE
+617,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( FALSE ) )""",FALSE,True
+618,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) XOR ( ( NOT ( TRUE ) ) AND ( NOT (FALSE) ) )""",FALSE,FALSE
+619,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XNOR ( FALSE ) ) XAND ( NOT ( ( TRUE ) XAND ( NOT (FALSE) ) ) )""",TRUE,FALSE
+620,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( TRUE ) ) NAND ( TRUE )""",TRUE,FALSE
+621,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( FALSE )""",TRUE,FALSE
+622,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( ( ( TRUE ) OR ( FALSE ) ) AND ( TRUE ) ) NAND ( NOT (FALSE) ) )""",FALSE,FALSE
+623,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( NOT ( ( ( NOT (FALSE) ) NOR ( TRUE ) ) XOR ( TRUE ) ) ) )""",FALSE,FALSE
+624,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( ( FALSE ) OR ( FALSE ) ) ) XAND ( ( FALSE ) XOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+625,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT ( TRUE ) )""",FALSE,FALSE
+626,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) OR ( TRUE ) )""",FALSE,True
+627,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+628,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( ( FALSE ) NAND ( TRUE ) ) ) XAND ( FALSE )""",TRUE,(FALSE )
+629,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) XNOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+630,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( ( TRUE ) NOR ( TRUE ) ) )""",FALSE,True
+631,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( FALSE ) XNOR ( FALSE ) )""",FALSE,FALSE
+632,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XOR ( ( FALSE ) NAND ( FALSE ) ) )""",FALSE,True
+633,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( FALSE ) ) NOR ( FALSE )""",TRUE,(FALSE )
+634,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( ( FALSE ) OR ( NOT (FALSE) ) ) ) OR ( ( TRUE ) XAND ( TRUE ) )""",TRUE,FALSE
+635,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( NOT (FALSE) ) ) OR ( ( TRUE ) OR ( ( FALSE ) NOR ( TRUE ) ) )""",TRUE,(FALSE )
+636,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( TRUE ) ) NAND ( FALSE )""",TRUE,FALSE
+637,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) AND ( TRUE ) ) AND ( ( FALSE ) OR ( NOT (FALSE) ) ) )""",TRUE,True
+638,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( ( TRUE ) AND ( FALSE ) ) ) XOR ( FALSE )""",TRUE,FALSE
+639,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( NOT (FALSE) ) NOR ( TRUE ) )""",TRUE,True
+640,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) OR ( NOT ( ( ( FALSE ) AND ( FALSE ) ) XOR ( FALSE ) ) )""",TRUE,(FALSE )
+641,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT ( TRUE ) ) AND ( ( FALSE ) XOR ( TRUE ) ) ) ) OR ( NOT (FALSE) )""",TRUE,FALSE
+642,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( NOT (FALSE) )""",TRUE,FALSE
+643,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) OR ( ( FALSE ) XAND ( ( TRUE ) OR ( NOT ( TRUE ) ) ) ) )""",FALSE,FALSE
+644,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT ( NOT ( TRUE ) ) )""",TRUE,True
+645,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( ( TRUE ) XAND ( FALSE ) )""",TRUE,(FALSE )
+646,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) XOR ( FALSE )""",TRUE,(FALSE )
+647,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( TRUE ) ) NOR ( NOT ( NOT (FALSE) ) )""",FALSE,(FALSE)
+648,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) XOR ( FALSE ) )""",TRUE,FALSE
+649,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( NOT ( TRUE ) )""",TRUE,FALSE
+650,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) XAND ( NOT ( ( NOT (FALSE) ) XOR ( TRUE ) ) )""",TRUE,FALSE
+651,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) OR ( ( FALSE ) NAND ( NOT ( TRUE ) ) )""",TRUE,(FALSE )
+652,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+653,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( FALSE ) ) AND ( ( TRUE ) XOR ( FALSE ) )""",TRUE,FALSE
+654,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( NOT (FALSE) )""",TRUE,FALSE
+655,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NOR ( ( TRUE ) OR ( TRUE ) ) )""",TRUE,True
+656,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( ( ( FALSE ) OR ( FALSE ) ) NOR ( TRUE ) ) ) XAND ( NOT (FALSE) )""",TRUE,(FALSE)
+657,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) XNOR ( TRUE ) ) ) XOR ( FALSE )""",TRUE,FALSE
+658,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+659,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( TRUE ) XAND ( FALSE ) )""",FALSE,FALSE
+660,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) NOR ( NOT ( TRUE ) ) ) ) XOR ( ( FALSE ) OR ( TRUE ) )""",TRUE,FALSE
+661,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( NOT ( TRUE ) ) ) NOR ( ( NOT ( TRUE ) ) OR ( NOT (FALSE) ) )""",FALSE,FALSE
+662,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) OR ( FALSE )""",FALSE,(FALSE )
+663,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( FALSE )""",TRUE,FALSE
+664,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( TRUE ) ) XNOR ( NOT (FALSE) ) )""",FALSE,FALSE
+665,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( FALSE ) AND ( FALSE ) )""",FALSE,FALSE
+666,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( TRUE )""",FALSE,FALSE
+667,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( ( ( TRUE ) AND ( TRUE ) ) AND ( FALSE ) )""",TRUE,FALSE
+668,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) XAND ( TRUE ) ) ) OR ( ( TRUE ) NOR ( FALSE ) )""",TRUE,FALSE
+669,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( FALSE ) ) OR ( TRUE )""",TRUE,(FALSE )
+670,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) AND ( NOT ( TRUE ) ) ) XAND ( FALSE ) )""",FALSE,FALSE
+671,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+672,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( FALSE ) AND ( TRUE ) )""",TRUE,True
+673,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NAND ( TRUE ) ) XOR ( ( ( FALSE ) XAND ( FALSE ) ) NAND ( FALSE ) ) )""",TRUE,True
+674,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( NOT (FALSE) ) )""",TRUE,True
+675,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XAND ( TRUE ) ) OR ( NOT (FALSE) ) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+676,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( FALSE ) NOR ( NOT ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+677,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+678,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) AND ( FALSE ) ) XOR ( FALSE ) ) NOR ( ( NOT ( TRUE ) ) XOR ( FALSE ) )""",TRUE,(FALSE )
+679,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) OR ( NOT ( TRUE ) ) ) OR ( TRUE ) ) OR ( FALSE )""",TRUE,(False )
+680,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( TRUE ) NOR ( ( TRUE ) XOR ( TRUE ) ) )""",TRUE,FALSE
+681,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( NOT (FALSE) ) ) OR ( TRUE ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+682,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) XAND ( FALSE ) ) ) NOR ( ( FALSE ) XNOR ( TRUE ) )""",TRUE,FALSE
+683,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XOR ( FALSE ) ) OR ( NOT (FALSE) ) ) OR ( NOT (FALSE) )""",TRUE,FALSE
+684,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( NOT (FALSE) ) )""",FALSE,FALSE
+685,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( FALSE ) )""",FALSE,True
+686,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) AND ( FALSE ) )""",TRUE,True
+687,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( ( NOT (FALSE) ) OR ( NOT (FALSE) ) )""",FALSE,FALSE
+688,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( FALSE ) XAND ( TRUE ) )""",TRUE,FALSE
+689,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XAND ( TRUE ) )""",FALSE,True
+690,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( TRUE ) ) OR ( NOT ( TRUE ) )""",TRUE,FALSE
+691,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( NOT (FALSE) ) ) OR ( ( ( TRUE ) NOR ( FALSE ) ) NAND ( TRUE ) )""",TRUE,FALSE
+692,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( ( FALSE ) NOR ( FALSE ) ) ) XOR ( FALSE )""",FALSE,FALSE
+693,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( FALSE ) ) AND ( ( TRUE ) XOR ( NOT ( ( FALSE ) XOR ( FALSE ) ) ) )""",FALSE,(FALSE )
+694,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( NOT (FALSE) ) ) AND ( ( FALSE ) XOR ( TRUE ) )""",FALSE,FALSE
+695,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( FALSE ) XNOR ( ( TRUE ) XOR ( TRUE ) ) )""",FALSE,FALSE
+696,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( NOT ( ( TRUE ) NAND ( FALSE ) ) )""",TRUE,FALSE
+697,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) XOR ( NOT (FALSE) ) ) ) NOR ( ( FALSE ) XNOR ( TRUE ) )""",FALSE,FALSE
+698,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( TRUE ) ) XOR ( NOT ( TRUE ) )""",FALSE,FALSE
+699,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( NOT ( NOT (FALSE) ) ) AND ( NOT (FALSE) ) )""",TRUE,FALSE
+700,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( NOT (FALSE) )""",TRUE,FALSE
+701,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) AND ( ( TRUE ) NOR ( TRUE ) )""",FALSE,FALSE
+702,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) XOR ( NOT ( ( TRUE ) NOR ( TRUE ) ) ) )""",TRUE,FALSE
+703,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( TRUE ) ) XOR ( NOT ( TRUE ) ) ) NOR ( TRUE )""",FALSE,FALSE
+704,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) AND ( NOT ( NOT (FALSE) ) )""",FALSE,FALSE
+705,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( FALSE ) ) NAND ( ( TRUE ) XNOR ( FALSE ) )""",TRUE,FALSE
+706,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT ( NOT (FALSE) ) )""",FALSE,True
+707,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( ( NOT (FALSE) ) OR ( NOT ( TRUE ) ) ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+708,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( NOT ( TRUE ) ) XNOR ( TRUE ) )""",TRUE,FALSE
+709,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( FALSE )""",FALSE,FALSE
+710,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) OR ( ( ( TRUE ) XOR ( NOT (FALSE) ) ) NOR ( TRUE ) )""",TRUE,FALSE
+711,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XNOR ( NOT ( ( TRUE ) XOR ( TRUE ) ) ) )""",FALSE,FALSE
+712,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( NOT (FALSE) ) ) ) XOR ( ( ( FALSE ) NAND ( TRUE ) ) XNOR ( FALSE ) )""",TRUE,FALSE
+713,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( ( FALSE ) AND ( FALSE ) ) XOR ( FALSE ) )""",FALSE,FALSE
+714,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NOR ( NOT (FALSE) ) )""",TRUE,True
+715,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( FALSE ) XOR ( ( TRUE ) NOR ( FALSE ) ) )""",TRUE,FALSE
+716,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( NOT (FALSE) ) OR ( TRUE ) )""",TRUE,FALSE
+717,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( ( NOT ( TRUE ) ) NOR ( TRUE ) ) ) NAND ( FALSE ) ) NOR ( TRUE )""",FALSE,FALSE
+718,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) OR ( FALSE ) ) OR ( NOT ( TRUE ) ) )""",TRUE,True
+719,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( FALSE ) ) AND ( ( TRUE ) NAND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+720,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) OR ( NOT (FALSE) )""",TRUE,True
+721,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( NOT ( TRUE ) ) ) NOR ( TRUE )""",FALSE,FALSE
+722,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( ( TRUE ) XAND ( TRUE ) )""",FALSE,FALSE
+723,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( FALSE ) ) XNOR ( NOT (FALSE) )""",FALSE,FALSE
+724,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( FALSE ) XOR ( TRUE ) )""",FALSE,FALSE
+725,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( NOT ( TRUE ) ) ) NOR ( ( FALSE ) NOR ( FALSE ) )""",FALSE,(FALSE )
+726,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( ( FALSE ) AND ( NOT ( TRUE ) ) ) ) AND ( NOT ( TRUE ) )""",FALSE,(FALSE )
+727,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( ( FALSE ) XNOR ( TRUE ) ) XOR ( NOT (FALSE) ) )""",FALSE,FALSE
+728,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( ( NOT ( TRUE ) ) OR ( NOT (FALSE) ) )""",TRUE,FALSE
+729,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+730,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( NOT (FALSE) )""",FALSE,True
+731,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( NOT (FALSE) ) ) NOR ( ( FALSE ) AND ( TRUE ) )""",TRUE,(FALSE )
+732,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) NAND ( TRUE ) ) ) OR ( ( FALSE ) NAND ( TRUE ) )""",TRUE,FALSE
+733,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) AND ( FALSE ) ) NOR ( NOT ( ( NOT (FALSE) ) NOR ( TRUE ) ) )""",FALSE,( TRUE)
+734,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NAND ( ( NOT ( TRUE ) ) AND ( NOT ( TRUE ) ) ) )""",FALSE,FALSE
+735,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( NOT (FALSE) )""",TRUE,True
+736,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( NOT (FALSE) ) ) XAND ( NOT ( TRUE ) ) ) XAND ( ( TRUE ) XAND ( FALSE ) )""",FALSE,FALSE
+737,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) OR ( TRUE )""",TRUE,FALSE
+738,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) OR ( TRUE )""",TRUE,FALSE
+739,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT ( TRUE ) ) NOR ( NOT (FALSE) ) ) OR ( TRUE ) ) OR ( FALSE )""",TRUE,(False)
+740,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XNOR ( FALSE ) ) NAND ( ( NOT ( TRUE ) ) AND ( FALSE ) )""",TRUE,FALSE
+741,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( ( NOT ( TRUE ) ) NAND ( TRUE ) ) ) NAND ( FALSE )""",TRUE,FALSE
+742,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( FALSE )""",FALSE,FALSE
+743,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( NOT ( TRUE ) ) NAND ( FALSE ) )""",FALSE,FALSE
+744,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) OR ( NOT (FALSE) )""",TRUE,True
+745,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( ( TRUE ) XAND ( TRUE ) ) ) AND ( FALSE )""",FALSE,(FALSE )
+746,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) AND ( ( TRUE ) XNOR ( ( FALSE ) XAND ( TRUE ) ) )""",FALSE,FALSE
+747,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XOR ( FALSE ) )""",FALSE,True
+748,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( TRUE ) XOR ( TRUE ) )""",TRUE,FALSE
+749,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( NOT ( TRUE ) ) ) OR ( ( TRUE ) NAND ( TRUE ) )""",FALSE,FALSE
+750,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( ( NOT (FALSE) ) AND ( NOT ( ( TRUE ) XOR ( FALSE ) ) ) ) )""",FALSE,FALSE
+751,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NAND ( TRUE ) ) AND ( ( TRUE ) NOR ( FALSE ) ) )""",TRUE,FALSE
+752,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( ( FALSE ) OR ( TRUE ) )""",FALSE,FALSE
+753,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( ( ( FALSE ) AND ( FALSE ) ) XNOR ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+754,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) XAND ( NOT (FALSE) ) ) NAND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+755,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT ( ( ( NOT ( TRUE ) ) XOR ( FALSE ) ) AND ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+756,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XAND ( TRUE ) ) XAND ( ( FALSE ) OR ( FALSE ) ) )""",FALSE,True
+757,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( ( FALSE ) OR ( TRUE ) ) NAND ( ( TRUE ) XOR ( FALSE ) ) ) )""",FALSE,FALSE
+758,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( NOT ( NOT (FALSE) ) ) ) XOR ( TRUE )""",FALSE,FALSE
+759,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) NOR ( ( TRUE ) XNOR ( TRUE ) ) )""",TRUE,True
+760,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XNOR ( FALSE ) ) OR ( TRUE ) )""",FALSE,True
+761,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( ( NOT ( TRUE ) ) NAND ( NOT (FALSE) ) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+762,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( FALSE ) OR ( TRUE ) )""",FALSE,(FALSE )
+763,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( ( FALSE ) OR ( FALSE ) ) NOR ( NOT (FALSE) ) )""",FALSE,FALSE
+764,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT (FALSE) ) XOR ( NOT ( TRUE ) ) ) OR ( FALSE ) ) NOR ( TRUE )""",FALSE,FALSE
+765,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( NOT ( TRUE ) ) AND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+766,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( NOT (FALSE) ) NAND ( ( NOT ( TRUE ) ) XAND ( FALSE ) ) )""",FALSE,FALSE
+767,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( FALSE ) ) OR ( NOT ( ( TRUE ) NOR ( FALSE ) ) )""",TRUE,(FALSE )
+768,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( FALSE )""",FALSE,FALSE
+769,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( ( FALSE ) XOR ( FALSE ) ) ) AND ( ( FALSE ) NOR ( FALSE ) ) )""",FALSE,FALSE
+770,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( NOT ( NOT ( ( TRUE ) OR ( NOT ( TRUE ) ) ) ) ) ) NOR ( TRUE ) )""",TRUE,True
+771,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) OR ( NOT ( TRUE ) )""",TRUE,True
+772,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT ( TRUE ) ) AND ( TRUE ) ) NAND ( NOT (FALSE) ) ) OR ( TRUE )""",TRUE,FALSE
+773,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( ( TRUE ) NAND ( TRUE ) ) XOR ( FALSE ) ) )""",FALSE,FALSE
+774,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( FALSE ) ) AND ( TRUE ) ) AND ( NOT ( ( FALSE ) XOR ( FALSE ) ) )""",FALSE,FALSE
+775,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( NOT (FALSE) )""",TRUE,True
+776,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( FALSE ) ) AND ( NOT ( TRUE ) )""",FALSE,( NOT ( TRUE ) )
+777,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( TRUE ) OR ( FALSE ) ) XOR ( TRUE ) ) OR ( NOT (FALSE) ) )""",FALSE,True
+778,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( FALSE ) ) OR ( NOT (FALSE) )""",TRUE,True
+779,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) AND ( NOT ( TRUE ) ) ) XNOR ( ( NOT (FALSE) ) XNOR ( TRUE ) ) )""",TRUE,FALSE
+780,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( FALSE ) XAND ( TRUE ) )""",TRUE,FALSE
+781,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) OR ( FALSE ) ) NOR ( ( NOT ( TRUE ) ) NOR ( FALSE ) ) )""",TRUE,True
+782,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+783,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( ( FALSE ) XNOR ( FALSE ) ) ) XAND ( NOT ( TRUE ) )""",FALSE,FALSE
+784,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NAND ( FALSE ) ) XNOR ( NOT ( TRUE ) ) ) XNOR ( NOT (FALSE) )""",FALSE,FALSE
+785,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) AND ( TRUE ) ) XOR ( FALSE ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+786,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( ( ( TRUE ) OR ( NOT ( TRUE ) ) ) XAND ( NOT (FALSE) ) )""",TRUE,FALSE
+787,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) XOR ( FALSE ) ) NOR ( ( NOT (FALSE) ) XNOR ( TRUE ) ) )""",TRUE,FALSE
+788,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) OR ( NOT ( TRUE ) ) )""",TRUE,True
+789,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( TRUE ) AND ( FALSE ) )""",TRUE,FALSE
+790,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( TRUE )""",TRUE,True
+791,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( ( NOT ( TRUE ) ) XAND ( ( TRUE ) XOR ( FALSE ) ) )""",FALSE,FALSE
+792,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( TRUE ) OR ( TRUE ) )""",TRUE,FALSE
+793,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) AND ( ( FALSE ) NOR ( TRUE ) )""",FALSE,FALSE
+794,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( FALSE ) ) NOR ( NOT ( NOT ( ( FALSE ) XNOR ( FALSE ) ) ) )""",FALSE,FALSE
+795,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( NOT ( NOT (FALSE) ) ) ) NAND ( ( FALSE ) OR ( NOT (FALSE) ) ) )""",TRUE,True
+796,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( NOT ( NOT ( NOT ( TRUE ) ) ) ) OR ( NOT (FALSE) ) )""",TRUE,FALSE
+797,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( FALSE ) ) OR ( ( FALSE ) XAND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+798,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XOR ( TRUE ) ) NAND ( TRUE ) ) XOR ( NOT (FALSE) )""",FALSE,FALSE
+799,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( ( NOT (FALSE) ) XNOR ( FALSE ) )""",FALSE,FALSE
+800,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( NOT (FALSE) )""",TRUE,True
+801,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( ( FALSE ) XAND ( ( FALSE ) NAND ( TRUE ) ) ) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+802,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) OR ( NOT ( TRUE ) ) ) OR ( NOT (FALSE) ) )""",FALSE,True
+803,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( TRUE ) ) NOR ( NOT ( TRUE ) )""",TRUE,FALSE
+804,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) OR ( ( FALSE ) XAND ( FALSE ) ) )""",FALSE,True
+805,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( FALSE ) NAND ( TRUE ) )""",TRUE,FALSE
+806,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) NOR ( NOT ( NOT (FALSE) ) ) ) ) OR ( NOT (FALSE) )""",TRUE,FALSE
+807,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NOR ( TRUE ) )""",TRUE,True
+808,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NAND ( ( FALSE ) NAND ( NOT ( TRUE ) ) ) ) AND ( FALSE )""",FALSE,FALSE
+809,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NAND ( FALSE ) ) XNOR ( TRUE ) ) NOR ( TRUE )""",FALSE,FALSE
+810,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( ( ( FALSE ) NOR ( FALSE ) ) NOR ( FALSE ) )""",FALSE,True
+811,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( NOT ( TRUE ) )""",TRUE,True
+812,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( NOT (FALSE) ) NOR ( TRUE ) )""",FALSE,FALSE
+813,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( NOT ( TRUE ) ) ) XAND ( ( TRUE ) AND ( FALSE ) )""",FALSE,FALSE
+814,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( FALSE ) ) XAND ( TRUE )""",TRUE,FALSE
+815,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( NOT ( NOT (FALSE) ) )""",FALSE,FALSE
+816,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) AND ( FALSE ) ) XOR ( FALSE )""",FALSE,FALSE
+817,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( NOT (FALSE) )""",TRUE,FALSE
+818,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( TRUE ) NAND ( FALSE ) )""",FALSE,FALSE
+819,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( FALSE ) ) AND ( ( TRUE ) AND ( TRUE ) )""",FALSE,FALSE
+820,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( FALSE ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+821,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( FALSE ) ) OR ( ( NOT ( TRUE ) ) NAND ( FALSE ) )""",TRUE,True
+822,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( FALSE ) XAND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+823,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( TRUE ) ) XAND ( FALSE ) ) XNOR ( FALSE )""",TRUE,FALSE
+824,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XNOR ( TRUE )""",FALSE,FALSE
+825,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XNOR ( ( NOT ( TRUE ) ) OR ( FALSE ) ) )""",FALSE,True
+826,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( NOT (FALSE) ) ) AND ( ( ( TRUE ) NAND ( TRUE ) ) XNOR ( TRUE ) )""",FALSE,FALSE
+827,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( FALSE ) NAND ( NOT ( ( TRUE ) XOR ( TRUE ) ) ) ) )""",TRUE,FALSE
+828,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( NOT (FALSE) ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+829,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( FALSE )""",FALSE,FALSE
+830,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( TRUE ) ) NOR ( ( NOT ( NOT (FALSE) ) ) NOR ( NOT (FALSE) ) )""",FALSE,FALSE
+831,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( NOT ( TRUE ) ) XOR ( TRUE ) )""",TRUE,FALSE
+832,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( NOT ( TRUE ) ) AND ( TRUE ) )""",TRUE,FALSE
+833,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XNOR ( ( NOT (FALSE) ) NAND ( ( FALSE ) OR ( TRUE ) ) )""",TRUE,FALSE
+834,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( ( FALSE ) XOR ( TRUE ) ) XNOR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+835,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( ( TRUE ) AND ( NOT ( TRUE ) ) ) ) ) OR ( ( FALSE ) XOR ( FALSE ) )""",FALSE,FALSE
+836,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) AND ( ( FALSE ) OR ( ( TRUE ) NAND ( FALSE ) ) ) )""",FALSE,True
+837,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( ( TRUE ) AND ( FALSE ) )""",FALSE,FALSE
+838,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( FALSE ) ) OR ( ( FALSE ) XAND ( TRUE ) )""",TRUE,FALSE
+839,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( NOT ( TRUE ) ) XOR ( FALSE ) )""",FALSE,FALSE
+840,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) XOR ( FALSE )""",TRUE,FALSE
+841,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( FALSE )""",FALSE,FALSE
+842,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NOR ( ( TRUE ) NAND ( NOT (FALSE) ) )""",TRUE,FALSE
+843,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XOR ( TRUE ) ) AND ( TRUE ) )""",FALSE,FALSE
+844,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( NOT ( TRUE ) ) ) AND ( ( FALSE ) NAND ( ( TRUE ) XNOR ( TRUE ) ) )""",TRUE,FALSE
+845,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) AND ( FALSE ) ) XNOR ( TRUE ) ) NOR ( FALSE )""",TRUE,(FALSE )
+846,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT (FALSE) ) ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+847,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( ( NOT ( TRUE ) ) XNOR ( FALSE ) ) ) XAND ( TRUE )""",FALSE,FALSE
+848,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( NOT (FALSE) ) ) NAND ( ( TRUE ) XOR ( TRUE ) )""",TRUE,FALSE
+849,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( ( TRUE ) XAND ( FALSE ) ) ) XNOR ( NOT ( TRUE ) )""",FALSE,FALSE
+850,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) AND ( NOT (FALSE) ) ) NAND ( ( NOT (FALSE) ) NAND ( TRUE ) )""",TRUE,True
+851,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( NOT ( TRUE ) ) OR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+852,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT ( TRUE ) )""",FALSE,FALSE
+853,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( ( TRUE ) OR ( ( TRUE ) NOR ( FALSE ) ) )""",TRUE,FALSE
+854,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( FALSE ) NAND ( TRUE ) ) NOR ( FALSE ) ) NAND ( FALSE ) )""",FALSE,True
+855,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( ( ( TRUE ) AND ( FALSE ) ) NAND ( TRUE ) ) ) NAND ( TRUE )""",TRUE,FALSE
+856,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( TRUE ) ) OR ( TRUE )""",TRUE,True
+857,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( TRUE )""",TRUE,True
+858,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( NOT (FALSE) ) ) NAND ( NOT (FALSE) )""",TRUE,True
+859,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( NOT ( TRUE ) ) ) NAND ( TRUE )""",FALSE,FALSE
+860,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XOR ( TRUE ) ) XAND ( ( FALSE ) NAND ( ( FALSE ) XNOR ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+861,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) XAND ( ( FALSE ) NAND ( FALSE ) ) ) AND ( NOT ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+862,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) NAND ( TRUE )""",FALSE,FALSE
+863,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NAND ( TRUE ) ) AND ( ( TRUE ) OR ( ( FALSE ) OR ( TRUE ) ) )""",TRUE,FALSE
+864,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) OR ( TRUE ) ) AND ( FALSE ) ) NAND ( ( NOT (FALSE) ) XOR ( FALSE ) )""",TRUE,(FALSE)
+865,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( ( FALSE ) XOR ( TRUE ) )""",TRUE,FALSE
+866,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( ( ( NOT (FALSE) ) NOR ( TRUE ) ) OR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+867,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( NOT ( TRUE ) ) ) NAND ( ( NOT ( TRUE ) ) XOR ( FALSE ) )""",TRUE,FALSE
+868,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( NOT ( TRUE ) )""",FALSE,FALSE
+869,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+870,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) OR ( FALSE )""",FALSE,True
+871,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NAND ( NOT ( TRUE ) ) ) XAND ( TRUE )""",TRUE,FALSE
+872,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( ( TRUE ) XOR ( FALSE ) )""",FALSE,True
+873,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( ( FALSE ) NOR ( TRUE ) ) ) NOR ( FALSE )""",FALSE,FALSE
+874,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( FALSE ) ) AND ( ( FALSE ) OR ( NOT (FALSE) ) )""",TRUE,FALSE
+875,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT ( NOT ( TRUE ) ) ) AND ( FALSE ) ) NAND ( NOT ( TRUE ) ) ) NAND ( TRUE )""",FALSE,FALSE
+876,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XNOR ( NOT (FALSE) ) ) AND ( ( FALSE ) NAND ( FALSE ) )""",FALSE,FALSE
+877,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( NOT ( TRUE ) ) NAND ( ( TRUE ) XOR ( TRUE ) ) )""",FALSE,FALSE
+878,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( ( ( ( FALSE ) OR ( TRUE ) ) XNOR ( FALSE ) ) OR ( FALSE ) )""",TRUE,FALSE
+879,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) NAND ( TRUE )""",FALSE,True
+880,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( FALSE ) OR ( TRUE ) )""",FALSE,True
+881,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( FALSE ) ) XOR ( FALSE )""",TRUE,FALSE
+882,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( NOT (FALSE) ) ) XNOR ( ( TRUE ) XNOR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+883,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NOR ( TRUE ) ) OR ( TRUE ) ) XOR ( NOT ( TRUE ) )""",TRUE,( NOT ( TRUE ) )
+884,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT (FALSE) ) ) OR ( TRUE )""",TRUE,True
+885,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NAND ( ( TRUE ) OR ( TRUE ) ) ) AND ( NOT (FALSE) )""",FALSE,FALSE
+886,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XOR ( FALSE ) ) AND ( ( TRUE ) NAND ( FALSE ) )""",TRUE,FALSE
+887,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) XOR ( TRUE ) ) ) AND ( ( FALSE ) AND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+888,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) NOR ( ( NOT ( TRUE ) ) NOR ( TRUE ) )""",TRUE,FALSE
+889,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( ( FALSE ) AND ( NOT ( TRUE ) ) ) OR ( NOT (FALSE) ) )""",FALSE,FALSE
+890,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) NAND ( ( FALSE ) AND ( FALSE ) ) )""",FALSE,True
+891,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) XOR ( NOT ( TRUE ) ) ) NAND ( FALSE ) ) XNOR ( NOT (FALSE) )""",TRUE,FALSE
+892,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+893,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) XOR ( ( FALSE ) NOR ( FALSE ) ) )""",TRUE,FALSE
+894,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( NOT (FALSE) ) XAND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+895,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+896,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XNOR ( ( ( FALSE ) OR ( NOT (FALSE) ) ) NAND ( FALSE ) ) )""",TRUE,True
+897,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( FALSE ) ) OR ( NOT ( TRUE ) )""",FALSE,FALSE
+898,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( FALSE )""",TRUE,FALSE
+899,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( ( NOT (FALSE) ) NOR ( TRUE ) ) ) ) AND ( NOT (FALSE) )""",FALSE,FALSE
+900,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( TRUE ) NAND ( TRUE ) ) NAND ( TRUE ) ) NAND ( ( TRUE ) NAND ( TRUE ) )""",TRUE,True
+901,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( ( NOT ( TRUE ) ) OR ( TRUE ) ) ) AND ( NOT ( TRUE ) )""",FALSE,FALSE
+902,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( NOT (FALSE) ) OR ( FALSE ) )""",FALSE,True
+903,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XAND ( ( NOT ( ( TRUE ) XOR ( TRUE ) ) ) XNOR ( TRUE ) )""",FALSE,FALSE
+904,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( NOT (FALSE) ) NAND ( NOT (FALSE) ) )""",FALSE,FALSE
+905,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( TRUE ) ) XNOR ( ( FALSE ) NOR ( FALSE ) )""",TRUE,(FALSE)
+906,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( TRUE ) NAND ( NOT ( TRUE ) ) )""",FALSE,True
+907,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( NOT (FALSE) ) )""",TRUE,FALSE
+908,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( NOT ( TRUE ) ) ) XAND ( FALSE )""",FALSE,FALSE
+909,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( NOT ( NOT ( ( NOT ( TRUE ) ) XNOR ( FALSE ) ) ) )""",FALSE,FALSE
+910,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( ( NOT ( TRUE ) ) NOR ( FALSE ) )""",TRUE,FALSE
+911,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XOR ( ( NOT ( TRUE ) ) XNOR ( ( TRUE ) OR ( FALSE ) ) )""",TRUE,FALSE
+912,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( ( TRUE ) XNOR ( ( FALSE ) NAND ( FALSE ) ) ) ) NOR ( NOT ( TRUE ) )""",TRUE,FALSE
+913,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( FALSE )""",FALSE,FALSE
+914,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( NOT ( TRUE ) ) XAND ( ( FALSE ) OR ( TRUE ) ) )""",TRUE,FALSE
+915,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( TRUE ) OR ( NOT (FALSE) ) )""",TRUE,True
+916,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) XOR ( ( ( FALSE ) XNOR ( TRUE ) ) XNOR ( NOT ( TRUE ) ) )""",TRUE,FALSE
+917,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XNOR ( NOT (FALSE) )""",FALSE,True
+918,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( NOT (FALSE) ) NOR ( FALSE ) )""",TRUE,FALSE
+919,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( NOT ( TRUE ) ) NOR ( NOT ( TRUE ) ) ) XNOR ( NOT ( TRUE ) ) ) OR ( TRUE )""",TRUE,FALSE
+920,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+921,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) NAND ( ( FALSE ) XAND ( NOT (FALSE) ) )""",TRUE,FALSE
+922,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) XAND ( ( TRUE ) OR ( TRUE ) ) ) OR ( NOT ( TRUE ) )""",TRUE,FALSE
+923,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( TRUE ) ) OR ( ( FALSE ) XNOR ( TRUE ) )""",FALSE,FALSE
+924,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( FALSE ) ) XOR ( ( NOT ( TRUE ) ) XOR ( NOT (FALSE) ) )""",TRUE,FALSE
+925,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NOR ( ( FALSE ) NOR ( ( TRUE ) NOR ( FALSE ) ) )""",FALSE,FALSE
+926,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XAND ( ( ( NOT (FALSE) ) XOR ( FALSE ) ) AND ( FALSE ) )""",FALSE,FALSE
+927,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( NOT (FALSE) )""",TRUE,FALSE
+928,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XNOR ( NOT (FALSE) ) ) OR ( TRUE )""",TRUE,FALSE
+929,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( ( NOT ( TRUE ) ) AND ( ( TRUE ) NOR ( TRUE ) ) )""",FALSE,FALSE
+930,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NOR ( NOT ( TRUE ) )""",FALSE,FALSE
+931,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) AND ( TRUE ) ) NAND ( FALSE ) ) NAND ( ( TRUE ) NOR ( FALSE ) )""",TRUE,(FALSE )
+932,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) OR ( TRUE ) ) AND ( ( TRUE ) OR ( FALSE ) )""",TRUE,(FALSE)
+933,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) OR ( NOT (FALSE) )""",TRUE,True
+934,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NAND ( TRUE ) ) XAND ( TRUE )""",TRUE,FALSE
+935,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( NOT (FALSE) ) AND ( FALSE ) ) XAND ( FALSE ) ) NAND ( NOT (FALSE) ) )""",TRUE,True
+936,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) XOR ( ( NOT ( TRUE ) ) AND ( FALSE ) )""",FALSE,FALSE
+937,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( FALSE ) ) OR ( ( TRUE ) OR ( TRUE ) )""",TRUE,(FALSE )
+938,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( FALSE ) NAND ( FALSE ) ) NAND ( ( NOT ( TRUE ) ) XNOR ( TRUE ) ) )""",FALSE,True
+939,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( TRUE ) ) XOR ( ( TRUE ) AND ( TRUE ) )""",FALSE,FALSE
+940,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( NOT (FALSE) )""",FALSE,FALSE
+941,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( ( FALSE ) XOR ( TRUE ) )""",TRUE,FALSE
+942,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XAND ( ( FALSE ) OR ( FALSE ) ) ) XNOR ( TRUE )""",TRUE,FALSE
+943,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) NOR ( NOT ( TRUE ) ) ) XOR ( ( TRUE ) XNOR ( NOT (FALSE) ) )""",FALSE,FALSE
+944,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) XOR ( TRUE ) ) NOR ( FALSE ) ) NOR ( TRUE )""",FALSE,(FALSE )
+945,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( ( NOT ( TRUE ) ) XOR ( ( TRUE ) XOR ( ( FALSE ) OR ( FALSE ) ) ) )""",FALSE,FALSE
+946,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( ( NOT (FALSE) ) NOR ( ( TRUE ) NOR ( NOT (FALSE) ) ) )""",FALSE,FALSE
+947,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT ( TRUE ) ) ) OR ( FALSE )""",TRUE,True
+948,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( ( TRUE ) AND ( FALSE ) )""",FALSE,FALSE
+949,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XAND ( ( TRUE ) AND ( FALSE ) ) ) XNOR ( NOT ( TRUE ) )""",FALSE,FALSE
+950,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( FALSE ) XNOR ( FALSE ) )""",FALSE,FALSE
+951,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XAND ( NOT (FALSE) )""",TRUE,FALSE
+952,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( NOT ( ( TRUE ) NAND ( TRUE ) ) ) ) XOR ( NOT (FALSE) )""",TRUE,FALSE
+953,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( NOT ( TRUE ) )""",TRUE,FALSE
+954,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT (FALSE) ) NAND ( ( TRUE ) XNOR ( TRUE ) ) ) ) XOR ( NOT ( TRUE ) )""",TRUE,FALSE
+955,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) XNOR ( TRUE ) ) XOR ( NOT ( ( TRUE ) XAND ( NOT ( TRUE ) ) ) )""",TRUE,FALSE
+956,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) AND ( NOT (FALSE) ) ) AND ( ( FALSE ) XOR ( TRUE ) )""",FALSE,FALSE
+957,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XOR ( NOT (FALSE) ) ) XOR ( ( TRUE ) XNOR ( TRUE ) )""",TRUE,FALSE
+958,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT ( TRUE ) ) NAND ( ( NOT (FALSE) ) NOR ( TRUE ) ) )""",FALSE,FALSE
+959,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( NOT (FALSE) ) OR ( TRUE ) )""",FALSE,True
+960,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XAND ( NOT ( TRUE ) )""",TRUE,FALSE
+961,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( NOT (FALSE) )""",TRUE,True
+962,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) XNOR ( NOT (FALSE) )""",TRUE,FALSE
+963,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( TRUE ) AND ( NOT ( ( TRUE ) AND ( FALSE ) ) ) ) )""",TRUE,True
+964,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) NAND ( NOT ( NOT ( TRUE ) ) )""",TRUE,FALSE
+965,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) XNOR ( ( FALSE ) XNOR ( TRUE ) )""",FALSE,FALSE
+966,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) AND ( FALSE ) ) NAND ( ( ( TRUE ) OR ( TRUE ) ) OR ( FALSE ) )""",TRUE,FALSE
+967,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( ( NOT (FALSE) ) XAND ( TRUE ) )""",TRUE,FALSE
+968,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) XAND ( NOT (FALSE) )""",FALSE,FALSE
+969,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) NAND ( ( ( ( TRUE ) NAND ( FALSE ) ) NAND ( FALSE ) ) AND ( NOT (FALSE) ) )""",TRUE,FALSE
+970,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( NOT ( ( NOT ( TRUE ) ) NOR ( TRUE ) ) )""",FALSE,True
+971,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( ( FALSE ) XAND ( TRUE ) ) OR ( NOT ( TRUE ) ) ) NAND ( TRUE ) )""",FALSE,FALSE
+972,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) XOR ( NOT ( TRUE ) )""",FALSE,FALSE
+973,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) AND ( TRUE )""",TRUE,FALSE
+974,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( FALSE ) AND ( ( NOT ( ( TRUE ) NOR ( TRUE ) ) ) OR ( ( TRUE ) NAND ( FALSE ) ) )""",FALSE,FALSE
+975,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NOR ( ( NOT ( TRUE ) ) NAND ( NOT (FALSE) ) ) ) NAND ( TRUE )""",TRUE,FALSE
+976,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( NOT (FALSE) ) ) NOR ( ( NOT ( TRUE ) ) NOR ( FALSE ) )""",FALSE,FALSE
+977,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( TRUE ) AND ( ( TRUE ) AND ( TRUE ) ) ) ) XOR ( TRUE )""",TRUE,FALSE
+978,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) OR ( FALSE ) ) NOR ( ( NOT (FALSE) ) AND ( FALSE ) )""",FALSE,(FALSE)
+979,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( ( NOT (FALSE) ) OR ( TRUE ) ) ) OR ( NOT ( TRUE ) )""",TRUE,FALSE
+980,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( ( FALSE ) NOR ( TRUE ) ) XNOR ( TRUE ) ) NAND ( ( NOT ( TRUE ) ) XNOR ( TRUE ) )""",TRUE,FALSE
+981,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT (FALSE) ) NAND ( TRUE ) ) OR ( TRUE )""",TRUE,FALSE
+982,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( TRUE ) AND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+983,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) OR ( ( NOT (FALSE) ) NOR ( ( FALSE ) XNOR ( NOT (FALSE) ) ) )""",TRUE,FALSE
+984,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) NOR ( NOT ( TRUE ) ) ) NAND ( NOT ( NOT ( NOT (FALSE) ) ) )""",FALSE,FALSE
+985,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( FALSE ) OR ( NOT ( TRUE ) ) ) XOR ( ( FALSE ) NAND ( NOT ( TRUE ) ) )""",TRUE,FALSE
+986,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( ( NOT ( NOT ( TRUE ) ) ) XOR ( ( FALSE ) AND ( FALSE ) ) )""",FALSE,FALSE
+987,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( TRUE ) ) AND ( ( TRUE ) XOR ( FALSE ) )""",FALSE,FALSE
+988,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) NOR ( TRUE ) ) XAND ( ( NOT (FALSE) ) AND ( TRUE ) )""",FALSE,FALSE
+989,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NAND ( NOT (FALSE) )""",FALSE,FALSE
+990,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( TRUE ) ) XOR ( NOT ( TRUE ) ) ) XOR ( ( FALSE ) NOR ( FALSE ) )""",TRUE,FALSE
+991,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( FALSE ) XAND ( FALSE ) )""",FALSE,True
+992,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT (FALSE) ) NOR ( ( FALSE ) NOR ( ( TRUE ) OR ( FALSE ) ) )""",FALSE,True
+993,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( TRUE ) XAND ( TRUE ) ) XOR ( ( NOT ( TRUE ) ) NAND ( NOT ( TRUE ) ) )""",FALSE,FALSE
+994,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( ( NOT ( NOT (FALSE) ) ) XNOR ( NOT (FALSE) ) ) AND ( TRUE )""",FALSE,FALSE
+995,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( TRUE ) XNOR ( TRUE ) ) XOR ( NOT ( TRUE ) ) )""",FALSE,FALSE
+996,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( NOT ( TRUE ) ) NAND ( TRUE ) ) ) XOR ( FALSE )""",FALSE,FALSE
+997,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( TRUE ) NAND ( NOT ( NOT ( ( NOT (FALSE) ) XNOR ( ( TRUE ) XOR ( FALSE ) ) ) ) )""",FALSE,FALSE
+998,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""( NOT ( ( FALSE ) NOR ( FALSE ) ) ) OR ( NOT (FALSE) )""",TRUE,True
+999,"Answer: given the following boolean expression, evaulate whether its truth value is TRUE or FALSE: ""NOT ( ( ( NOT (FALSE) ) AND ( ( FALSE ) NOR ( FALSE ) ) ) XAND ( NOT ( TRUE ) ) )""",TRUE,FALSE

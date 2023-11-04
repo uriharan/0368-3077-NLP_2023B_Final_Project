@@ -1,0 +1,990 @@
+,query,gold_answer,model_answer
+0,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It was good food they got my burger right !!""",4,5
+1,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I have been to many McDonald's locations and I have to say this was the worst Big Mac and Filet sandwich I have ever had. I was highly disappointed!!!""",1,1
+2,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Drive thru gets clogged and go inside I'm 1 of 2 customers it took longer than drive thru""",3,1
+3,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I applied online and said I was fourteen and out on my resume I was fourteen and I get scheduled for an interview and they say I canï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½t be hired be""",1,1
+4,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Lisa deserves 5 stars, sheï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï""",5,5
+5,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It is McDonald's. You know what to expect. This particular one, however, often has ""machines down"" or being ""cleaned"". Can't get a latte, can't get a milkshake, etc. Kind of ridiculous.""",3,1
+6,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I am not a McDonald's fan but I can say the place was very clean and the young girl that took my order was pleasant""",3,5
+7,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They messed on my husbands meal and the cook is missing around laughing about messing up the order. They joking about spitting in peopleï¿½ï¿½ï¿½""",1,2
+8,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Just another McD's. Slightly sub-par breakfast sandwiches. Weak wifi.""",3,0
+9,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""One of the good quality McDonald's. I stop by almost every times I go snowboarding in PA.""",5,5
+10,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonalds.  Who doesn't love it.  Went through drive thru and staff pleasant.""",5,3
+11,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I waited over 15 minutes in drive thru after I paid and got to the pickup window . Was asked pull-up and wait .""",1,1
+12,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""VERY, VERY Friendly and helpful people. Almost treat ya like family when you walk in. I stop there frequently ï¿½ï¿½ï¿""",5,0
+13,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good place for a fast food meal! The restaurant was clean!, and the service was good!""",4,5
+14,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""A little slow taking the order but the kid enjoyed the center pieces and decorations""",4,5
+15,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""yaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ll m""",5,0
+16,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Typical visit. But what sucked was, by the time we got our food, the fries were cold. :(""",3,1
+17,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I took my grandson to McDonald's in Broadheadsville today for his Birthday and the service and food was great!""",5,5
+18,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Big Macs are outstanding the the milkshakes I look forward to and the atmosphere is nice would be nice if they had TVs""",5,5
+19,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Would have been five stars but our fries were old and refried""",3,3
+20,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Long wait times for the drive-thru. They jerk you around with their open/close times, too. They close at eleven, I drove by at 10 after ten and they said they were closed for the night.""",1,1
+21,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always super good my favorite restaurant all across the United States""",5,5
+22,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always enjoy the food and prices at McDonald's.  Only drawback is the wait time on line.""",4,5
+23,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""You would find the Covid-19 vaccine here before you found a working ice cream machine""",2,0
+24,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast service food good but pricey""",4,0
+25,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food was good quick fresh..""",4,Great food
+26,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They just hung up on me when I was talking. It was not relating to poor connection.""",1,3
+27,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Got the bundle good deal something for everyone.""",4,0
+28,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food was good and cashier was friendly. Restaurant and bathrooms were clean.""",4,5
+29,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its not bad!! They made my burger perfect when i took it out of the box lol""",3,5
+30,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good customer service, and correct stuff that was ordered. Verry professional.""",4,Five
+31,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They dont have good customer service. Plus they dont listen to customers.""",1,3
+32,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Night crew was very polite. Food was delicious. No complaints""",5,5
+33,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Doesn't honor coupons when they clearly state at McDonald's nationwide. Managers are rude.""",1,1
+34,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I had a drink n cheese burger n the burger n cheese was colder the ketchup.... it's rare to ever get a hot chburger at McDonald's""",1,3
+35,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This was the worst. They had no fountain drinks and the water they substituted for it was warm.""",1,1
+36,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Pleasant and very good thankfully they fixed the order right""",5,good
+37,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very nice and courteous people the food was delicious and cooked well""",5,5
+38,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They're the best, their employees are very courteous and helpful!!!""",5,5
+39,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always enjoy Mcdees.....
+Pretty clean bathrooms, as well as their overall interior.""",5,5
+40,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service was very very slow  , then the food was barely warm.""",4,1
+41,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Waited in the drive up.10 minutes. Should had the man in front park instead of waiting at yhe window for his stuff.""",1,1
+42,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They always have puppy treats for my fur baby""",5,0
+43,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The McDonalds in Brodheadsville is one of the worst McDonalds I've ever experienced. Its sad our own hometown McDonalds is the way it is""",1,1
+44,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Paid$4.01 for what used to be $1.00 to greedy for me never again""",1,0
+45,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I go here for lunch all the time and I've never had a problem""",5,5
+46,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Chicken nuggets and fries are very tasty but felt horrible rest of the day and next day too...probably all the fillers and stuff...""",3,3
+47,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great had just come from getting our great grandson a haircut""",5,5
+48,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's Mc d's, food is always good even if it's bad for youï¿½ï¿½ï¿""",5,0
+49,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They have a fireplace that they never use so it's always freezing. Maybe put some heat on.""",3,3
+50,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Big place sort of empty but great customer service""",4,great service
+51,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This place is so good but the food really is no good for you. LOL""",5,3
+52,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food is always hot.  If you use there new app it doesn't always work""",5,3
+53,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Wost McDonald's ever very nasty manager Anna And the employee's are rude and nasty""",1,3
+54,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast, fresh & hot! Staff was very nice! Great job! ï¿½ï¿½ï¿""",5,
+55,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent fast food place.. excellent in and out food chain.""",5,5
+56,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""If they got my order correct I'd be shocked.""",3,0
+57,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They suck got 4 bacon doulbles and didn't get any bacon on them not the first time either""",1,1
+58,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Foods terrible slowest McDonald's I've ever been to wouldn't recommend to my worst enemy ï¿½ï¿½ï¿½ï¿½""",1,1
+59,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""No complaints. Food was fresh.""",5,Great food.
+60,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The one complaint is the put food in a bag that is too small to close, food gets cold quickly.""",3,1
+61,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The breakfast sandwich was burnt and also hard as a rock. Broke my tooth..ï¿½ï¿½ï¿½ï¿½ï¿½ï""",1,1
+62,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Clean and inexpensive. If faster would have been 5 stars.""",4,Five stars
+63,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Out of receipt paper, muffin on my english muffin was as hard as a hockey puck.""",1,1
+64,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ok but sometimes food not the best""",4,0
+65,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They always get my order wrong and I ordered. Bacon and it wasn't even cooked""",1,1
+66,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Quick service and the staff is very friendlyï¿½""",5,Definitely recommend this place.
+67,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service was fast and the staff was great""",4,great service
+68,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good service...crappy food fries were old same as nuggets""",1,good
+69,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Disrespectful staff""",1,iii
+70,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Everything was fresh, nothing better than fresh ï¿½ï¿½ï¿½""",5,0
+71,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very polite servers.  Food neatly packaged.""",5,Five stars
+72,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""My bagel sandwich was stale. Bottom could not even eat. Very disappointed for the price.""",1,1
+73,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They threw me and my friends out that were doing business and not buying anything""",2,2
+74,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Lady was very helpful and polite, food was ok""",3,5
+75,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food was ok. Waited too long to get my food""",2,1
+76,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""second time 4/11/19 bethlehem
+Now 4/12/19 broadheadville
+Was given wrong order.""",1,0
+77,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Made me wait in the annoying end of the sidewalk spot only to give me cold food and a watered down iced coffee""",3,1
+78,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The always have a smile on there face and are very helpful and polite.""",5,5
+79,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Inconsistent inconsistent that's the truth. Also they don't clean the edges of the booths. Gross""",2,2
+80,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service is hit or miss.  Give you fries that are half full.""",2,0
+81,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Associate was very nice and helpful""",5,0
+82,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service was slow  came home and order was missing 2 sandwiches""",1,1
+83,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great service. Very clean""",5,Great service
+84,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Improved service. Clean. Very courteous crew. Improvement""",4,Five
+85,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Gift card didn't work AGAIN. No help from clerk  Rude.""",1,1
+86,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good food but really long wait""",3,good
+87,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Breakfast is the best meal of the day. Pancakes are good.""",3,5
+88,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Customer friendly buns are always fresh.""",4,0
+89,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Who forgets to put meat on a sandwich? Brodheadsville MC Donalds that's who. I mean really?""",1,0
+90,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Hash browns are always cold and under-cooked.""",2,0
+91,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ordered a large fry and they were burnt had to go back and they were still overdone""",2,3
+92,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Out of ketchup had to get packets of them. Cashier seems a little stressed.""",4,3
+93,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast drive thru. Hot fresh fries.""",4,0
+94,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Even after expressing items that were missing they still got it wrong""",2,3
+95,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""30 minutes in drive thru.... Ridiculous""",2,0
+96,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its McDonald's.  Everything was fine.""",5,5
+97,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Breakfast was very good hit the spot""",5,5
+98,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst service ever. Slow and always forget items.""",1,Worst service ever. Worst service ever.
+99,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great workers and great people there""",5,0
+100,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good people . great job thank you""",5,0
+101,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I always order special food, they usually get it right at this location.""",4,5
+102,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love the food and their fast service""",5,iii
+103,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""You order, you get what you expect most the time, it's McDonald's ehhh.""",5,3
+104,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""There is no wait you get your food right away and there food is awesome""",5,5
+105,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonald's, always great everywhere.""",5,5
+106,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service was slow and they made my order wrong :(""",3,1
+107,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service wasn't the best and my food was cold""",1,1
+108,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The cashier was friendly and pretty fast.""",4,5
+109,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Coffee was made the way I asked. And I love Mc griddles.""",4,5
+110,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service, overall, better than most McDs.""",5,5
+111,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonald's. If you're reading reviews to decide which McDonald's to go to, you need a hobby.""",4,5
+112,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Slow for fast food
+And milk shake machine is always down""",3,1
+113,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""In the Happy Meal they forgot the apple juice""",4,3
+114,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always hot food and good service""",5,0
+115,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Consistently bad as we
+Have become conditioned to expect and except.""",2,0
+116,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Don't go here!!!!! I regret it every time I give it another chance.""",1,1
+117,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's you know. Fast food. Had an egg mcmuffen.""",5,5
+118,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""As always, good food for a good price.""",5,5
+119,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love having breakfast when e we I want""",4,5
+120,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Customer service here was good""",5,i was very impressed with the service and the food. the food was great.
+121,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Got order correct. Its a good day.""",5,5
+122,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The food was cold, French fries awful""",1,0
+123,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Quick and easy, always a decent cup of coffee!""",4,5
+124,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great friendly service good food""",5,Great service and great food
+125,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Lovely breakfast.  Comfortable dining room""",5,a great breakfast
+126,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The app does not work 75% of the time. Must be fixed!!""",5,0
+127,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food was cold ï¿½ï""",4,0
+128,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They always mess up my order""",2,0
+129,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Too much money to pay for mostly bun with your burgef""",5,2
+130,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst service wrong order""",1,0
+131,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food isn't cooked and very slow""",3,1
+132,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Says 24 hours went there at 12:30 and they were closed""",1,3
+133,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's ok if in hurry for food for supper""",2,0
+134,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service was slow and the girl behind the counter was rude""",1,1
+135,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I went for a sundae, & of course I enjoyed it.""",5,5
+136,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its a McDonald's. Its gross. Smells like pee.""",1,3
+137,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food very fresh""",5,good
+138,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Mickey D""s is just what it is ...""",2,0
+139,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They say there open 24 hours and they were closed by 12am""",1,0
+140,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The sturgeon was fantastic. Cooked to perfection!""",4,5
+141,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Go ahead and get poisoned. I deffinently wont be.""",1,0
+142,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very fast workers""",5,0
+143,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always get orders wrong""",1,0
+144,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Never fails, always hits the spot lol""",5,0
+145,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great place .  Friendly people.  Great music""",5,Great place to go for a date
+146,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst McDonald's I have ever been to""",2,0
+147,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It is fast food, what is there to say?""",3,0
+148,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""My kids love the food""",5,5
+149,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's a McDonald's what can I say.""",5,3
+150,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good fries shakes suck""",4,0
+151,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Full service McDonald's and they bring your food out to you.""",5,5
+152,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Hashbrowns were super fresh.""",3,0
+153,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I love this as a place to go after school with my friends.""",5,5
+154,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's a McDonalds. Friendly staff and got the order right.""",5,5
+155,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Under construction, did the best under circumstances""",2,0
+156,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food cold. No napkins.  Employees rude""",1,No
+157,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love the underrated Filet O Fishï¿½ï¿½ï¿""",4,0
+158,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good people food is fast""",4,good
+159,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Friendly people.  Nice atmosphere and clean.""",5,5
+160,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great Manager and quick""",4,Great Manager
+161,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great price,  good food""",4,Great food and great service
+162,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fresh food E-Z Parking nice people""",4,rated 5
+163,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Filet of fish delicious!!""",4,a great fish
+164,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Super yummy vanilla milkshake!""",5,Great shake!
+165,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Close to work call ahead ordering""",5,0
+166,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Friendly people fast service""",5,rated 5
+167,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its mcdonalds, just went because u was short on time""",1,0
+168,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""What can I really say about Mickey D""",3,0
+169,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Friendly and respectful and fast""",5,rated 5
+170,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""NVR liked McD's.  NVR eat here.""",2,0
+171,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Slow service in drive thru...""",3,0
+172,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""No Entry. Just window orders""",5,No Entry
+173,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast and very friendly service""",4,i love the service
+174,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Pleasant atmosphere, clean and friendly""",5,Definitely a great place to go for a quick bite.
+175,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""it's fine""",3,4
+176,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""People had a good sense of humor""",2,5
+177,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""the wait is long and the cashiers are rude""",2,1
+178,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Regular McDonald's with a breakfast all day menu.""",4,0
+179,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great place Moderate Prices""",1,Great place to go for a quick meal
+180,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Got good service there""",4,good service
+181,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent place bring the family""",5,a great place to go for a quick meal
+182,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Burgers were dry and tasteless""",1,1
+183,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Not that healthy, but tastes good.""",4,0
+184,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They always rushing and always forget something""",1,0
+185,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Clean, and workers are friendly enough.""",3,0
+186,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Lisa is a sweet lady""",5,5
+187,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very good burgers.""",4,Five
+188,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Clean restrooms and tasty fries""",5,a great place to grab a quick bite
+189,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Was a little slow in the drive trough""",3,0
+190,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""didn't get the sauces I asked for""",2,1
+191,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""People work there sucks.""",1,0
+192,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great!! Fresh food!!! Nice and hot!!!""",5,5
+193,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food is always fresh""",5,0
+194,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Delicious food, clean place""",5,rated 5
+195,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I very rarely eat here""",2,0
+196,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love the caramel frappes""",5,0
+197,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast and friendly staff""",5,Definitely a great place to stay.
+198,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very good""",5,5
+199,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The food was not that great""",3,0
+200,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Well for a mcd's, it was decent""",4,5
+201,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Stop by eat then leave!""",3,0
+202,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The shake machine is never working.""",3,0
+203,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good breakfast special""",4,a great breakfast
+204,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food always cold""",1,0
+205,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Clean and well kept...""",5,a great value
+206,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very quick, and delicious""",3,Great for a quick meal.
+207,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast food""",5,0
+208,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Everybody loves McD's""",4,0
+209,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good for a quick stop.""",5,5
+210,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very quick service""",5,Great service
+211,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Quick n easy....""",5,0
+212,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""they have maggots""",1,0
+213,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Drive thru only""",1,0
+214,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Pancakes were great!""",4,Great!
+215,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good service and good food""",2,good food
+216,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? """"I'm Lovin' It""""",5,0
+217,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Just a nice Mc Donald's""",4,0
+218,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great service""",5,Great service
+219,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Nice&clean,happy atmosphere.""",4,0
+220,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good food and service""",5,Definitely a great place to go for a quick meal.
+221,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good food""",5,a great meal
+222,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Every time is a delicious time""",5,5
+223,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good fast food.""",5,5
+224,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good food""",5,a great meal
+225,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast food is fast food""",4,5
+226,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Easy clean and convenient""",3,Five Stars
+227,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love the apple pies""",5,0
+228,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good food""",5,a great meal
+229,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love their food""",5,0
+230,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ridiculously slow service""",1,0
+231,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Same as any other McDonald's""",3,0
+232,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good Service and Good Food""",4,good service
+233,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great service and friendly""",3,Great service and great food
+234,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Clean, friendly staff!""",5,Great staff and great food.
+235,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's fast food.""",3,5
+236,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Not open 24/7""",1,0
+237,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Small coffee cream and sugar""",4,0
+238,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Meh""",2,0
+239,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Got what I asked for and more.""",4,5
+240,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Beutiful!""",5,0
+241,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It was a sloppy burger ï¿½ï¿½ï¿""",3,0
+242,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Nice...""",4,0
+243,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Nice""",4,0
+244,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It was good""",3,5
+245,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""mmmm chimken""",5,0
+246,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Slow drive up window""",2,0
+247,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""ýýýý great! ýýý""",5,
+248,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This is a horrible food place""",1,1
+249,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It was ok.""",4,3
+250,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its ok""",3,0
+251,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It Mickey D's...it is what it is.""",3,5
+252,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food was hot""",5,0
+253,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Horrible experience""",1,0
+254,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The stuff I hear is disgusting""",3,0
+255,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Quick and courteous.""",5,Five
+256,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It was good""",4,5
+257,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Pretty clean.""",5,0
+258,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""BIG MAC  YUM""",5,0
+259,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Service was excellent""",5,a great service
+260,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Uggg""",2,0
+261,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Gorgeous place""",5,0
+262,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great!""",5,5
+263,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love!""",5,0
+264,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love it""",5,0
+265,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its okay""",3,0
+266,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great service.""",5,Great service
+267,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Quick service.""",4,0
+268,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The usual""",2,0
+269,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonald's nuff said.""",3,3
+270,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great""",4,5
+271,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The not the way should be""",1,0
+272,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very very slow""",2,1
+273,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Nice""",5,0
+274,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast sevice""",3,0
+275,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Nice people""",5,0
+276,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I work for then""",5,0
+277,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Easy for coffee""",4,0
+278,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Yumm""",5,0
+279,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""awesome""",5,0
+280,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast""",5,0
+281,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ok""",4,0
+282,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good service""",5,0
+283,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Mcdonalds is trash""",1,0
+284,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ok""",3,0
+285,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good service""",3,0
+286,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good service""",4,0
+287,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good coffee""",4,a great coffee
+288,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good""",4,0
+289,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great""",5,5
+290,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""McDonald's what else needs to be said""",4,0
+291,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Yummy""",4,0
+292,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Horrible fries...""",2,0
+293,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Typical McDonald's.""",3,0
+294,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Love McDonald's""",5,0
+295,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Friendly people.""",5,5
+296,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its mc donalds""",3,0
+297,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Hot fresh food""",5,0
+298,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst service""",1,0
+299,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Clean""",5,0
+300,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible food""",1,0
+301,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""S L O W service.""",3,0
+302,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Okay""",3,0
+303,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Okay service""",3,0
+304,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Nice place""",4,0
+305,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""eh""",1,0
+306,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Stay away from chicken""",4,0
+307,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Mac tonight""",5,0
+308,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""good coffee""",5,a great coffee
+309,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Burnt ice cream""",3,0
+310,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It is what it is.""",3,0
+311,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I was hungry""",5,0
+312,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Cold fries""",3,0
+313,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""No comment""",1,0
+314,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Itï¿½ï¿½ï¿½ï¿½ï¿""",4,0
+315,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Convenient""",5,0
+316,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonald's.""",3,0
+317,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonald's that's it""",3,0
+318,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Its McDonalds""",5,0
+319,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""McDonald's Hello""",3,0
+320,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's McDonald's""",3,0
+321,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It is good the food is rich good price fast I love the coffee frappe it is very delicious""",4,5
+322,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good attention ï¿½ï¿½ï¿""",5,
+323,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+324,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Bad""",1,0
+325,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+326,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+327,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+328,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+329,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+330,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+331,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+332,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+333,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+334,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""McDead""",1,0
+335,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Bad""",1,0
+336,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+337,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+338,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+339,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+340,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+341,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+342,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+343,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+344,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+345,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+346,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+347,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+348,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+349,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+350,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+351,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+352,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+353,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+354,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+355,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+356,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+357,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+358,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+359,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+360,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+361,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+362,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+363,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+364,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+365,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+366,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+367,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+368,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+369,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+370,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+371,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+372,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+373,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+374,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+375,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+376,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+377,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+378,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+379,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+380,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+381,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+382,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+383,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+384,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+385,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+386,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+387,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The staff was disorganized and seemed overwhelmed, and my order was completely messed up.""",1,1
+388,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+389,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+390,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+391,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+392,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+393,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+394,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+395,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+396,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+397,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+398,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+399,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+400,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+401,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+402,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+403,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+404,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+405,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+406,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+407,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+408,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+409,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+410,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+411,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+412,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+413,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+414,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+415,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+416,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+417,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+418,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+419,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The staff was slow and unattentive, and my food arrived cold and inedible.""",1,1
+420,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+421,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+422,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+423,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+424,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+425,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+426,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+427,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+428,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+429,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+430,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+431,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+432,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+433,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+434,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The fries were overcooked and tasted burnt, and the staff didn't offer any resolution.""",1,1
+435,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+436,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+437,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+438,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+439,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+440,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+441,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+442,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+443,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""not good""",1,0
+444,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+445,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+446,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+447,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+448,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+449,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+450,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+451,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+452,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+453,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+454,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+455,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+456,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+457,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+458,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+459,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+460,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+461,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I donï¿½ï¿½ï¿½ï""",1,0
+462,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+463,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+464,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+465,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+466,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+467,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+468,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+469,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+470,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""ew""",1,0
+471,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+472,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+473,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+474,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+475,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+476,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+477,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+478,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+479,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+480,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+481,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+482,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+483,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+484,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+485,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+486,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+487,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+488,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+489,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+490,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+491,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+492,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+493,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+494,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+495,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+496,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+497,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+498,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+499,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+500,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+501,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+502,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+503,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+504,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+505,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""No too bad""",1,0
+506,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+507,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+508,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+509,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+510,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+511,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+512,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+513,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+514,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+515,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+516,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+517,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+518,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+519,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+520,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+521,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+522,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+523,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+524,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+525,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+526,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+527,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+528,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+529,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+530,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+531,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+532,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+533,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+534,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+535,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+536,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+537,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+538,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+539,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+540,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+541,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+542,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+543,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+544,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+545,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+546,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+547,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+548,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+549,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+550,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+551,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+552,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+553,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+554,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+555,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+556,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+557,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+558,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+559,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+560,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+561,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+562,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+563,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+564,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+565,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+566,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+567,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+568,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+569,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+570,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+571,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+572,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+573,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+574,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+575,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+576,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+577,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+578,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+579,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+580,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+581,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+582,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+583,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+584,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+585,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+586,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+587,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+588,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+589,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+590,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+591,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+592,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+593,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+594,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+595,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+596,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+597,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+598,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+599,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+600,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+601,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+602,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+603,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+604,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+605,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+606,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+607,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+608,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+609,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+610,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+611,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+612,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+613,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+614,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+615,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+616,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+617,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+618,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+619,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+620,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+621,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+622,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+623,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+624,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+625,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+626,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+627,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+628,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+629,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+630,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+631,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+632,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+633,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+634,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+635,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The staff messed up my order not once, but twice, and the food was barely edible.""",1,2
+636,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+637,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+638,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+639,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+640,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+641,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+642,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+643,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+644,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+645,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+646,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+647,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+648,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+649,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+650,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+651,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+652,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+653,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+654,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+655,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+656,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+657,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+658,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+659,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+660,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+661,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+662,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+663,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+664,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+665,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+666,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+667,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+668,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+669,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+670,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+671,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+672,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+673,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+674,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+675,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+676,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+677,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+678,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+679,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+680,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+681,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+682,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+683,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+684,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+685,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+686,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+687,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+688,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+689,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+690,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+691,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+692,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+693,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+694,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+695,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+696,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+697,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+698,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+699,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+700,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+701,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+702,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+703,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+704,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+705,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+706,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+707,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+708,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+709,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+710,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+711,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+712,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+713,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+714,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+715,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+716,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+717,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+718,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+719,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+720,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+721,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+722,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+723,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+724,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+725,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+726,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+727,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+728,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+729,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+730,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+731,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+732,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+733,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+734,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+735,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+736,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+737,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+738,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+739,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+740,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+741,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+742,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+743,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+744,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+745,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+746,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+747,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+748,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+749,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+750,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+751,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+752,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+753,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+754,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+755,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+756,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+757,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+758,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+759,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+760,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+761,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+762,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+763,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+764,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+765,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+766,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+767,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+768,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Poor """,2,0
+769,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+770,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+771,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+772,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+773,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+774,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+775,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+776,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+777,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+778,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+779,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+780,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+781,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+782,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+783,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+784,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+785,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+786,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+787,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+788,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+789,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+790,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+791,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+792,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+793,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+794,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+795,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+796,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+797,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+798,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+799,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+800,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+801,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+802,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+803,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+804,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+805,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+806,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+807,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+808,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+809,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+810,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+811,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+812,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+813,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+814,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+815,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+816,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+817,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+818,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+819,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+820,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+821,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+822,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Neutral""",3,0
+823,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Good """,4,5
+824,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+825,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The staff messed up my order not once, but twice, and the food was barely edible.""",1,2
+826,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible""",1,0
+827,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent """,5,Five Stars
+828,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I always get mcdonaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s from here. But today I got large fries and two burgers along with three cokes. I was eating my fries and i was about to take a bite until i saw A BUG literally on my fry. I got disgusted and now i have no more appetite to eat my """,1,burgers
+829,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ordered a steak bagel during breakfast through drive-thru. I had a very long wait. The bagel was good and was as expected from a McDonald's. My experience having to wait a while is about 50/50 at this location.""",3,3
+830,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This location is always running no matter what time or day. The food is always fresh and the service is usually fast. If they ever mess your order up they usually do right by you and give you a fresh new order. This location was renovated recently so everything is brand new. They no longer have the children's play area but it's much more of a sit in restaurant style McDonald's.""",5,5
+831,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Horrible! I just ordered a Large Meal with large fries through uberEats and the problem was that there wasnï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½t e""",1,1
+832,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I would have give zero star if I could. This chicken sandwich I got is extreme nasty, overcooked and taste like leftover from a while ago. Sandwich with no veggies or nothing. I felt like I was chewing rubber!!! Horrible experience""",1,1
+833,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I get my combo meal once a week as a treat. Food, service, parking is good. The place can get packed at certain  time of the day, but have a bit of patients .U will meet rude customers once in a while .Good job to all those employees for their hard work to serve everyone whether its drive thru, dine in, take out, deliveries , curb side pick up etc .Its just my opinion and experience with them .""",5,5
+834,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The service was horrible. The kiosk machine printed a record with no numbers on it. The staff was calling numbers without saying the order. The atmosphere was Workers waiting for their checks & requesting food infront of paying customers. Was a very unpleasant experience.""",2,1
+835,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst mcdonaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s ever they canï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿""",1,0
+836,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I don't know why they every night whatever they like to close the dining room  No time to control it But on the door have a sign showed dinning room open 24 hours And still using the garbage can to block the door""",4,3
+837,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""My daughter and I had a very nice experience here. Upon entering, a worker directed us to the order kiosk and inputted the order for us. Then had it delivered to our table!
+
+Donï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½""",4,1
+838,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""So I ordered a sausage egg and cheese. This is not it. They wouldnï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½""",1,1
+839,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Large fry half full
+No straw
+Cold food even though it was the fastest delivery of my life""",1,3
+840,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food are ok(typically mc), service are good but They don't allow scooter get in.""",4,3
+841,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Just recent some girl was in lobby while kids went crazy in lobby .She came with purpose but as an older person made me feel good asking them please to calm a bit spread out they moved belongings closer not all over cleaned Think name was stacie I saw . After school gets crowded good to see someone proud to help along with guard who seems busy at time .all over great service for busy place.""",3,3
+842,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Been coming to this mcdees since 1988 when they had a hamburgler jail and a big yellow slide out in the open. But lately they've had a hard time getting orders right.""",4,3
+843,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Horrible customer service. They treat Uber/Doordash like they are less than. Really bad. If McDs gonna take these delivery orders they should hire enough people to have them ready not leave a crowd of guys waiting for their deliveries. Unacceptable!""",1,1
+844,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Going off uber eats order. Orders a large meal..no fries or mac sauce that I paid extra for. Called twice goes to voice-mail.""",3,2
+845,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Here's the flag they currently fly (June 2023) to honor our brothers and sisters who lost their lives defending us.""",4,5
+846,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Mmmm to be honest they are pretty fast with their drive-by  orders I cannot complain but they run out of the special items and Frappuccinos pretty fast. Overall food quality is pretty much always fresh!""",4,5
+847,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They have good people working here. The workers won't just let you stand there waiting. They always see people standing there and ask ""what is your order number?"" and then go look for it. For super fast service DL the mobile app and order/pay online.""",5,5
+848,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Is this close to a school? Lots of noisy teenagers hanging around here. Other than that it has an interesting seating arrangement. Just come at a slower time if you plan to enjoy your meal/snack dining in. I do notice the regular pricing is higher than nearby McDonald's. There is lots of curbside pickup parking, drive thru often busy. Ask for ketchup and sauce, they never give it by default.""",5,3
+849,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""No good service! They took my recipe, and I ask salt on my french fries, and they give me hot pepper. The old lady's Attitude is imperious!!! ï¿½ï""",1,0
+850,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I ordered a 20-piece nugget and only got 18 nuggets. Food was nice and hot though""",2,3
+851,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible Service!, You place and pay for your order, and then wait forever to get your food, very very slow. Walk in or Drive thru, both are awful!, If you Drive thru, you order and pay, then you wait forever to get your food. Walk in just as slow. Management very inconsiderate of their customers. Please go someplace else!""",1,1
+852,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I did the Drive though the food was warm and it was turn off .""",2,3
+853,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""lousy service, customers ask and no one answers, they are rude and make the food in a bad way.  lousy!  lousy!  the worst experience.""",1,1
+854,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I placed an order and got charge i show my receipt to the manager she didnï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿""",1,1
+855,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It is really clean, employee Joel keeps it super clean in the morning shift. But they never seem to get the order right. Then I have to go back and get it corrected. Like it be clear on the receipt and they still mess it up! The staff overall is professional and nice.""",3,5
+856,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible mc Donaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s. So disappointed. I hope they make some changes and teach employees to f""",1,1
+857,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The food tasted fresh. I asked for mac sauce on my burger, but instead, I got a bunch of ketchup.""",3,3
+858,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Decent McDonalds, but I would prefer avoiding this one, especially at certain times (after school hours. Lunch maybe? And some evenings) it is packed with unbearably loud and annoying kids, teens, sometimes even adults. There are some nice employees, but the order is always wrong.
+Food is consistently good though.""",2,3
+859,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Do not order from this place unless you are In person. They just messed up my order and didn't give all items that I paid for. Waste of a delivery especially when all items are not included,  1 person has food..smh""",1,1
+860,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Great staff members clean and little wait time""",5,great service
+861,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always come here but today I went thru the drive through and encountered a woman who looked like a manager training a young man or something like that. Both of them extremely rude and condescending. 11/17/22 9:26am transaction amount 4.24 side one""",1,2
+862,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast and clean. Good parking and area. Why not.""",5,good
+863,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It might be a one time thing food was not good
+I eat from McDonald a lot itï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï""",1,1
+864,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food was hot.  Service was fast and pleasant.""",5,5
+865,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Everyone walking around and noone helping with doordash everï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï""",1,1
+866,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I ordered three items and i just got two
+This is not the first time when i pay for stuff and i dont get it - and I discovered it after i be at my home . Is that how you save money !?""",1,2
+867,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The regular parking spots were taken, but there was ample mobile order curbside service parking. I'd never ordered that way before, but it was for take out anyway. An employee delivered the food within 5 minutes of placing the order. Overall it was a good experience.""",5,5
+868,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The drive thru is not open 24 hrs. Theres nothing worse than driving to a location advertising being open only to get there and see the cleaning person ignore you as you try to ask for the hours.
+
+Edit: finally was able to get the attention of an employee who says they close from 4am to 5:30am""",1,0
+869,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Today july 31st 2020. 2:00pm. Just get the burger from this mcdonald. See what they give it to me. A piece spit meat. Nice job""",1,5
+870,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I used the curb side feature. It's excellent""",5,5
+871,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ordered a filet o fish. Didn't put tartar sauce on my sandwich""",1,1
+872,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""How could u give me the wrong order?????I order the blueberry pie and u give me some holiday pie????or u just donï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½t have the pie????an""",1,1
+873,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The food was top notch and very enjoyable, the inside of the place is above average in size and variety if seats and tables. Customer service was amazing and the place has multiple places to order in their drive through for multiple people at once.""",5,5
+874,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ordered Uber Eats. No drinks or cookies were in my order. Cold food.""",2,3
+875,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Too many noisy homeless gangsters there, making me very uncomfatable!""",1,2
+876,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They are not 24hrs them doors are locked after 10pm & open at 630AM & Breakfast Ends at 10AM they just backwards""",2,0
+877,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Best mcdonalds in the area but for some reason they charge a few cents more. Not a big deal but just something I noticed. The staff makes fries fresh forreal lol upon request. Nuggs are Hit or miss. But burgers are pretty good. Not a fan of the chicken products from here but the other mcodnalds on 86th and 20 has good chicken""",4,5
+878,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Just the right amount of salt and fat  to raise my blood pressure and help clog my arteries.""",5,5
+879,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I ordered a medium 2 cheeseburger meal they gave me cold fries I returned them & asked for fresh one they gave me another batch of cold fries haven't been back since i don't know who is allowing this to happen but it is extremely unexceptable""",1,2
+880,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The morning shift is very racist and racially profiling""",1,0
+881,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Only one burger on my Big Mac ? Cmon ï¿½ï¿½ï¿½ï¿½""",1,0
+882,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The food was amazing I love it I mean the lady who was cleaning was being rude but besides that it was great""",5,5
+883,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very rude and nasty people at the inside counter; no help or patience for people who are old and not computer savvy. At the drive through, they messed up my order and charged me for what I hadn't ordered. The lady manager was nice though.""",1,1
+884,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They said theyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿""",1,1
+885,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The place seems cool, actually isnï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½t bad as other M""",4,0
+886,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Pretty good. About what you expect from a McDonald's ï¿½ï¿½ï¿""",4,0
+887,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ordered pick up and when I got home realized 3 items were missing almost half the order. How you complete an order and not make sure you're putting everything the customer paid for. Never ordering from here.""",1,3
+888,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""After renovation this place has become one of the newer McDonalds around. Things have also gotten busier but that means fresher food.""",5,3
+889,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Morning afternoon or night, they never have frappes""",1,0
+890,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Why does it say 24/7 dine in if they lock the doors after 1 am
+Rubbish description and I'm FREEZING""",1,0
+891,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Double check your orders before leaving. Twice in one week I've ordered different meals and when I get home. Only half my meal is here ï¿½ï¿½ï¿""",2,2
+892,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Staffs are good.good service.""",5,good service
+893,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Stopped by on my way to work... Very fast, drink was made well and food was food lol I appreciated their prompt service""",5,5
+894,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Cops had to show up.. group of kids  being super loud. Don't know if there was a fight ... almost $3 for a plain  burger that use to be $1""",3,3
+895,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Pretty average McDonald's, the seating is nice, the service is also quite fast. The food is pretty average. It does get crowded sometimes, so I suggest that you go there knowing what you want so that it's a bit easier for the employees.""",4,3
+896,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very fast, clean and good service.""",5,Five stars
+897,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Took over 45 minutes at the drive through, so long at 9pm on a Sunday,  doors locked, uber, grubhub walking up to the drive though in front of cars waiting over 45 minutes.
+
+Other days, they are usually fine, so I am going to think this was just an understaffed night.""",3,3
+898,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Fast and efficient service...The food is always fresh""",4,Definitely a must try!
+899,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This mcd is the worst service ever. Don't come here""",1,1
+900,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I just walked in to get myself some breakfast and was told that they're closed, that they can't turn the registers on yet. Why is a place known for serving breakfast closed at 7:30 am? Seems pretty unprofessional.""",1,0
+901,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Always service with a smile! It makes my day to see the smiles of the star who great me at the drive thru windows.  And yes you can see the smiling behind the masks.""",5,5
+902,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I bought a Big Mac..  I was eating And I saw a hair on the meet..  never ever going to buy in this place""",1,3
+903,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's a busy place.  Employees are not very friendly. I only come to this location for the convenience but they usually very slow.  I always need to check my orders before I leave because they frequently missing stuffs or got it wrong.""",2,3
+904,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Table service is chaotic. They walk around with your food on a tray searching for you for minutes. It can be better organized. The fountain soda was watery and needed itï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s syrup changed and it went ignored. The open floor pl""",2,0
+905,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Got BOGO Quarter Pounders during my break, service was quick and the burgers tasted really good. Added some extra toppings and the amount was perfect.""",5,5
+906,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The worst McDonaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s I have ever been to and will never go back again. We had to repeat our order like 5 times and they still messed up """,1,1
+907,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They never get your order right.""",1,0
+908,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""So I decided to order two mango smoothies, but the person listening let us go to the window but we never got it.""",1,3
+909,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Itï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï""",3,0
+910,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This McDonaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s had a full makeover but the customer service has went down since then. Today was the second time in two weeks that they got my order all the way wrong. I""",2,1
+911,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Too expensive for the type of service they provide. They treat you as if they were doing you a favor and you pay for yr meal.  What for do they ask if you want mailk and sugar for yr coffee if at the end you have to ask anyway. Horrible service, and with a mean face. If you don't like yr job quick it and get a job you like. You talk to them and they ignored you.""",1,1
+912,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The drive through worker was very rude.
+Wanted to order food, however they told me they were closed and when I drove past they pointed and laughed at me.""",1,1
+913,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Seems like a new McDonald's, my first time here. Got my food really quick. They have the high tech screen ordering and mobile ordering. Very big parking lot and drive thru windows. My food came out hot and tasted great. I hate getting cold fries. I was given fries right out of the fryer.""",4,5
+914,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This is the worst Macdonald you can imagine, the customer service deserves 0 stars and the employees don't care at all if your happy or not with the food you paid for. They will give you a nasty attitude for no reason when you ask for BBQ sauce they tell you they are out of BBQ and give you look like your asking for something they shouldn't have.""",1,1
+915,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Been there since yesterday, and the place looks fairly nice after it's been renovated
+
+Rating: 10/10""",5,5
+916,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""What the owner should monitor is the attitudes of spanich servers she has nasty attitute she is on the heavy side i don.t know her name we were just asking for an xtra ketsups bcause the kids askd for it n her reply was omg nasty...""",2,2
+917,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Long wait for the food but the order was right and the ice cream machine worked""",3,3
+918,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I'm allergic to onions, I tell them every single time to not add onions and for the last 3 visits my burgers continue to have onions put on.. I end up switching my meal with my wife because she doesn't want me to get sick or go hungry.. I worked at McDonald's, its not that difficult to build a burger without adding onions.. DO BETTER!!""",2,3
+919,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Check your food before you leave!
+My experience was horrible, the girl who hands out the order has the worst attitude, i get it you work at mcdonalds but you choose to be there.
+I asked for a quarter pounder and all i got was a buns and a patty, going back and dealing with that girl was such an inconvenience, if you can avoid this place, do so.""",1,1
+920,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I know it was just a McDonaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s, but there are clean ones too where staffs regularly c""",3,0
+921,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This has probably been the best Mcy D's I have ever been in 10 years. I really don't eat McDonald's much but I'm glad I did today. The staff were super professional, sweet, and down to earth. The food was hot, not barely warm, but Hot. Thank you guys ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï""",5,5
+922,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I only come here late at night.  Staff do okay, they seem pretty busy with drive through or other tasks.  The dining room stays dirty for a long time while the cashiers are helping out behind the line even if there are only a few customers.""",2,3
+923,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""They always get something wrong or forget something . From one less nugget in a 6 piece Happy Meal  or apple slices, down to even a juice box. If my daughter ate nuggets from another place I would never come here.""",1,2
+924,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Terrible experience. Nobody knows what's happening. I ordered at the kiosk and wanted to pay cash. When I went to pay the girl just took my money and left. Didn't give me the cup I paid for or the new receipt with the order. 2 people then told me I didn't pay when I infact did but the other girl didn't give me nothing. Won't be coming back.""",1,2
+925,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Drive through employee's are not customer service friendly. Most of them just take your money and give your order without any aknowledgement and with attitude. What ever happened to Welcome to McDonald's can I take your order please? Thank you and Have a nice day?""",3,1
+926,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""When i go to Mc donald i eat every time crispy chicken
+Crispy Chicken was best but this chicken was not cook well""",1,3
+927,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Excellent food and service. I always go for the specials and they never disappoint. Gnocchi was delicious. The outdoor section is really pretty. And the bread on the table is a great combination. I always end up with lunch the next day especially with the pasta dishes.""",5,5
+928,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""My son and I love coming here. Amazing staff, food is great, and the new renovations look great. A shout out to Nick who works here.. thank you again for smiling and making my son feel very welcome.""",5,5
+929,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Mic Ribby was smacking. Atmosphere was a 'lil lackin'. Service? It was slappin'.""",5,3
+930,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""We didn't enjoy our visit to this McDonald location.  The ice tea was warm, our fries and burger were cold and rubbery. The only thing I enjoyed was my cappuccino. We will not be visiting this McDonald's again. It wasn't that busy for them not to have hot fresh food prepared.""",1,1
+931,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I f n said light tarter.""",1,0
+932,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very friendly fast service""",5,i love the service
+933,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Degenerates served me a chicken sandwich which was completely burnt to where it was as hard as a rock, cold and dry as if it was left out for days and none of them had mental Acuity to not put that piece of garbage in my bag of food""",1,1
+934,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Newly renovated! They have added extra drive thru lanes. LOL! I think we waited longer to get food. The fish sandwich was good, but fries tasted like yesterday's!""",4,3
+935,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It's a McDonald's...
+What do you want me to say? Bathroom was clean, service had a minimal amount of angst and my order was correct and prompt...
+
+They probably deserve a higher minimum wage.""",3,3
+936,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Ordered a 6 piece nugget received 5 pieces. inflation to damn high for McDonalds to be playing with my nuggets.""",1,5
+937,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Being remodeled. We stopped for a quick fast food and were advised they will be closing in a few days for 2 months remodeling. I cant wait until then because this is the only local McDs around here and will be missed during renovation. See ya soon. 2 months, like around November 2019 will revisit and rate.""",3,3
+938,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Thanks for the kind nice Ashton!!!
+U r the best guy help me a lot during the midnight~""",5,5
+939,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Still unable to eat inside , now yo set your order on the screen yourself , I like it that  way , so I have no problem .
+The girls were very helpful and friendly handing out the order .""",5,5
+940,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""It was used to be one of very convenient McDonaldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½s stores. No dine-in services and no restrooms make things difficult for everyone. I can't imagine how every place is going to """,4,1
+941,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst mcdonalds ever. Always something missing with the order. How can you forget chicken nuggets in a Happy Meal. Imagine you come home and your child finds out thereï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿""",1,1
+942,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst McDonald's every they never get an order correct they never give ice in their drinks and serve warm soda! Takes forever to get the order then it is not correct! The phone number is out of service so you can't even call to complain! WORST MCDONALDS EVER!!!!""",1,1
+943,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""There used to be a play place and after recent construction I was taken away. No need to bring your children here anymore.""",3,3
+944,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Worst driver though order experience, they give the order to someone else, when you ask where is your order then they take you recipe. No one cook your order until you ask them again.""",1,3
+945,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""New electronic ordering system, but the servers are not trained to use it.  Servers don't use the table placards and instead keep calling out order # to look for customers.  Also missing items from menu.  Location renovated and looks nice, staff is incompetent.""",1,1
+946,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Recently renovated. Food tastes fresh and before the pandemic shutdown, the place was spotless. Offers 2 drive through order lanes for speedy purchases.""",5,3
+947,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very Bad experience. I was harassed by managers Named Rocio and Roberto. They brought a negative experience and were screaming at customers and employees...""",1,1
+948,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½m very upset with my recent visit. Part of my order was wrong and they wonï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿""",1,1
+949,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""This particular drive through is nice and fast. Its easy to get a Big Mac, fries and a coke in less than 5 minutes. Staff is also very helpful all around. This is one of the faster drive throughs in Queens or indeed the five boroughs.""",5,5
+950,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Went to the location on 73rd and Kissena Blvd. last night for the first time since the renovation.  It was a very nice experience.  The renovations was nice but most of all, the staff was so very pleasant and could not have been more helpful.  Such lovely people.  Thank you.""",5,5
+951,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The managers are bad. They get your order wrong most of the time. Do not walk out without checking your bag. 15 minute wait at night. The Filipino manager doesn't know anything and usually have to be reminded by staff. Need to stick to Burger King. These other people posting positive things apparently work there because all you see is people returning with their order.""",1,1
+952,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Place is spacious, clean, had parking, and 2 bathrooms.  But when I went they had no Automated teller machines, and only one Human Cashier during a busy time of day.  Completely inadequate.""",4,3
+953,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Attitude with no straws or ketchup. I torture myself by coming here because I always hope the customer service will improve. The staff's unprofessionalism has helped me to decide to detox from fast food.""",1,1
+954,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The worst experience ever. I was cursed at by an angry female employee. Which i heard from the other employees that she has done this before. They said the manager and her are either family or real good friends.""",1,2
+955,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Never get my order right in the drive through then told to pull over we will bring your food in a moment. Defeated the whole point of the drive thru experiance dont you think. If it wasnt for my child wanting his happy meal, I myself always make it a point to skip this place.""",2,1
+956,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Missing items in order #1606 on 07/23/2022. You guys need to pay attention, itï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½""",2,1
+957,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Food is good but the customer service is terrible. They always have an attitude, I rather drive 10 mins further to the other McDonalds. I donï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½""",2,1
+958,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""I wish I can give this a zero star. The employees fight over the food order, honestly the worst McDonald's place ever. They even charge 25 cents for barbecue sauce, while other McDonald restaurants just lend it over to you with respect.""",1,1
+959,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""Very slow drive thru. They pretended to accept and acknowledge my coupon when I placed my  order. When I pulled up to pay they charged me full price without telling me that they never input the coupon. Find another location,  because the people here don't do the job properly n""",1,3
+960,"Answer the following: given the following review, what is the review's given score, as an integer from 1 to 5? ""The staff is horrible, I have a problem almost every time I go and it's always the staff. Especially the managers.""",3,3
